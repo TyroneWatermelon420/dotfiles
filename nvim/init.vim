@@ -22,7 +22,7 @@ set textwidth=0
 set hidden
 set number
 set title
-
+let g:coq_settings = { 'auto_start': 'shut-up' }
 lua << EOF
 require('lualine').setup()
 require('onedark').setup {
@@ -30,6 +30,5 @@ require('onedark').setup {
 }
 require('onedark').load()
 
-let g:coq_settings = { 'auto_start': 'shut-up' }
 require("coq")
 EOF
