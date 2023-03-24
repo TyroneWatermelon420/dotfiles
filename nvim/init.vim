@@ -30,4 +30,6 @@ require('onedark').setup {
 }
 require('onedark').load()
 
+let g:coq_settings = { 'auto_start': 'shut-up' }
+require("coq")
 EOF
