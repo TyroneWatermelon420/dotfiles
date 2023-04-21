@@ -1,0 +1,154 @@
+mkdir Games
+cd .cache/
+mkdir zsh
+setxkbmap -layout de
+touch zsh/history
+echoe
+ehco
+echo
+echi
+echo
+echo
+paru
+ll
+ls
+cd Drives
+ls
+ll
+sudo poweroff
+paru
+qq
+qq
+qml
+paru
+paru -S gamemode mangohud
+sudo nvim /etc/default/grub
+paru -S linux-tkg-bmq-generic_v3 linux-tkg-bmq-generic_v3-headers
+paru -S nvidia-dkms-performance
+paru -S ananicy-cpp-openrc
+sudo rc-update add ananicy
+sudo rc-update add ananicy-cpp
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo reboot
+htop
+sudo nvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+htoo
+htop
+setxkbmap -layout us
+setxkbmap -layout de
+nnn
+ls
+ls Dokumente/Code/C++/Wrapper/MO2
+rm MO2SSE.cpp
+cd Dokumente/Code/C++/Wrapper/MO2
+ls
+sudo cp MO2FNV /usr/local/bin
+sudo cp MO2FO3 /usr/local/bin
+sudo cp MO2FO4 /usr/local/bin
+sudo cp MO2SSE /usr/local/bin
+MO2SSE
+MO2FO4
+cd Drives/HDD
+ll
+ls Code
+ls Code/C++
+ls Stuff
+ls Stuff/bac
+rm -rf Stuff/bac/Code
+rm -rf Stuff/bac/i3
+rm -rf Stuff/bac/nvim
+rm -rf Stuff/bac/alacritty
+rm -rf Stuff/bac/My\ Games
+rm -rf Stuff/bac/Scripts
+rm -rf Stuff/bac/usb
+rm -rf Stuff/bac/usb
+rm -rf Stuff/bac/main.py
+rm -rf Stuff/bac/nvngx_dlss.dll
+ls Stuff/bac
+nnn
+clar
+clear
+ls
+cd Stuff
+ls
+ls gamebac
+rm -rf bac/The\ Witcher\ 3
+rm -rf bac/Skyrim\ Special\ Edition
+ls
+ls Scripts
+ls bac/Scripts
+rm -rf Scripts
+ls
+ls
+st
+st
+st
+st
+st
+s
+st
+paru -S qbittorrent
+nnn
+nnn
+./Dokumente/Scripts/USB-1.sh
+nnn
+paru -Rsn firefox
+rm -rf .mozilla
+ls
+nnn
+rm -rf .cache/mozilla
+ls
+ll
+ls -a
+ls Drives/NVMe
+ls Drives/NVMe/Games
+cd Drives/NVMe/Games
+rm -rf ShadowoftheTombRaider
+ls MO2FO4/downloads
+rm -rf MO2FO4/downloads/*
+rm -rf MO2SSE/downloads/*
+rm -rf MO2FO3/downloads/*
+rm -rf MO2FNV/downloads/*
+paru -S firefox
+paru -S xclip
+dwm --version
+dwm -v
+nvim .config/nvim
+mkdir .config/nvim
+nnn
+nvim .config/nvim/init.vim
+nvim
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \\
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \\
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+nvim .config/nvim/init.vim
+nvim .zprofile
+htop
+htop
+htop
+cd Dokumente
+ls
+git clone https://github.com/Stormx920/dotfiles.git
+cd dotfiles
+git status
+mkdir .config
+nvim Apps/dwm/LICENSE
+nvim Apps/dwm/LICENSE
+nvim Apps/st/FAQ
+cd Dokumente
+ls
+git clone https://github.com/Stormx920/st.git
+cd st
+make
+sudo make install
+cd ..
+rm -rf st
+cd
+st -bv
+st -b
+st -v
+dmenu -v
+nnn
+paru -S thunar
