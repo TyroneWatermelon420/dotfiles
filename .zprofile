@@ -1,10 +1,12 @@
 export ZDOTDIR="$HOME/.config/zsh"
 export EDITOR="nvim"
 export TERMINAL="st"
-export BROWSER="librewolf"
+export BROWSER="brave"
 export COLORTERM="truecolor"
 export PATH="$HOME/.local/bin:$PATH"
-export GTK_THEME=Adwaita:dark
+export GTK_THEME="Adwaita:dark"
+
+xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1
 
 #hallo mein name ist erik
 
