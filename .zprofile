@@ -5,6 +5,8 @@ export BROWSER="brave"
 export COLORTERM="truecolor"
 export PATH="$HOME/.local/bin:$PATH"
 export GTK_THEME="Adwaita:dark"
+export QT_QPA_PLATFORMTHEME="qt5ct"
+#export QT_STYLE_OVERRIDE="qt6ct-style"
 
 xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1
 
