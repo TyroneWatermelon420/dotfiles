@@ -54,8 +54,8 @@ export STARSHIP_CONFIG=~/.config/zsh/starship.toml
 eval "$(starship init zsh)"
 
 # aliases
-alias ls="exa --color=always --group-directories-first"
-alias ll="exa -hl --color=always --group-directories-first"
+alias ls="exa --color=always --group-directories-first --icons"
+alias ll="exa -hl --color=always --group-directories-first --icons"
 alias vi=nvim
 alias vim=nvim
 
