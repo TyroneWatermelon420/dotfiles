@@ -50,9 +50,14 @@ preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+export STARSHIP_CONFIG=~/.config/zsh/starship.toml
+eval "$(starship init zsh)"
+
 # aliases
 alias ls="exa --color=always --group-directories-first"
 alias ll="exa -hl --color=always --group-directories-first"
+alias vi=nvim
+alias vim=nvim
 
 # variables
 export PATH="$HOME/.local/bin:$PATH"
