@@ -8,4 +8,10 @@ picom &
 xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1
 xrdb ~/.Xresources
 
+pipewire &
+pipewire-pulse &
+pipewire-jack &
+pipewire-alsa &
+wireplumber &
+
 exec dbus-run-session dwm
