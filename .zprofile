@@ -4,9 +4,10 @@ export TERMINAL="st"
 export BROWSER="brave"
 export COLORTERM="truecolor"
 export PATH="$HOME/.local/bin:$PATH"
-export GTK_THEME="Adwaita:dark"
+export GTK_THEME="Nordic-darker"
 export QT_QPA_PLATFORMTHEME="qt5ct"
 #export QT_STYLE_OVERRIDE="qt6ct-style"
+export MANGOHUD_CONFIGFILE=/home/erik/.config/MangoHud/MangoHud.conf
 
 xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1
 

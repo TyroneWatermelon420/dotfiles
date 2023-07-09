@@ -1,7 +1,7 @@
 #!/bin/dash
 
 setxkbmap -layout de &
-feh --bg-scale /home/erik/Drives/HDD/Stuff/Wallpaper/ac-valhalla-norse-church.jpg &
+nitrogen --restore
 numlockx &
 slstatus &
 picom &
