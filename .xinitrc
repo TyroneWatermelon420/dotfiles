@@ -8,6 +8,8 @@ picom &
 xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1
 xrdb ~/.Xresources
 
+nm-applet &
+
 pipewire &
 pipewire-pulse &
 pipewire-jack &
