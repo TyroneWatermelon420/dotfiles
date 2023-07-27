@@ -1,8 +1,20 @@
 call plug#begin()
-Plug 'navarasu/onedark.nvim'
-Plug 'preservim/nerdtree'
+Plug 'tpope/vim-surround' " Surrounding ysw)
+Plug 'preservim/nerdtree' " NerdTree
+Plug 'tpope/vim-commentary' " For Commenting gcc & gc
 Plug 'nvim-lualine/lualine.nvim'
-Plug 'kyazdani42/nvim-web-devicons'
+Plug 'nvim-tree/nvim-web-devicons'
+Plug 'lifepillar/pgsql.vim' " PSQL Pluging needs :SQLSetType pgsql.vim
+Plug 'ap/vim-css-color' " CSS Color Preview
+Plug 'navarasu/onedark.nvim' " Onedark theme
+Plug 'neoclide/coc.nvim', {'branch': 'release'}  " Auto Completion
+Plug 'ryanoasis/vim-devicons' " Developer Icons
+Plug 'tc50cal/vim-terminal' " Vim Terminal
+Plug 'preservim/tagbar' " Tagbar for code navigation
+Plug 'terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
+
+set encoding=UTF-8
+
 call plug#end()
 
 filetype plugin indent on
@@ -18,7 +30,35 @@ set textwidth=0
 set hidden
 set number
 set title
+set completeopt-=preview " For No Previews
+
+autocmd VimEnter * NERDTree | wincmd p
 
 nnoremap <C-c> :qa! <cr>
+nnoremap <C-f> :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-l> :call CocActionAsync('jumpDefinition')<CR>
+
+nmap <F8> :TagbarToggle<CR>
+
+inoremap <silent><expr> <TAB>
+      \ coc#pum#visible() ? coc#pum#next(1) :
+      \ CheckBackspace() ? "\<Tab>" :
+      \ coc#refresh()
+inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
+
+" Make <CR> to accept selected completion item or notify coc.nvim to format
+" <C-g>u breaks current undo, please make your own choice
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
+                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
 
 colorscheme onedark
+
+" NERDTree
+let g:NERDTreeDirArrowExpandable="+"
+let g:NERDTreeDirArrowCollapsible="~"
+
+lua << END
+require('lualine').setup()
+END
