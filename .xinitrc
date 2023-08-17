@@ -16,4 +16,6 @@ pipewire-jack &
 pipewire-alsa &
 wireplumber &
 
+eww daemon &
+
 exec dbus-run-session dwm
