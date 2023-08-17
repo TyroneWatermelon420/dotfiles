@@ -68,6 +68,7 @@ alias v=nvim
 alias vi=nvim
 alias vim=nvim
 alias nxmvim="sudo -E nvim /usr/local/bin/nxmhandler"
+alias lf="st lf"
 
 # variables
 export PATH="$HOME/.local/bin:$PATH"
