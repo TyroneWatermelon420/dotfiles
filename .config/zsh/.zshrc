@@ -1,15 +1,5 @@
-# Created by Zap installer
-[ -f "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh" ] && source "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh"
-plug "zsh-users/zsh-autosuggestions"
-plug "zap-zsh/supercharge"
-plug "zap-zsh/zap-prompt"
-plug "zsh-users/zsh-syntax-highlighting"
-plug "wintermi/zsh-starship"
-
-# Created by newuser for 5.9
-
 autoload -U colors && colors
-#PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
+PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
 
 HISTSIZE=10000
 SAVEHIST=10000
@@ -58,9 +48,6 @@ preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-#export STARSHIP_CONFIG=~/.config/zsh/starship.toml
-#eval "$(starship init zsh)"
-
 # aliases
 alias ls="exa --color=always --group-directories-first --icons"
 alias ll="exa -hl --color=always --group-directories-first --icons"
@@ -69,6 +56,7 @@ alias vi=nvim
 alias vim=nvim
 alias nxmvim="sudo -E nvim /usr/local/bin/nxmhandler"
 alias lf="st lf"
+alias icon="wrestool -x --output=. -t14"
 
 # variables
 export PATH="$HOME/.local/bin:$PATH"
