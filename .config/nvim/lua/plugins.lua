@@ -42,8 +42,8 @@ local plugins = {
   "hrsh7th/cmp-path",
   "hrsh7th/cmp-cmdline",
   "hrsh7th/nvim-cmp",
-  
--- snippets --
+
+  -- snippets --
   "L3MON4D3/LuaSnip",
   "rafamadriz/friendly-snippets",
 
@@ -66,7 +66,7 @@ require("mason-lspconfig").setup {
 }
 require("nvim-tree").setup()
 
-
+require'alpha'.setup(require'alpha.themes.startify'.config)
 
 local lsp = require('lsp-zero').preset({})
 
