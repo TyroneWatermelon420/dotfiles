@@ -9,8 +9,6 @@ xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1
 xrdb ~/.Xresources
 /usr/lib/ts-polkitagent &
 
-nm-applet &
-
 pipewire &
 pipewire-pulse &
 wireplumber &

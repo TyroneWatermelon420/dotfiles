@@ -1,60 +1,31 @@
 mkdir Games
 cd .cache/
 mkdir zsh
-setxkbmap -layout de
 touch zsh/history
 echoe
 ehco
-echo
 echi
 echo
-echo
-paru
-ll
-ls
-cd Drives
-ls
-ll
-sudo poweroff
-paru
-qq
 qq
 qml
-paru
 paru -S gamemode mangohud
-sudo nvim /etc/default/grub
 paru -S linux-tkg-bmq-generic_v3 linux-tkg-bmq-generic_v3-headers
 paru -S nvidia-dkms-performance
 paru -S ananicy-cpp-openrc
 sudo rc-update add ananicy
 sudo rc-update add ananicy-cpp
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-sudo reboot
-htop
-sudo nvim /etc/default/grub
-sudo grub-mkconfig -o /boot/grub/grub.cfg
 htoo
-htop
 setxkbmap -layout us
-setxkbmap -layout de
-nnn
-ls
 ls Dokumente/Code/C++/Wrapper/MO2
 rm MO2SSE.cpp
-cd Dokumente/Code/C++/Wrapper/MO2
-ls
 sudo cp MO2FNV /usr/local/bin
 sudo cp MO2FO3 /usr/local/bin
 sudo cp MO2FO4 /usr/local/bin
 sudo cp MO2SSE /usr/local/bin
-MO2SSE
-MO2FO4
 cd Drives/HDD
-ll
 ls Code
 ls Code/C++
 ls Stuff
-ls Stuff/bac
 rm -rf Stuff/bac/Code
 rm -rf Stuff/bac/i3
 rm -rf Stuff/bac/nvim
@@ -62,48 +33,16 @@ rm -rf Stuff/bac/alacritty
 rm -rf Stuff/bac/My\ Games
 rm -rf Stuff/bac/Scripts
 rm -rf Stuff/bac/usb
-rm -rf Stuff/bac/usb
 rm -rf Stuff/bac/main.py
 rm -rf Stuff/bac/nvngx_dlss.dll
 ls Stuff/bac
-nnn
 clar
-clear
-ls
-cd Stuff
-ls
-ls gamebac
 rm -rf bac/The\ Witcher\ 3
 rm -rf bac/Skyrim\ Special\ Edition
-ls
-ls Scripts
 ls bac/Scripts
 rm -rf Scripts
-ls
-ls
-st
-st
-st
-st
-st
 s
-st
 paru -S qbittorrent
-nnn
-nnn
-./Dokumente/Scripts/USB-1.sh
-nnn
-paru -Rsn firefox
-rm -rf .mozilla
-ls
-nnn
-rm -rf .cache/mozilla
-ls
-ll
-ls -a
-ls Drives/NVMe
-ls Drives/NVMe/Games
-cd Drives/NVMe/Games
 rm -rf ShadowoftheTombRaider
 ls MO2FO4/downloads
 rm -rf MO2FO4/downloads/*
@@ -113,42 +52,5254 @@ rm -rf MO2FNV/downloads/*
 paru -S firefox
 paru -S xclip
 dwm --version
-dwm -v
 nvim .config/nvim
 mkdir .config/nvim
-nnn
-nvim .config/nvim/init.vim
-nvim
-sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \\
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \\
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-nvim .config/nvim/init.vim
-nvim .zprofile
-htop
-htop
-htop
-cd Dokumente
-ls
 git clone https://github.com/Stormx920/dotfiles.git
-cd dotfiles
-git status
 mkdir .config
 nvim Apps/dwm/LICENSE
-nvim Apps/dwm/LICENSE
 nvim Apps/st/FAQ
-cd Dokumente
-ls
 git clone https://github.com/Stormx920/st.git
-cd st
-make
-sudo make install
-cd ..
 rm -rf st
-cd
 st -bv
 st -b
-st -v
 dmenu -v
 nnn
 paru -S thunar
+sudo pacman -S numlockx
+sudo pacman -S steam keepassxc wine
+ln -sf Drives/HDD/Stuff/Apps
+ln -sf Drives/HDD/Stuff/bac/Dokumente
+paru -Ss nord gtk3.2
+paru -S nordic-darker-theme-git
+sudo pacman -S spotify-launcher
+sudo pacman -S noto-fonts-emoju
+sudo pacman -Ss breeze
+sudo pacman -S xcursor-breeze
+paru -S protonup-qt
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \\
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+sudo pacman -S pynvim
+sudo pacman -S python-pynvim
+sudo rc-update add NetworkManager default
+nvim .config/picom/picom.conf
+cp .config/picom/picom.conf dotfiles/.config/picom
+sudo pacman -S gamemode mangohud
+cd Apps/slstatus
+sudo pacman -S xarchiver
+sudo pacman -S unrar p7zip unzip
+sudo pacman -S htop neofetch
+sudo pacman -S exa
+rm -rf paru-git
+cp MO2SSE ~
+./MO2SSE
+rm MO2SSE
+sudo pacman -S discord
+echo https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/
+sudo pacman -Ss java | grep 8
+sudo pacman -S jdk8-openjdk
+sudo pacman -S javafx
+sudo pacman -S java8-openjfx
+sudo pacman -Ss java8-openjfx
+sudo pacman -Ss javafx
+paru -Ss javafx
+paru -S java8-openjfx
+paru -R jre8-openjdk
+paru -Rsn jre8-openjdk
+paru -Rsn jre8-openjdk jd8-openjdk
+paru -Rsn jre8-openjdk jdk8-openjdk
+pacman -Ss java
+sudo pacman -S jre-openjdk
+sudo pacman -Rsn jre-openjdk
+sudo pacman -S xclip
+nvim link
+7z x Forwarder3DS-v2.9.6.zip
+java -jar Forwarder3DS.jar
+sudo pacman -S alsa-tools
+amixer
+sudo pacman -R alsa-tools
+sudo pacman -S alsa-utils
+echo net.ipv4.tcp_mtu_probing=1 | sudo tee /etc/sysctl.d/custom-mtu-probing.conf
+paru -Ss heroic
+paru -S heroic-games-launcher-bin
+sudo pacman -S qbittorrent
+cd .local/share/nomic.ai
+cd GPT4All
+paru -Ss pokemon
+paru -S pokemon-colorscripts-git pokeshell-git
+pokeshell
+pokeshell -a
+pokeshell -a arceus
+pokeshell -a *
+pokemon-colorscripts --list
+pokemon-colorscripts volcarona
+pokemon-colorscripts
+pokemon-colorscripts -n volcarona
+paru -Rsn pokemon-colorscripts-git pokeshell-git
+sudo pacman -S winetricks
+sudo winetricks --self-upadte
+sudo winetricks --self-update
+nvim JC2Settings
+pacman -Ss retro
+pacman -Ss retroarch
+sudo pacman -S cmus
+mkdir Movies
+mv spy-avatar.2009-720p.mkv.mp4 Movies/Avatar.mp4
+cd Music
+cd Leaks/Eminem\ -\ 2000-2004
+cmus D12\ -\ Rap\ Game\ \(Uncensored\).mp3
+cmus --help
+cmus play
+cmus play D12\ -\  
+ln -sf Drives/HDD/Stuff/Media/Music Musik
+cmus
+nvim default.h
+cd themes
+make clen
+nvim nord.h
+cd Apps/dwm/themes
+nvim decayce.h
+sudo pacman -S protontricks
+paru -S protontricks
+sudo pacman -S https://authored-files.wabbajack.org/enbseries_skyrimse_v0484.zip_97513989-5b73-4c32-bcd7-e8907f419c7a
+sudo pacman -S wget
+wget https://authored-files.wabbajack.org/enbseries_skyrimse_v0484.zip_97513989-5b73-4c32-bcd7-e8907f419c7a
+wget https://authored-files.wabbajack.org/enbseries_skyrimse_v0484.zip
+rm .rf 489830
+rm -rf 489830
+paru -Rsn steam lib32-nvidia-utils
+nvim steam-489830.log
+paru -Ss nvidia 525
+paru -S nvidia-525xx-dkms
+paru -S nvidia-525xx-dkms nvidia-525xx-utils
+paru -S nvidia-525xx-dkms nvidia-525xx-utils lib32-nvidia-525xx-utils nvidia-525xx-settings
+paru -S nvidia-525xx-dkms nvidia-525xx-utils lib32-nvidia-525xx-utils nvidia-525xx-settings libxnvctrl-525xx
+paru -R nvidia-525xx-dkms nvidia-525xx-utils lib32-nvidia-525xx-utils nvidia-525xx-settings libxnvctrl-525xx
+paru -R nvidia-525xx-dkms nvidia-525xx-utils lib32-nvidia-525xx-utils nvidia-525xx-settings libxnvctrl-525xx steam
+paru -S nvidia-dkms nvida-utils nvidia-settings lib32-nvidia-utils
+paru -S nvidia-dkms nvidia-utils nvidia-settings lib32-nvidia-utils
+sudo pacman -S steam
+sudo chmod +x nxmhandler
+nxmhandler "nxm://skyrimspecialedition/mods/95606/files/406134?key=IehGpQUu8z5c_NQvapSsQg&expires=1689846047&user_id=171723098"
+librewolf nexusmods.com
+nxmhandler "nxm://skyrimspecialedition/mods/12604/files/35407?key=xMyGvnCJdPb8ry5us4c9bQ&expires=1689846751&user_id=171723098"
+nxmhandler "nxm://skyrimspecialedition/mods/17230/files/321815?key=PsV7j3aIehHI4O8usUskXQ&expires=1689846875&user_id=171723098"
+ll -r
+cd .steam/root/steamapps/common/Skyrim\ Special\ Edition
+nvim enbseries.ini
+nvim enblocal.ini
+ln -sf ~/.steam/root/steamapps/common/Skyrim\ Special\ Edition
+cat MO2FNV.cpp
+make clear
+sudo grub-install --target=x86_64-efi --bootloader-id=Artix --efi-directory=/boot
+git
+paru -S totk-mod-manager-bin
+git clone https://bitbucket.org/totk-fpsplusplus/dynamicfps/
+pacman -Ss devkit
+paru -Ss dev kit pro
+paru -Ss devkitpro
+paru -S devkit-env
+cd dynamicfps
+devlink
+paru -Rsn devkit-env
+nvim Makefile
+nvim config.mk
+sudo -E nvim /etc/localtime
+rm -rf dotfiles dynamicfps Necromunda\ * steam-489830.log
+cat link
+rm link
+sudo pacman -S lib32-pipewire
+pacman -Ss gamescope
+sudo nvim /etc/default/grub
+sudo pacman -S gamescope
+gamescope -W 1920 -H 1080 -r 60 -- supertuxkart
+gamescope -h 720 -H 1080 -U MO2SSE
+sudo pacman -S xdg-user-dirs
+git config --global user.email "eriklrosebrock@tutanota.com"
+git config --global user.name "Stormx920"
+git add themes/decayce.h
+sudo nvim /etc/locale.gen
+sudo locale-gen
+sudo -E nvim nxmhandler
+cd Dokumente/Code/C++/Wrapper
+mkdir nxm
+touch nxmsse
+touch nvmfnv nxmfo3 nxmfo4
+nvim nxmfo4
+git clone https://github.com/HolographicWings/TOTK-Mods-collection
+7z x Zelda\ TOTK\ 1.2.0\ Stevens\ Mods.zip
+pacman -Ss nvidia 535
+pacman -Ss nvidia | grep 535
+sudo pacman -S extra/nvidia-dkms extra/nvidia-utils extra/nvidia-settings multilib/lib32-nvidia-utils
+cat /etc/os-release
+git config --global credential.helper store
+cd Dokumente/Code/Git/watermelonOS
+touch watermelonOS.sh
+chmod +x watermelonOS.sh
+git add watermelonOS.sh
+sudo ./watermelonOS.sh
+./watermelonOS.sh
+cd ../dmenu
+git pull https://github.com/Stormx920/dmenu main
+rm -rf dmenu
+git clone https://github.com/Stormx920/dmenu
+nvim watermelonOS.sh
+pacman -Ss librewofl
+pacman -Ss librewolf
+pacman -Ss nds
+pacman -Ss nds emulator
+paru -Ss ds emulator
+paru -Ss nds emulator
+paru -Ss desmume
+sudo pacman -S desmume
+paru -Rsn retroarch
+pacman -Ss blueman
+sudo pacman -S blueman
+sudo pacman -S bluez-openrc
+sudo rc-update add bluetoothd default
+sudo rc-service bluetoothd start
+blueman
+blueman-manager
+pacman -Ss pipewire bluetooth
+sudo pacman -S unrar
+nxmhandler "nxm://skyrimspecialedition/mods/59818/files/355778?key=rjMFDngiD8CeMkmkKiNX1Q&expires=1689966622&user_id=171723098"
+nvim /usr/local/bin/nxm
+nvim /usr/local/bin/nxmhandler
+./nxmsse "nxm://skyrimspecialedition/mods/59818/files/355778?key=rjMFDngiD8CeMkmkKiNX1Q&expires=1689966622&user_id=171723098"
+archlinux-keyring-wkd-sync
+sudo archlinux-keyring-wkd-sync
+nvim steam-16618238764824657920.log
+pacman -Ss magpie
+paru -Ss magpie
+paru -Ss dlss
+paru -Ss fsr
+cd .steam/root/steamapps/compatdata/489830/pfx/drive_c/users/steamuser/My\ Documents/My\ Games/Skyrim\ Special\ Edition
+cd SKSE
+nvim crash-2023-07-19-22-23-02.log
+rm -rf steam-16618238764824657920.log
+rm Sniper\ -\ Ghost\ Warrior\ Contracts.desktop
+rm -rf TOTK-Mods-collection
+xdg-settings get default-web-browser
+xdg-settings get default-file-explorer
+xdg-settings --list
+xdg-open
+xdg-open --manual
+xdg-open /home/erik
+cd .gradle
+pacman -Ss gradle
+rm -rf .gradle
+rm .bash_*
+cargo build
+cargo build release
+pacman -Ss qtcreator
+pacman -Ss cdm
+cd Drives/NVMe/Games/The\ Surge\ 2/bin
+wine TheSurge2.exe
+cd Drives/SataSSD/Games/Forza\ Horizon\ 4\ Ultimate\ Edition
+ls steam_
+ls steam_settings
+cd /home/erik/.local/share/Steam/steamapps/compatdata/3869235228/pfx/drive_c
+users
+cd users
+cd steamuser
+ll Saved\ Games
+ll Application\ Data
+ll Application\ Data/Microsoft
+ll Application\ Data/Microsoft/Windows
+ll Application\ Data/Goldberg\ SteamEmu\ Saves
+ll Application\ Data/Goldberg\ SteamEmu\ Saves/settings
+cd Application\ Data/Goldberg\ SteamEmu\ Saves/settings
+nvim account_name.txt
+sudo pacman -S ranger
+sudo pacman -S ueberzug
+lsl
+git clone https://git.suckless.org/st st-vanilla
+cd st-vanilla
+wget https://st.suckless.org/patches/cyberpunk-neon/st-cyberpunk-neon-20220703-baa9357.diff
+patch -p1 st-cyberpunk-neon-20220703-baa9357.diff
+patch -p1 > st-cyberpunk-neon-20220703-baa9357.diff
+patch -p1 y st-cyberpunk-neon-20220703-baa9357.diff
+patch -p1 < st-cyberpunk-neon-20220703-baa9357.diff
+nvim config.def.h
+rm config.h
+rm -rf st-vanilla
+sudo pacman -S w3m ueberzug
+sudo pacman -Rsn w3m ueberzug
+nvim x.c
+sudo pacman -S ImageMagick
+display dwm.png
+sudo pacman -Rsn ueberzug imagemagick
+pacman -Ss urxvt
+sudo pacman -S rxvt-unicode
+sudo pacman -Rsn rxvt-unicode
+cd Apps/st
+pacman -Ss qt ct
+pacman -Ss qt*ct
+pacman -Ss qt5ct
+pacman -Ss qt6ct
+sudo pacman -S qt5ct qt6ct
+qbittorrent
+curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash
+rm The\ Surge\ 2.desktop
+paru -Ss audiometer
+paru -Ss audio meter
+sudo pacman -S pavumeter
+paru -S pavumeter
+paru -S pavumeter-gtk3
+desmume-cli --help
+desmume-cli
+cat steam-14340325421130711040.log
+nvim steam-14340325421130711040.log
+sudo pacman -S atom
+flatpak install flathub io.atom.Atom
+pacman -Ss netbeans
+sudo pacman -S netbeans
+pacman -Ss clion
+paru -Ss clion
+paru -S clion
+sudo pacman -S java
+sudo pacman -Ss java
+sudo pacman -S jdk-openjdk
+clion
+sudo pacman -Rsn clion jdk-openjdk
+sudo pacman -Rsn clion
+ant
+netbeans
+paru -Rsn netbeans
+rm steam-14340325421130711040.log
+cd Drives/HDD/Games/Roms/WiiU/
+cd Dokumente/Code/Rust/test
+cd /mnt
+cp PKHeX\ \(23.07.09\).zip ~/Downloads
+7z x PKHeX\ \(23.07.09\).zip
+sudo mount /dev/sdd2 /mnt
+sudo mount /dev/sde2 /mnt
+cp /mnt/windowsdesktop-runtime-7.0.9-win-x64.exe Downloads
+wine windowsdesktop-runtime-7.0.9-win-x64.exe
+nvim MO2FO3.cpp
+nvim .
+./bui
+./build.sh 
+cd Drives/NVMe/SteamLibrary/steamapps/common/Cyberpunk\ 2077
+nvim launcher-configuration.json
+neo
+paru -Ss matrix
+paru -Ss bond
+paru -Ss james bond
+paru -Ss zenpower
+paru -S zenpower3-dkms
+sudo modprobe -r k10temp && modprobe zenpower
+sudo modprobe -r k10temp && sudo modprobe zenpower
+timedatectl
+ls -l /etc/localtime
+sudo rm /etc/localtime
+sudo ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
+date
+rm -rf Forza\ Horizon\ 5
+paru -Rsn jre-openjdk
+paru -Rsn jre-openjdk jdk-openjdk
+cd Drives/NVMe/Games/Need\ for\ Speed\ Heat
+wine NeedForSpeedHeat.exe
+paru -Ss firefox
+fc-list
+cd /usr/share/fonts
+rm -rf .netbeans
+ls .java
+ls .java/fonts
+rm -rf .java
+ls Square\ Enix
+ls Square\ Enix/Just\ Cause\ 2
+ls Square\ Enix/Just\ Cause\ 2/Saves
+paru -S xbox-xcloud
+paru -S xbox-cloud-gaming
+nvim Dokumente/Code/C++/Wrapper/MO2/MO2SSE.cpp
+2to3
+pacman -Ss 2to3
+cd Games/
+cd /
+paru -Ss xbox cloud
+paru -Rsn xbox-cloud-gaming xbox-xcloud
+hto
+cd nxm
+nvim nxmsse
+nvim Cargo.toml
+sudo nvim nxmhandler
+ll archive
+ll archive/pc
+ll archive/pc/mod
+sudo pacman -S alacritty
+time tree /
+time ls -R /
+paru -Rsn alacritty
+ls .local/state
+totk-mod-manager
+paru -Ss totk
+paru -Rsn totk-mod-manager-bin
+cd slot_0
+cd slot_00
+nvim caption.sav
+paru -Ss punfetch
+paru -S punfetch-bin
+punfetch
+punfetch --help
+paru -Ss onefetch
+paru -S onefetch
+paru -Rsn onefetch punfetch-bin
+parru
+mkdir MO2OBV
+cd 
+touch MO2OBV.cpp
+nvim MO2SSE.cpp
+vi MO2FO3.cpp
+alias V="nvim"
+V
+alias v="nvim"
+v build.sh
+nvim build.sh
+v MO2OBV.cpp
+vi MO2OBV.cpp
+touch nxmobv
+nvim nxmfo3
+chmod +x nxmobv
+nvim nxmobv
+sudo nvim /usr/local/bin/nxmhandler
+ll Dokumente/Code/C++/Wrapper/nxm
+wine 4gb\ patch.exe Oblivion.exe
+./4gb\ patch.exe binkw32.dll
+wine 4gb\ patch.exe binkw32.dll
+wine 4gb\ patch.exe atimgpud.dll
+2to3 --help
+blueman-applet
+rc-service -l
+rc-service status
+rc-service bluetooth
+rc-service bluetoothd
+rc-service --help
+rc-status bluetoothd
+rc-status bluetooth
+rc-status default bluetooth
+rc-status default 
+sudo rc-service bluetoothd restart
+pacman -Ss bluetooth
+sudo pacman -S bluez-hid2hci
+bluetoothctl show
+sudo pacman -Rsn bluez-hid2hci
+rfkill
+bluetoothctl
+rc-update show
+pacman -Ss bluez
+sudo pacman -S bluez-plugins
+sudo pacman -Rsn bluez-utils bluez-plugins
+paru -Ss bluez-utils-compat
+paru -S bluez-utils-compat
+sudo -E nvim /etc/bluetooth/main.conf
+sudo pacman -S bluez-utils
+sudo pacman -Rsn bluez-utils
+echo nono
+nvim something.html
+paru -S vscodium-bin
+git add .gitignore lib/void.hpp
+sudo find / -iname .gitignore
+vi /home/erik/.cache/paru/clone/protonup-qt/.gitignore
+vi /home/erik/.cache/paru/clone/vscodium-bin/.gitignore
+ll Dokumente/Code/Git
+vi Dokumente/Code/Git/dotfiles/.config/nvim/init.vim
+nvim 
+nvim init.vim
+touch init.lua
+mkdir lua
+mv init.vim bacinit.vim
+cd lua
+mkdir plugins
+lll
+rm -rf lua
+rm init.lua
+mv bacinit.vim init.vim
+nv
+v init.vim
+sudo pacman -S nodejd
+sudo pacman -S node
+sudo pacman -S nodejs
+pacman -Ss pynvim
+sudo pacman -S npm
+nvim lib/print.hpp
+nvim lib/void.hpp
+vi .config/nvim/init.vim
+cd co
+cd coc
+nvim MO2FNV.cpp
+cat *
+mv nvmfnv nxmfnv
+vi nxmfnv
+vi steam-1174180.log
+v steam-1174180.log
+sudo -E nvim /usr/local/bin/nxmhandler
+pacman -Ss luajit
+lua
+cd Dokumente/Code/C++/qt-test0
+ls test0
+ls build-test0-Desktop-Debug
+cd test0
+cd .config/nvim
+vi
+vi init.vim
+cdc
+sudo pacman -S cmake
+cargo
+cmake
+git add .gitignore
+sudo pacman -S onefetch
+onefetch
+sudo pacman -Rsn onefetch
+sudo pacman -S qtcreator
+wine Anno1800ModManager.exe
+nvim MO2FO4.cpp
+mkdir amm
+cd a
+cd amm
+nvim amm.cpp
+pacman -Ss dotnet
+sudo pacman -S dotnet-runtime
+gamemoderun mangohud STEAM_COMPAT_CLIENT_INSTALL_PATH=/usr/bin/steam STEAM_COMPAT_DATA_PATH=/home/erik/Drives/NVMe/SteamLibrary/steamapps/compatdata/916440 /home/erik/.steam/root/compatibilitytools.d/GE-Proton8-9/proton run /home/erik/Drives/HDD/Games/anno1800mm/Anno1800ModManager.exe
+sudo pacman -Rsn dotnet-runtime
+paru -Ss prism
+paru -S prismlauncher-qt5-bin
+xinput 
+xinput --set-prop 9 'libinput Accel Profile Enabled' 0, 1
+xinput --set-prop 8 'libinput Accel Profile Enabled' 0, 1
+sudo pacman -S mpv
+wget https://highstream.tv/9st9bxik3ogy/105540)_Blade_Runner_2049.mp4
+wget "https://highstream.tv/9st9bxik3ogy/105540)_Blade_Runner_2049.mp4"
+rm 105540\)_Blade_Runner_2049.mp4
+wget https://os364c.dood.video/u5kjvcoarhh3sdgge65halscdae2jutzbwnieum6ghtw5ibxbah3fjxp6zca/kw4fiimgxi~n3jeOkoav7?token=1xolj8w6p7vlgs4od4x65en2&expiry=1690236764709
+wget https://os364c.dood.video/u5kjvcoarhh3sdgge65halscdae2jutzbwnieum6ghtw5ibxbahwrkhp6zca/0mk6zs2b0m~ov22t0jyF8?token=1xolj8w6p7vlgs4od4x65en2&expiry=1690237058948
+sudo pacman -S yt-dlp
+vim ~/.config/mpv/mpv.conf
+mpv https://www.youtube.com/watch?v=1vCz6dAOe-M
+yt-dlp https://www.youtube.com/watch?v=1vCz6dAOe-M
+yt-dlp --help
+sudo pacman -Rsn yt-dlp
+pacman -Ss youtube dl
+sudo pacman -S youtube-dl
+youtube-dl https://www.youtube.com/watch?v=1vCz6dAOe-M
+youtube-dl --help
+youtube-dl 1vCz6dAOe-M
+sudo pacman -Rsn youtube-dl
+loginctl poweroff
+rm *.jar
+7z x 5589\ -\ Pokemon\ -\ Schwarze\ Edition\ \(DSi\ Enhanced\)\ \(G\).zip
+desmume-cli 5589\ -\ Pokemon\ -\ Schwarze\ Edition\ \(DSi\ Enhanced\)\ \(G\)\(WiKiLEAKS\).nds
+pacman -Ss zap
+paru -Ss zap
+zsh <(curl -s https://raw.githubusercontent.com/zap-zsh/zap/master/install.zsh) --branch release-v1
+.zshrc
+paru -Ss Transmission
+sudo pacman -S transmission-gtk transmission-openrc
+sudo pacman -Rsn transmission-gtk transmission-openrc
+wine EAappInstaller.exe
+mkdir ea
+cd .steam/root/steamapps/compatdata
+cd 3358861207/pfx/drive_c
+ln -sf ~/Drives/SataSSD/Games
+cd Darkest
+rm -rf Darkest Square\ Enix
+nvim .config/nvim/init.vim
+sudo pacman -S rustup
+sudo pacman -S rust-analyzer
+nvim src/main.rs
+xdg-mime default pcmanfm.desktop
+xdg-mime default thunar.desktop inode/directory application
+xdg-mime default pcmanfm.desktop inode/directory application
+nvim .config/mimeapps.list
+pacman -Ss citra
+sudo pacman libretro
+sudo pacman -S libretro
+paru -S citra-canary-bin
+sudo pacman -S retroarch
+pacman -Ss libretro
+sudo pacman -S libretro-mesen libretro-desmume libretro-citra
+sudo pacman -Rsn libretro-mesen libretro-desmume libretro-citra retroarch
+paru -Ss citra
+paru -S citra-appimage
+citra
+citra-appimage
+paru -Ss libgit2
+paru -Ss codium
+paru -Rsn vscodium-bin
+nvim src/main.cpp
+cd Drives/SataSSD/Games
+ls STAR\ WARS\ Battlefront\ II
+nvim .config/zsh/.zshrc
+cd Drives/NVMe/Games/MO2FO4/downloads
+nvim steam-14426199035901640704.log
+rm -rf ea
+sudo pacman -S lutris
+lutris
+paru -Rsn lutris
+rm -rf com.vasilvestre.totkMM JetBrains lutris retroarch VSCodium
+ls state
+rm -rf com.vasilvestre.totkMM JetBrains ranger
+ls desktop-directories
+sudo fdisk /dev/sdc1
+sudo mount /dev/sdc1 Drives/USB-1
+nvim Dokumente/Scripts/USB-1.sh
+sudo chown erik:erik USB-1
+pacman -Ss unetbootin
+paru -Ss unetbootin
+paru -S unetbootin
+unetbootin
+sudo pacman -S ntfs-3g
+sudo mkfs.ntfs /dev/sda1
+sudo pacman -S dosfstools
+sudo mkfs.vfat /dev/sdc1
+sudo cp Drives/HDD/Stuff/Media/Movies/Blade\ Runner\ -\ The\ Final\ Cut.mkv /mnt
+sudo unetbootin
+LSBLK
+sudo dd if=artix-base-openrc-20230710-x86_64.iso of =/dev/sdd
+sudo dd if=artix-base-openrc-20230710-x86_64.iso of=/dev/sdd
+git clone https://github.com/elkowar/eww\
+
+cargo build --release --no-default-features --features x11\
+
+cd target
+cd release
+cd eww/target/release
+/home/erik/.config/eww
+touch eww.yuck
+ls examples
+ls examples/eww-bar
+./eww daemon
+./eww open dwm
+./eww open eww-bar
+./eww open bar
+rm -rf Necromunda\ -\ Hired\ Gun epic-games-store
+git clone --recursive https://github.com/cemu-project/cemu
+cd cemu
+mv cemu Cemu
+cd Cemu
+v
+sudo pacman -S vcpkg
+paru -S vcpkg
+nvim src/Common/CMakeLists.txt
+nvim src/input/CMakeLists.txt
+sudo pacman -S glm
+sudo pacman -S nasm
+./bin/Cemu_release
+./FunKiiU.py
+pip
+sudo pacman -S pyhton-pip
+sudo pacman -S python-pip
+sudo pacman -S python-pylint
+nvim FunKiiU.py
+python FunKiiU.py
+rm -rf LEGO\ Dimensions\ \(Europe\)\ \(EnFrDeNlDa\)\ \(Rev\ 1\).zip FunKiiU-2.2 FunKiiU-2.2.zip
+pacman -Ss nerd
+sudo pacman -S ttf-nerd-fonts-symbols-common
+; Nerd font : ï¨ ï§ , ïƒ¹¸ âƒ¯½, ïƒ³ ï¤ƒ´ ï¥ƒ¤ ï¤¿ , ï¥ƒ© ïª¯
+cd Apps/dwm
+cd Games/Cemu/bin/
+vim keys.txt
+./Cemu_release
+git clone https://github.com/L4ze3/Polybar
+cd Polybar
+sudo pacman -S ttf-nerd-fonts-symbols-mono
+vim bars.ini
+sudo pacman -Rsn ttf-nerd-fonts-symbols-mono ttf-nerd-fonts-symbols-common
+nvim neofetch/config.conf
+cd neo
+mv config.conf config.bac
+nvim config.conf
+sudo pacman -S noto-fonts-emoji
+sudo ln -sf /home/erik/Games/Cemu/bin/Cemu_release cemu
+echo "usbip-core" | sudo tee -a /etc/modules\
+echo "usbip-vudc" | sudo tee -a /etc/modules\
+echo "vhci-hcd" | sudo tee -a /etc/modules\
+\
+echo "dtoverlay=dwc2" | sudo tee -a /boot/config.txt\
+echo "dwc2" | sudo tee -a /etc/modules\
+echo "libcomposite" | sudo tee -a /etc/modules\
+echo "usb_f_rndis" | sudo tee -a /etc/modules
+git config pull.rebase false
+git clone https://github.com/Berny23/LD-ToyPad-Emulator.git
+printf '\necho "usbip-vudc.0" > UDC\nusbipd -D --device\nsleep 2;\nusbip attach -r debian -b usbip-vudc.0\nchmod a+rw /dev/hidg0' >> usb_setup_script.sh
+sudo curl https://raw.githubusercontent.com/virtualhere/script/main/install_server | sudo sh
+sudo cp usb_setup_script.sh /usr/local/bin/toypad_usb_setup.sh
+sudo chmod +x /usr/local/bin/toypad_usb_setup.sh
+sudo pacman .S crontab
+sudo pacman -S cront
+sudo pacman -S crontab
+sudo pacman -S cro
+sudo pacman -S cron
+(sudo crontab -l 2>/dev/null; echo "@reboot sudo /usr/local/bin/toypad_usb_setup.sh") | sudo crontab -
+sudo pacman -S usbip hwdata libusb
+7z x WudCompress.zip
+mv Die\ gesamte\ The\ Legend\ of\ Zelda\ Timeline.mp4 ..
+cd WudCompress
+wine WudCompress.exe
+cp WudCompress.exe ~/Drives/HDD/Games/Roms
+cd ~/Drives/HDD/Games/Roms/WiiU
+mv ../WudCompress.exe .
+wine WudCompress.exe LEGO\ Dimensions.wux
+sudo pacman -S nvm
+cd LD-ToyPad-Emulator
+node index.js
+sudo pacman -Rsn usbip hwdata libusb nvm
+sudo pacman -Rsn usbip nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash\
+export NVM_DIR="$HOME/.nvm"\
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"\
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"\
+\
+nvm install 11\
+sudo setcap cap_net_bind_service=+ep `readlink -f \`which node\``\
+npm install --global node-gyp@8.4.1\
+npm config set node_gyp $(npm prefix -g)/lib/node_modules/node-gyp/bin/node-gyp.js\
+\
+cd LD-ToyPad-Emulator\
+npm install
+wget https://www.virtualhere.com/sites/default/files/usbclient/vhclientx86_64
+chmod +x vhclientx86_64
+./vhclientx86_64
+sudo ./vhclientx86_64
+chmod +x vhuit64
+sudo ./vhuit64
+rm -rf steam-14426199035901640704.log vhclientx86_64 LD-ToyPad-Emulator
+rm -rf Polybar
+pacman -Ss virtual
+sudo pacman -S virtualbox
+gcc --version
+paru -Rsn vcpkg
+rm -rf .vcpkg .vscode-oss
+rm -rf .nvm
+cat .git-credentials
+paru -Rsn npm
+paru -Rsn npm nodejs
+nvim .npmrc
+nvim .npm/anonymous-cli-metrics.json
+ls lost+found
+sudo ls lost+found
+ls Repacks
+ls SteamLibrary/steamapps/common
+cd Stuff
+ls bac
+ls gamebac
+ls gamebac/aco
+ls Schule
+mv Die\ gesamte\ The\ Legend\ of\ Zelda\ Timeline.mp4 Drives/HDD/Stuff/Media/
+ls Desktop
+ls -a Desktop
+rmdir Desktop
+ls Apps/patches
+rm -rf patches
+mkdir suckless
+mv dmenu suckless
+mv dwm suckless
+mv slstatus suckless
+mv st suckless
+ls Games/Heroic
+ls Skyrim\ Special\ Edition
+ls Pfad
+rm -rf Pfad
+paru -Q | les
+paru -Q | less
+paru -Rsn alsa-plugins
+paru -Rsn alsa-plugins lib32-alsa-plugins
+paru -Rsn avahi
+paru -Rsn bash
+paru -Rsn cronie
+paru -Rsn dosfstools ntfs-3g
+paru -Rsn gamescope
+paru -Rsn gsettings-desktop-schemas
+gsm
+paru -Rsn gsm
+paru -Rsn nasm
+paru -Rsn unetbootim
+paru -Rsn unetbootin
+paru -Rsn wlroots
+pacman -Ss xcb-util
+pacman -Ss linux-zen
+pacman -Ss mtp
+paru -S android-file-transfer
+nvim links
+ðƒ¿ƒ´ƒªðƒ¿ƒ´ƒªðƒ¿ƒ´ƒªðƒ¿ƒ´ƒªðƒ¿ƒ´ƒª
+nvim config.h
+nvim Dokumente/Code/Rust/test/src/main.rs
+nvim emoji.sh
+chmod +x emoji.sh
+./emoji.sh
+rm emoji.sh
+vim MO2FNV.cpp
+vim nxmfo4
+vim nxmfnv
+sudo vim /etc/sudoers
+sudo nvim /etc/sudoers
+sudo -E visudo
+cd qt-test0/test0
+vim test0_de_DE.ts
+vim dialog.cpp
+ls build
+nvim dialog.cpp
+vim dialog.h
+cd Dokumente/Code/C++/QT
+nxmhandler nxm://skyrimspecialedition/mods/51073/files/360534?key=OXgVRiuJJO2a9XPKVuOf2Q&expires=1690576064&user_id=171723098
+cd Drives/NVMe/Games/MO2SSE/downloads
+pacman -Ss tor
+pacman -Ss tor browser
+sudo pacman -S tor-browser
+nvim full-emoji-list.html
+rm full-emoji-list.html *
+rm full-emoji-list.html*
+npm
+pacman -Ss npm
+pacman -Ss nitrogen
+ls .cache/paru/clone
+cd .cache/paru/clone/yuzu-early-access-appimage
+paru -Sc
+sudo -E su
+lsblks
+sudo partx
+sudo partx --help
+sudo partx --update /dev/sdc
+sudo partx --update /dev/sdc1
+sudo find / -iname "*main*"
+cd Apps/PKHeX
+sudo find / -iname "main"
+ls .local
+ls .local/opt
+sudo find / -iname "*desmume*"
+cd .config/desmume
+cd PKHeX
+wine PKHeX.exe
+rm Resident\ Evil\ 5\ -\ Gold\ Edition.desktop
+rm save.ds
+2to3-3.11
+base64
+base64 --help
+base64 YWRtaW5pc3RyYXRvcg==
+base64 -d YWRtaW5pc3RyYXRvcg==
+nvim decode
+cd ../../HDD/Games
+rm -rf Resident\ Evil\ 5\ -\ Gold\ Edition
+nvidia-smi
+pacman -Ss mesa
+pacman -Ss radv
+pacman -Ss amd
+pacman -Ss vulkan-swrast
+pacman -Ss amdvlk
+pacman -Ss vulkan-radeon
+paru -Ss mesa
+paru -Ss vulkan-radeon
+nvim .zshrc
+paru -S /virtualhere-client
+paru -S virtualhere-client
+cd .cache/paru/clone
+cd virtualhere-client
+vim PKG
+yuzu --version
+cd .cache/paru/clone/virtualhere-client
+rm -rf src Makefile vhclientx86_64 virtualhereclient.service
+vhuit64
+sudo vhuit64
+paru -Ss virtual here
+cp .config/nvim/init.vim Dokumente/Code/Git/dotfiles/.config/nvim/init.vim
+free
+frei -h
+free --help
+cd ../../SataSSD/Games
+cd Dokumente/Code/Git/dotfiles
+nvim .zprofile
+paru -Rsn virtualhere-client
+picom
+picom &
+vim steam-16028514251568054272.log
+rm New\ Year\ Party\ Gets\ Wild\ For\ Horny\ Ebony\ Besties\ Clara\ Trinity,\ Willow\ Ryde\ \[www.savepornvid.com\].mp4 Cory\ Chase\ Plays\ Squid\ Games\ With\ Busty\ Stepdaughter\ \[www.yesdownloader.com\].mp4 MOMMYS\ GIRL\ -\ Aidra\ Fox\ Has\ A\ Foursome\ With\ Her\ Stacked\ MILF\ Chanel\ Presto\ \[www.yesvideodownloader.com\].mp4
+rm DI2No-IntroFix-1-0-1-1682094831.rar patch-24-v1-1684977011.exe
+rm vhuit64
+desmume
+cd Drives/HDD/Games/Roms/nds
+desmume Pokemon\ -\ Schwarze\ Edition.nds
+pacman -Ss placebo
+wineconsole
+cd Apps/modengine
+nvim config_eldenring.toml
+nvim launchmod_eldenring.bat
+chmod +x launchER.sh
+cd ~/Drives/NVMe/SteamLibrary/steamapps/common/ELDEN\ RING/Game
+./launchER.sh
+wine modengine2_launcher.exe
+wine launchmod_eldenring.bat
+vim launchER.sh
+vim launchmod_eldenring.bat
+STEAM_COMPAT_CLIENT_INSTALL_PATH=/usr/bin/steam STEAM_COMPAT_DATA_PATH=/home/erik/Drives/NVMe/SteamLibrary/steamapps/compatdata/1245620/ /home/erik/.steam/root/compatibilitytools.d/GE-Proton8-9/proton run launchmod_eldenring.bat
+STEAM_COMPAT_CLIENT_INSTALL_PATH=/usr/bin/steam STEAM_COMPAT_DATA_PATH=/home/erik/Drives/NVMe/SteamLibrary/steamapps/compatdata/1245620/ /home/erik/.steam/root/compatibilitytools.d/GE-Proton8-9/proton run modengine2_launcher.exe
+cd Drives/NVMe
+mkdir VMs
+cd Drives/NVMe/Games/Far\ Cry\ 6
+cd qt
+cd QT
+vim calculator.cpp
+ls calculator
+vim calculator/calculator.cpp
+vim calculator/calculator.h
+vim calc.cpp
+c++ calc.cpp
+cd calculator
+cmake -S . -B build
+./build/test0
+./build/calculator
+sudo nvim
+pacman -Ss ctags
+sudo pacman -S ctags
+echo ctags << recrash
+echo ctags >> recrash
+cat recrash
+rm Saints\ Row\ IV\ -\ Re-Elected.desktop
+nano
+/bin/vi
+/bin/vim
+/bin/nvim
+echo $PATH
+vim .config/nvim/init.vim
+vim BUILD.md
+ls README.md
+exit
+./bin/chat
+cd /usr/local/bin
+sudo ln -sf /home/erik/Apps/gpt4all/bin/chat
+cd Dokumente/Code/C++/
+cd cxx-test
+clang++ main.cpp
+vim main.cpp#
+rm lib/print.hpp
+rm lib/void.hpp
+nvim recrash
+cd Apps/gpt4all/bu
+cd Apps/gpt4all/bin
+vim chat
+pacman -Ss boost
+ls /usr/share/vulkan
+ls /usr/share/vulkan/icd.d
+ls /usr/share/vulkan/icd.d/nvidia_icd.json
+vim /usr/share/vulkan/icd.d/nvidia_icd.json
+vim recrash
+gamemoderun mangohud
+cd Dead\ Island\ 2
+MO2FO5
+pacman -Ss libfmt
+sudo pacman -S extra/fmt
+pacman -Ss spdlog
+sudo pacman -S extra/fmt extra/spdlog
+rm Downloads/Windows11InstallationAssistant.exe
+vim MO2FO4.cpp
+cat .xinitrc
+pacman -Ss fmt
+rm recrash
+ll decode
+vim decode
+rm steam-1174180.log
+rm steam-16028514251568054272.log
+cat links
+rm links
+base64 -d decode
+rm decode
+ss
+ss --help
+[
+[: ]
+[]
+[ --help
+[ ] --help
+[ ]
+[ clear ]
+ls Drives/SataSSD
+ls Drives/SataSSD/Games
+ls Drives/SataSSD/SteamLibrary/steamapps/common
+ls Drives/HDD/Stuff/ISOs
+paru -S openrazer-meta
+sudo gpasswd -a erik plugdev
+paru -S polychromatic
+paru -Ss stallman
+paru -S stallman
+stallman
+paru -Rsn stallman
+links
+sudo pacman -S links
+links https://pizzablitz-hoya.de
+paru -Rsn links
+ls links
+rm -rf links
+rm .wget-hsts
+pacman -Ss twitch
+paru -Ss twitch
+sudo pacman -S firefox
+paru -Rsn firefox
+ls .cache
+rm -rf .cache/mozilla
+cd .cache
+rm -rf JetBrains lutris netbeans ranger zelda-tears-of-the-kingdom-mod-manager
+ranger
+ln
+parz
+paru -Ss auto click
+paru -S xclicker
+xclicker
+cd Drives/NVMe/Games/MO2FO4/mods/Buffout\ 4
+cd F4SE/Plugins/Buffout4
+vim config.toml
+wine Crash\ Log\ Auto\ Scanner.exe
+neofetch#
+vim CLAS\ Settings.ini
+rm CLAS\ Settings.ini
+ls Apps
+rm -rf Dead\ Island\ 2
+rm -rf Dead\ Island\ 2\ \[DODI\ Repack\]
+rm -rf Far\ Cry\ 6\ \[DODI\ Repack\]
+rm -rf Far\ Cry\ 6
+c
+cd Drives/HDD/Games
+rm -rf Saints\ Row\ IV\ -\ Re-Elected
+rm -rf Resident.Evil.4.Crackfix-EMPRESS.7z Resident\ Evil\ 4\ Remake\ \[DODI\ Repack\]/ Resident\ Evil\ 5\ -\ Gold\ Edition\ \[FitGirl\ Repack\]
+rm -rf Saints\ Row\ IV\ -\ Re-Elected\ \[FitGirl\ Repack\]
+rm EMPRESS.nfo
+pacman -Ss nvidia
+pacman -Ss nvidia | grep Installiert
+cd Drives/NVMe/Games/MO2FO4
+rm -rf downloads/*
+cd mods
+cd High\ FPS\ Physics\ Fix
+vim F4SE/Plugins/HighFPSPhysicsFix.ini
+git clone https://github.com/Filip-Sutkowy/blurclean-firefox-theme
+cd .librewolf/ec59rser.default-release/chrome
+vim userChrome.css
+sudo pacman -S boost
+ls /lib
+ls /usr/include
+ls /usr/include/boost
+vim gtpOut
+rm gtpOut
+sudo pacman -S os-prober ntfs-3g
+sudo vim /etc/default/grub
+sudo -E vim /etc/default/grub
+xinput
+source .zprofile
+MO2FO4
+sudo pacman -S brave
+98
+ls Drives/NVMe/bac
+cd Drives/NVMe/Games/ba
+rm -rf bac
+rm -rf Dead\ Island\ -\ Definitive\ Collection
+mpv
+mpv --no-video
+mpv --start
+mpv --start=7
+exot
+cd .steam/root/steamapps/common
+rm -rf Skyrim\ Special\ Edition
+cd ../common/
+cd ../compatdata
+cd Drives/NVMe/Games/
+cd MO2FO4
+cd MO2SSE
+ls VMs
+rm -rf
+rm -rf VMs
+ls Games
+cd Games
+rm -rf MO2*
+cd Prey
+cd _Redist
+wine QuickSFV.EXE QuickSFV.ini
+wine QuickSFV.EXE
+wine QuickSFV.EXE fitgirl.md5
+cd Wolfenstein\ -\ Youngblood
+ls base
+ls virtualtextures
+du
+du -ch
+du -sh
+du -sh Prey
+du -sh Resident\ Evil\ 4\ Remake
+cd SteamLibrary/steamapps/common
+rm -rf Fallout\ 3\ goty Fallout\ 4 Fallout\ New\ Vegas
+rm -rf Cyberpunk\ 2077 Path\ of\ Exile
+wine Language\ Selector.exe
+rm Wolfenstein\ -\ Youngblood.desktop
+vim steam-15261981555531186176.log
+rm steam-15261981555531186176.log
+rm -rf blurclean-firefox-theme
+visudo
+cd /usr/bin
+sudo ln -sf nvim
+sudo ln -sf nvim vi
+sudo visudo
+sudo rm vi
+ll /etc
+vim /etc/arch-release
+vim /etc/artix-release
+ll -R /bin
+x265
+x265 --help
+x264 --help
+cd Drives/NVMe/Games/Wolfenstein\ -\ Youngblood
+wine Youngblood_x64vk.exe
+cd Drives/NVMe/SteamLibrary/steamapps/compatdata
+cd 1493710
+cd pfx/drive_c
+cd users/steamuser
+cd AppData
+cd Roaming
+cd ../Local
+cd My\ Documents
+ls Saved\ Games
+cd .steam/root/steamapps/compatdata/1174180
+cd pfx/drive_c/users/steamuser
+cd Documents
+cd Rockstar\ Games
+cd Red\ Dead\ Redemption\ 2
+cd Profiles
+cd CBE1DF89
+vim cfg.dat
+vim ProfileSettings
+vim SRDR30015
+l
+ll Red\ Dead\ Redemption\ 2
+ll Red\ Dead\ Redemption\ 2/Profiles
+ll Red\ Dead\ Redemption\ 2/Profiles/CBE1DF89
+cd .local
+ls opt
+ls share
+cd share
+rm -rf lutris
+rm -rf Wolfenstein\ -\ Youngblood
+sudo fdisk /dev/sdc
+sudo mkfs.ext4 -L USB-Big /dev/sdc1
+sudo mount /dev/sdc1 /mnt
+sudo cp /home/erik/Drives/HDD/Stuff/Media/Movies/Blade Runner - The Final Cut.mkv /mnt
+sudo cp "/home/erik/Drives/HDD/Stuff/Media/Movies/Blade Runner - The Final Cut.mkv" /mnt
+sudo umount /dev/sdc1
+ls Drives/NVMe
+ls Drives/NVMe/Games
+wget https://unicode.org/emoji/charts/full-emoji-list.html
+rm full-emoji-list.html
+ls Shadow\ of\ the\ Tomb\ Raider
+rm -rf Shadow\ of\ the\ Tomb\ Raider steam-1174180.log
+tree
+pacman -Ss neotree
+rm -rf .mozilla
+ll .cache
+ll .config
+sudo find / -iname "*mozilla*"
+sudo find / -iname "*firefox*"
+touch 48.26
+cd Drives/HDD/Stuff/Media/Movies
+mpv Blade\ Runner\ -\ The\ Final\ Cut.mkv
+echo $SHELL
+zsh
+rm -rf *
+rm 48.26
+g++ main.cpp -o calculator.exe
+./calculator.exe
+rm calculator.exe
+https://www.oepnv-verden-sued.de/fileadmin/user/fahrplaene/Linie_735_Eystrup_Hoya_-_Verden.pdf
+paru -S paru-git
+paru -Ss paru
+bslkb
+bshell
+lsblk --help
+cd .local/share/zap
+cd plugins
+cd zsh-starship
+cd theme
+vim starship.toml
+ls init
+vim init/_starship
+vim zsh-starship.plugin.zsh
+zap
+zap update
+zap list
+mpv 01\ -\ Realest.mp3
+mpv --help
+mpv --fs 01\ -\ Realest.mp3
+cd Drives/HDD/Repacks/Baldurs.Gate.3-RUNE
+vim rune.nfo
+./bin/cxx-test
+whereis *fetch
+whereis "*fetch"
+rmdir lib
+mkdir lib
+mkdir ce
+mv cheat-engine-7.5.zip ce
+cd ce
+7z x cheat-engine-7.5.zip
+cd cheat-engine-7.5
+cd Dpw
+rm -rf ce
+sudo pacman -S libreoffice-fresh
+vim lib/print.hpp
+cmake --version
+zathura
+sudo pacman -S zathura
+rm Linie\ 150\ .pdf
+sudo pacman -S zathura-pdf-mupdf
+zathura Linie\ 20.pdf
+cd src/lib
+vim print.hpp
+ls src/lib
+cd Drives/NVMe/Games
+rm -rf Prey
+ls My\ Games
+ls My\ Games/Skyrim\ Special\ Edition
+nxmvim
+ls ~/Downloads
+gamemoderun mangohud STEAM_COMPAT_CLIENT_INSTALL_PATH=/usr/bin/steam STEAM_COMPAT_DATA_PATH=/home/erik/Drives/NVMe/SteamLibrary/steamapps/compatdata/489830/ /home/erik/.steam/root/compatibilitytools.d/GE-Proton8-11/proton run /home/erik/Drives/NVMe/Games/MO2SSE/ModOrganizer.exe
+vim Dokumente/Code/C++/Wrapper/MO2/MO2SSE.cpp
+nxmhandler "nxm://skyrimspecialedition/mods/51073/files/360534?key=OXgVRiuJJO2a9XPKVuOf2Q&expires=1690576064&user_id=171723098"
+time sudo find -iname "*bus*"
+cd .local/share/PrismLauncher/instances/Better\ MC\ \[FABRIC\]\ -\ BMC1/minecraft
+cd crash-reports
+vim crash-2023-08-07_23.03.33-client.txt
+vim crash-2023-08-07_23.05.58-client.txt
+paru -Rsn ruby
+cd Drives/NVMe/Games/Baldurs\ Gate\ 3/Data
+mkdir Public
+paru -S eww-x11
+paru -S eww-x11-gi
+paru -S eww-x11-git
+cd .cache/paru/clone/eww-git
+paru -Ss eww
+makepkg -si
+mkdir eww
+touch eww.yuck eww.css
+mv eww.* eww
+cd eww
+eww open example
+killall eww open bar
+eww open right
+eww open music
+eww
+eww open audio_ctl
+cd Apps/dw
+cd Apps/
+cd suckless/dwm
+dwm -v
+rm dwm-status2d-6.3.diff
+git clone https://github.com/stormx920/dwm
+vim themes/nord.h
+cd suckless/slstatus
+rm -rf slstatus
+git clone https://github.com/stormx920/slstatus
+git clone https://github.com/justanoobcoder/eww/
+vim eww.css
+vim eww.yuck
+cd .config/eww
+rm -rf scripts
+git clone https://gitlab.com/dwt1/dotfiles
+rm -rf dotfiles
+rm -rf eww
+eww open calendar
+eww open bar
+eww open main
+eww daemon
+eww open system
+killall eww
+cd Dokumente/Code/C++/Wrapper/nxm
+kk
+vim .bash_history
+nmtui
+git add src/lib/print.hpp
+bim
+vim .bashrc
+vim steam-489830.log
+rm steam-489830.log
+ll My
+ll My\ Games
+ll My\ Games/Skyrim\ Special\ Edition
+rm -rf My\ Games
+ll Downloads
+rm Downloads/Doubled\ Spell\ Slots-619-1-2-1691491527.zip
+ll Games
+ls .steam/steam
+export GTK_THEME="Adwaita"
+pcmanfm
+export GTK_THEME="Adwaita" pcmanfm
+GTK_THEME="Adwaita" pcmanfm
+pacman -Ss adwaita
+GTK_THEME="Adwaita:light" pcmanfm
+GTK_THEME="Adwaita:dark" pcmanfm
+cd Dokumente/Code/C++/cxx-test
+vim src/lib/print.hpp
+ping gnu.org
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo pacman -S gimp
+cd /boot/grub
+sudo su
+sudo -E nvim /etc/default/grub
+convert
+gimp --help
+sudo pacman -S convert
+sudo pacman -S imagemagick
+rm Downloads/distributor-logo-artix.svg
+lf
+vim steam-17865292479247417344.log
+paru -Rsn gimp
+paru -Rsn imagemagick
+rm Atlas\ Fallen.desktop
+rm Atlas\ Fallen\ DX12.desktop
+rm steam-17865292479247417344.log
+paru -Syu multilib/lib32-nvidia-utils
+pacman -Ss lib32-nvidia-utils
+firefox
+librewolf --version
+librewolf --help
+librewolf --display=0
+librewolf --display=display:0
+librewolf --display=artix:0
+librewolf --display=artix:0.0
+librewolf --display=DP-2
+./Cyberpunk2077.exe --help
+gimp
+ls .designer
+mv cxx-test cxx-calc
+g++ main.cpp
+./a.out
+rm main.cpp a.out
+mkdir cxx-encrypt
+cd cxx-encrypt
+git init .
+mkdir CMakeLists.txt
+mkdir src bin
+rmdir CMakeLists.txt
+touch build.sh CMakeLists.txt
+git add CMakeLists.txt build.sh
+git remote add cxx-encrypt https://github.com/stormx920
+git push --set-upstream cxx-encrypt master
+git remote add cxx-encrypt https://github.com/stormx920/cxx-encrypt
+rm -rf cxx-encrypt
+git clone https://github.com/Stormx920/cxx-crypt.git
+cp cxx-calc/* cxx-crypt
+cp -r cxx-calc/* cxx-crypt
+git add build.sh
+rm -rf .git
+git clone https://github.com/Stormx920/cxx-crypt.git out
+cp -r out/.git/* cxx-crypt/.git
+cp -r out/.git/ cxx-crypt/
+ls cxx-crypt
+ls cxx-crypt/.git
+rm out
+rm -rf out
+vim build.sh
+ls bin
+rm bin/cxx-test
+vim text.txt
+vim encrypt.txt
+./cxx-test
+rm decrypt.txt encrypt.txt
+paru -Ss gpt4all
+cd Apps/gpt4all
+cd ~/Downloads
+rm gpt4all-installer-linux.run
+rm -rf build/*
+$
+$paru
+bash $paru
+bash $(paru)
+bash paru
+whereis paru
+bash sudo paru
+echo $COLORTERM
+git clone https://gitlab.com/dtos/dtos-core-repo/
+ll x86_64
+vim dtos-core-repo.files.sig
+cat dtos-core-repo-db.sig
+cat dtos-core-repo.db
+cat dtos-core-repo.files
+cat dtos-core-repo.files.sig
+vim dtos-core-repo.files
+cd dtos-core-repo
+wget https://gitlab.com/dtos/dtos-core-repo/-/blob/main/README.org?ref_type=heads
+wget https://gitlab.com/dtos/dtos-core-repo/-/blob/main/README.org
+vim README.org
+rm README.org
+st -v
+cd Dokumente/Code/Git/watermelonos-core-repo
+tar -xvf st-distrotube-0.8.4.r189.b9519d6-1-x86_64.pkg.tar.zst
+vim .BUILDINFO
+vim .INSTALL
+vim .MTREE
+git clone https://github.com/Stormx920/watermelonos-core-repo.git
+mkdir x86_64
+cd x86_64
+touch dtos-core-repo-db.sig dtos-core-repo.db dtos-core-repo.files dtos-core-repo.files.sig
+mv dtos-core-repo.db watermelonos-core-repo.db
+mv dtos-core-repo-db.sig watermelonos-core-repo-db.sig
+mv dtos-core-repo.files watermelonos-core-repo.files
+mv dtos-core-repo.files.sig watermelonos-core-repo.files.sig
+mkdir st-watermelonos-0.9
+cd st-watermelonos-0.9
+mkdir usr opt
+mkdir usr/local
+mkdir usr/local/bin
+mkdir opt/st-watermelonos
+cd Dokumente/Code/Git/watermelonos-core-repo/x86_64/st-watermelonos-0.9
+vim .PKGINFO
+gpg --full-generate-key
+gpg --list-keys
+gpg --recv-keys 410B4A906DF63761AA2B26DC2C316AF89E7074F3
+gpg --send-keys 1AA161EF5BC826C21FA107DE7661F9AD38B5C58F
+gpg --recv-keys 1AA161EF5BC826C21FA107DE7661F9AD38B5C58F
+gpg --output sainnhe.gpg --armor --export 1AA161EF5BC826C21FA107DE7661F9AD38B5C58F
+ls .gnupg
+ls .gnupg/openpgp-revocs.d
+ls .gnupg/private-keys-v1.d
+ls .gnupg/crls.d
+sudo find / -iname "sainnhe.gpg"
+gpg --import sainnhe.gpg
+sudo pacman-key --recv-keys 1AA161EF5BC826C21FA107DE7661F9AD38B5C58F
+sudo pacman-key --add sainnhe.gpg
+sudo pacman-key --finger 1AA161EF5BC826C21FA107DE7661F9AD38B5C58F
+sudo pacman-key --lsign-key 1AA161EF5BC826C21FA107DE7661F9AD38B5C58F
+sudo -E nvim /etc/makepkg.conf
+cd PKGBUILDs
+ls src
+ls src/st
+ls st
+makepkg -sr --sign
+rm -rf sainnhe.gpg
+rm -rf dtos-core-repo
+cd watermelonos-core-repo
+cd watermelonOS
+ls PKGBUILDs
+ls PKGBUILDs/watermelonOS
+cd PKGBUILDs/watermelonOS
+rm -rf watermelonOS-1.0-1-x86_64.pkg.tar.zst
+rm watermelonOS-1.0-1-x86_64.pkg.tar.zst.sig
+rm -rf watermelonOS src pkg
+cd Apps/suckless/dmenu
+cd Dokumente/Code/Git
+vim txt.txt
+cd Drives/HDD/Stuff/Media
+re2
+vim init.vim
+vim .links
+rm .links
+rm txt.txt
+cd ../nvim
+sudo pacman -S tmux
+tmux --help
+tmux new
+echo $TERM
+parent terminal
+tmux
+vim .gitconfig
+vim .git-credentials
+rm config.h.orig config.h.rej
+rm dwm-statuscolors-20220322-bece862.diff
+rm dwm.c.orig dwm.c.rej
+cd gpt4all
+./maintenancetool
+cd Dokumente
+vim Scripts/USB-1.sh
+ls Scripts
+mv Scripts/USB-1.sh .
+rmdir Scripts
+git clone https://github.com/TyroneWatermelon420/Scripts
+mv USB-1.sh Scripts
+cd Scripts
+git add USB-1.sh
+cd Code
+cd Rust
+cd test
+rustup default stable
+./target/release/rust-test
+cd Git
+cd artixinstall
+cp ~/.config/nvim/init.vim .config/nvim/init.vim
+cd .config
+cp -r ~/.config/neofetch .
+git add neofetch/config.conf
+cd neofetch
+vim config.bac
+rm config.bac
+ls -a zsh
+cp ~/.config/zsh/* zsh
+cd zsh
+rm .zcompdump.artix.2922
+rm .zshrc_2023-07-25_1690288237
+vim .zcompdump
+vim .zsh_history
+cd dotfiles
+ls nvim
+cp ~/.xinitrc .
+cp ~/.Xresources .
+cp ~/.zprofile -
+cp ~/.zprofile .
+rm -
+ls .config
+source /etc/profile
+bash
+mv .zshrc_2023-07-25_1690288237 .zshrc .bac
+vim .zshrc
+vim .zshrc_2023-07-25_1690288237
+mv .zshrc_2023-07-25_1690288237 .zshrc.bac
+mv .zcompdump.artix.2922 .zcompdump.bac
+mv * ~/Dokumente/Code/Git/dotfiles/.config/zsh
+cd ~/Dokumente/Code/Git/dotfiles
+cd .config/zsh
+cd Dokumente/Code
+mkdir Python
+cd Python
+mkdir stableCodeTest
+cd stableCodeTest
+nvim main.py
+pip install transformers
+pacman -Ss transformer
+paru -Ss transformer
+python main.py
+paru -S python-transformers-pytorch
+sudo pacman -R python-grpcio
+sudo pacman -R python-grpcio tensorboard
+sudo pacman -R python-grpcio tensorboard python-keras python-tensorboard_plugin_wit
+sudo pacman -R python-grpcio tensorboard python-keras python-tensorboard_plugin_wit python-tensorflow
+paru -Rsn python-tensorflow
+clear
+paru -Ss python | grep Installiert
+paru -Q python | grep Installiert
+paru -Q
+paru -Q python
+paru -Q | grep python
+sudo pacman -S python-grpcio
+paru -Ss python-grpcio
+paru -Ss extra/python-grpcio
+paru -S extra/python-grpcio
+vim hallo.txt
+cat hallo.txt
+mv hallo.txt hallo.exe
+cat hallo.exe
+wine hallo.exe
+rm hallo.exe
+rm -rf .keras
+pacman -Ss keras
+cd Games/Cemu
+git pull --recurse-submodules
+sudo pacman -S ninja
+cmake -S . -B build -DCMAKE_BUILD_TYPE=release -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -G Ninja
+sudo pacman -S ninja nasm
+cmake -S . -B build -DCMAKE_BUILD_TYPE=release -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -DENABLE_WAYLAND=false -G Ninja
+paru -S atom-ng-bin
+paru -Ss atom-ng-bin
+cd .cache/paru/clone/atom-ng-bin
+vim PKGBUILD
+cd /opt
+cd atom-ng
+./atom-ng
+pacman -Ss openssl
+./bin/cxx-calc
+rm -rf cxx-calc
+git clone https://github.com/TyroneWatermelon420/cxx-calc.git
+cd cxx-calc
+vim README.md
+cd cxx-crypt
+vim .gitignore
+git add *
+cd ../..
+cd cxx-crypt/src
+sudo pacman -Syu
+sudo pacman -Sy
+sudo -E nvim /etc/pacman.conf
+yy
+pacman -Ss util-linux
+paru -Rsn brave
+paru -Rsn brave-bin
+MO2SSE
+ll -aR
+cd Downloads
+atom
+atom-ng
+rm -rf .atom
+paru -Ss atom
+paru -Ss atom-bin
+paru -Ss atom-ng
+paru -Rsn atom-ng-bin
+ls /opt
+ls /opt/intel
+ls /opt/intel/oneapi
+ls /opt/intel/oneapi/compiler
+ls /opt/intel/oneapi/compiler/2023.1.0
+ls /opt/intel/oneapi/compiler/2023.1.0/linux
+ls /opt/intel/oneapi/compiler/2023.1.0/linux/lib
+paru -Ss yuzu
+paru -S yuzu-early-access-appimage
+yuzu
+ls Downloads
+rm Downloads/trl-rinkuru_v08_rico_s_arm_.zip
+vim .zprofile
+vim prime.hpp
+lls
+rm -rf prime.hpp
+cd Dokumente/Code/C++/cxx-crypt/src
+touch crypt.cpp
+touch encrypt.hpp
+touch decrypt.hpp
+mkdir crypt
+mv crypt.cpp crypt
+mv encrypt.hpp crypt
+mv decrypt.hpp crypt
+ls lib
+rm -rf lib
+cd ,,
+./bin/cxx-crypt
+rm -rf text.txt cxx-test
+ls crypt
+vim crypt/crypt.cpp
+vim crypt/decrypt.hpp
+cd crypt
+vim decrypt.hpp
+vim encrypt.hpp
+cd .local/state/nvim/swap
+rm %home%erik%Drives%HDD%Stuff%bac%Dokumente%Code%C++%cxx-crypt%src%main.cpp.swp
+ping eu-mirror.artixlinux.org
+git clone https://github.com/pop-os/cosmic-epoch.git
+git clone --recursive https://github.com/pop-os/cosmic-epoch.git
+cd cosmic-epoch
+just
+sudo pacman -S just libwayland
+sudo pacman -S just wayland
+just sysext
+rm -rf cosmic-epoch
+sudo pacman -Rsn just wayland
+sudo pacman -Rsn just
+cd Dokumente/Code/C++/cxx-calc
+cd ../cxx-crypt
+nvim
+vim CMakeLists.txt
+rm -rf build
+vim src/main.cpp
+vim src/crypt/crypt.cpp
+vim src/crypt/encrypt.hpp
+vim src/crypt/decrypt.hpp
+cd ../bin
+./cxx-crypt
+vim decrypt.txt
+rm decrypt.txt encrypt.txt text
+vim text
+cd ../src
+vim main.cpp
+cmake --build build
+cd Dokumente/Code/C++/cxx-crypt
+cd src/crypt
+vim crypt.cpp
+ls -R
+killall Discord
+neofetch
+git clone https://git.suckless.org/st
+git clone https://git.suckless.org/dmenu\
+
+cd s
+cd suckless/st
+git clone https://github.com/torrinfail/dwmblocks
+cd ../dwmblocks
+free -h
+cd Apps/suckless_new/dwmblocks
+vim ~/.xinitrc
+rm blocks.def.h
+mkdir patches
+patch -p1 < patches/dwm-status2d-6.3.diff
+cd dwmblocks
+vim blocks.h
+cd Apps/suckless_new/st
+xsetroot
+sudo pacman -S xsetroot
+sudo pacman -Ss xsetroot
+rm -rf dwmblocks
+git clone https://github.com/TyroneWatermelon420/dwmstatus
+cd dwmstatus
+dwmblocks
+./dwmstatus
+cd src
+vim dwmstatus.c
+sudo make install
+ls /usr/local/bin
+killall dwmstatus
+killall dwmblocks
+cd Apps/suckless_new/dwmstatus
+vim makefile
+sudo rm /usr/local/bin/dwmblocks
+sudo rm /usr/local/bin/dwmstatus
+rm -rf dwmstatus
+cd ../st
+source ${ZDOTDIR:-$HOME}/.zshrc
+vim
+patch -p1 < dwm-statuscolors-20220322-bece862.diff
+cd ../suckless_new
+cd patches
+wget https://dwm.suckless.org/patches/statuscolors/dwm-statuscolors-20220322-bece862.diff
+patch -p1 < patches/dwm-statuscolors-20220322-bece862.diff
+vim patches/dwm-statuscolors-20220322-bece862.diff
+echo -e "normal \x01 selected \x03 warning/urgent \x04 error \x01 back to normal text" | dw
+echo -e "normal \x01 selected \x03 warning/urgent \x04 error \x01 back to normal text" | dwm
+git clone https://github.com/chadcat7/dwm
+vim compiledwm
+cd .git
+vim description
+git checkout
+git --help
+git pull
+git status
+git clone git clone https://github.com/dark-Jedi2108/bedwm
+git clone https://github.com/dark-Jedi2108/bedwm
+echo joe
+cd .local/
+mkdir bin
+cd bin
+touch hellpo
+hello
+chmod +x hellpo
+vim hellpo
+hellpo
+cd .local/bin
+mkdir statusbar
+cd statusbar
+touch calendar
+touch power sound mindash mincalendar notifications
+vim dwm.1
+wget https://dwm.suckless.org/patches/statuscmd/dwm-statuscmd-status2d-20210405-60bb3df.diff
+patch -p1 < dwm-statuscmd-status2d-20210405-60bb3df.diff
+rm dwm-statuscmd-status2d-20210405-60bb3df.diff
+rm config.h.orig
+cd .local/bin/statusbar
+rm*
+rm Ãƒ¼
+rm *
+touch cpu sound memory calendar
+sudo pacman -S xorg-xsetroot
+xsetroot -name "^r0,7,2,4^^r2,4,22,10^^c#000000^^r3,5,20,8^^c#ffffff^^r10,5,13,8^^d^^f24^"
+touch clock
+chmod +x *
+vim clock
+rm calendar
+./clock
+sensors
+vim cpu
+./cpu
+vim memory
+./memory
+git clone https://github.com/TyroneWatermelon420/dwm/tree/39dda582cf4ee64b899b6cebdfc4e46095963eb5
+git clone https://github.com/TyroneWatermelon420/dwm/commit/39dda582cf4ee64b899b6cebdfc4e46095963eb5
+git clone https://github.com/TyroneWatermelon420/dwm/
+git pull --help
+git checkout 39dda582cf4ee64b899b6cebdfc4e46095963eb5
+rm -rf bedwm dwm
+rm Baldur\'s\ Gate\ -\ Enhanced\ Edition.desktop Baldur\'s\ Gate\ II\ -\ Enhanced\ Edition.desktop
+wget https://dwm.suckless.org/patches/statusbutton/dwm-statusbutton-20180524-c8e9479.diff
+vim dwm-statusbutton-20180524-c8e9479.diff
+patch -p1 < dwm-statusbutton-20180524-c8e9479.diff
+rm dwm-statusbutton-20180524-c8e9479.diff
+git push -h
+git push origin HEAD:main
+git pull -h
+git fetch
+git push origin HEAD:origin/main
+git push origin HEAD:new-statusbutton-implementation
+git push origin HEAD:origin/new-statusbutton-implementation
+mv dwm dwm_new
+git clone -h
+git clone --single-branch https://github.com/TyroneWatermelon420/dwm/
+ls .git
+vim .git/config
+cd dwm_new
+git commit _A
+Ã¶s
+rm -rf dwm_new
+make clea
+cd dw
+sudo -E nvim /etc/fstab
+killall qbittorrent
+sudo fdisk /dev/sda
+lsblk
+sudo mkfs.ext4 -L SataSSD /dev/sda1
+sudo blkid
+ll Drives
+cd Drives
+sudo chown erik:erik SataSSD
+rm dwm-restartsig-20180523-6.2.diff
+cd Dokumente/Code/C++/Wrapper/MO2
+vim MO2SSE.cpp
+./build.sh
+cd ../nxm
+vim nxmsse
+cd Dokumente/Code/C++
+dmenu_run
+git clone https://dwm.suckless.org/patches/notitle/dwm-notitle-20210715-138b405.diff
+unrar
+unrar x game-baldurs.gate.iii-\(66847\).rar
+unrar l game-baldurs.gate.iii-\(66847\).rar -h
+unrar l game-baldurs.gate.iii-\(66847\).rar -Ã¶
+unrar t *
+unrar t *.rar
+unrar l game-baldurs.gate.iii-\(66847\).rar -l
+vim .config/zsh/.zshrc
+vim slstatus.c
+wget https://dwm.suckless.org/patches/systray/dwm-systray-6.4.diff
+patch -p1 < dwm-systray-6.4.diff
+pacman -Ss networkmanager
+pacman -Ss networkmanager tray
+pacman -Ss nm tray
+pacman -Ss nm-tray
+paru -S nm-tray-git
+killall nm-tray
+nm-tray &
+nm-tray
+pacman -Ss 7 zip
+pacman -Ss macpar
+paru -Ss macpar
+ls -l
+unrar h
+unrar l game-baldurs.gate.iii-\(66847\).rar
+ping 213.135.202.205
+./Dokumente/Scripts/USB-1.sh
+wget https://dwm.suckless.org/patches/status2d/dwm-status2d-systray-6.4.diff
+patch -p1 < dwm-status2d-systray-6.4.diff
+mak
+rm dwm
+ll -a
+rm Divinity\ -\ Original\ Sin\ 2\ -\ Definitive\ Edition.desktop
+rm Divinity\ -\ Original\ Sin\ 2.desktop
+winecfg
+pacman -Ss gnutls
+slstatus &
+kill 8495
+git clone https://github.com/instantOS/instantSTATUS.git
+cd instantSTATUS
+cargo build --release
+cd target/release
+./instantSTATUS
+RUST_BACKTRACE=1 ./instantSTATUS
+vim ~/.config/instantstatus/config.toml
+vim ~/.config/instantstatus/applets
+rm -rf instantSTATUS
+rm -rf .config/instantstatus
+cd Drives/HDD/Repacks
+rm setup_baldurs_gate_*
+rm GOG-Games.to\ -\ Free\ GOG\ PC\ Games.url
+ll /R
+setxkbmap -layout de
+ll -R
+htop
+git clone https://github.com/tuffgniuz/slstatus.git
+cd ~/Apps
+mkdir suckless_new
+cd suckless_new
+git clone https://git.suckless.org/dwm
+wget https://dwm.suckless.org/patches/status2d/dwm-status2d-6.3.diff
+patch -p1 < dwm-status2d-6.3.diff
+vim config.def.h
+wget https://dwm.suckless.org/patches/bar_height/dwm-bar-height-spacing-6.3.diff
+wget https://dwm.suckless.org/patches/restartsig/dwm-restartsig-20180523-6.2.diff
+patch -p1 < dwm-bar-height-spacing-6.3.diff
+patch -p1 < dwm-restartsig-20180523-6.2.diff
+cd ../../suckless_new/dwm
+vim config.h.rej
+vim dwm.c.rej
+rm -rf dwm
+git clone https://github.com/TyroneWatermelon420/dwm
+cd Apps/suckless_new/dwm
+rm dwm-*
+wget https://dwm.suckless.org/patches/vanitygaps/dwm-vanitygaps-20200610-f09418b.diff
+patch -p1 < dwm-vanitygaps-20200610-f09418b.diff
+rm dwm-vanitygaps-20200610-f09418b.diff
+wget https://dwm.suckless.org/patches/statusallmons/dwm-statusallmons-6.2.diff
+patch -p1 < dwm-statusallmons-6.2.diff
+vim dwm.c
+rm dwm-statusallmons-6.2.diff
+cd ../dwm
+git add README
+mv slstatus Apps/suckless_new
+cd Apps/suckless_new
+rm -rf suckless_new
+Apps/suckless/slstatus
+killall slstatus
+pacman -Ss nix
+./slstatus
+qtile
+startxd
+whereis qtile
+vim /usr/bin/qtile
+ls .local/share/qtile
+vim .local/share/qtile/qtile.log
+paru -Rsn qtile rtkit
+sudo -E nvim /etc/mkinitcpio.conf
+sudo mkinitcpio -P
+sudo pacman -S qtile
+pacman -Ss pipewire
+sudo pacman -S pipewire-alsa pipewire-jack
+pacman -Ss rtkit
+sudo pacman -S rtkit
+sudo reboot
+qtile -v
+sudo pacman -U https://archive.archlinux.org/packages/qtile/qtile-0.17.0-1-x86_64.pkg.tar.zst
+paru -Ss qtile
+qtile -h
+paru -S qtile-git
+paru -Ss cairocffi
+paru -Rsn qtile
+paru -Rsn $(paru -Qdtq)
+vim .cache/zsh/history
+export XDG_SESSION_TYPE=wayland
+qtile start
+cd Apps/suckless/slstatus
+slstatus
+sudo poweroff
+git clone https://github.com/djpohly/dwl.git
+cd dwl
+rm config.def.h
+ks
+pacman -Ss xdg shell
+pacman -Ss xdg
+sudo pacman -S wlroots
+cd Apps/suckless/dwm
+wget https://dwm.suckless.org/patches/notitle/dwm-notitle-20210715-138b405.diff
+patch -p1 < dwm-notitle-20210715-138b405.diff
+sudo make install clean
+rm dwm-notitle-20210715-138b405.diff
+rm config.h.*
+rm dwm.c.*
+git commit -a
+git push
+cd ../slstatus
+pacman -Ss wayland
+sudo pacman -S wayland-protocols
+paru
+nvidia-settings
+ls /usr/share/icons
+ls .local/share
+ls .local/share/icons
+ls .local/share/icons/hicolor
+xwayland
+pacman -Ss xwayland
+whereis Xwayland
+whereis xwayland
+whereis XWayland
+sudo pacman -Sc
+ls /var/cache/pacman/pkg
+tar -l
+tar --help
+tar -tvf /var/cache/pacman/pkg/xorg-xwayland-23.2.0-1-x86_64.pkg.tar.zst
+vim config.mk
+make clean
+pacman -Ss libxcb
+st
+Xwayland
+Xwayland st
+Xwayland -v
+Xwayland --version
+Xwayland version
+Xwayland v
+librewolf
+vim .xinitrc
+cd Apps
+cd suckless
+cd dmenu
+cd dwm
+cd st
+cd Apps/suckless/dwm/themes
+vim nord.h
+ll
+cd slstatus
+cd Apps/suckless/dwl
+sudo pacman -S xwayland
+sudo pacman -S xorg-xwayland
+sudo pacman -S foot
+vim config.h
+dwl
+rm -rf dwl
+paru -Rsn wlroots wayland-protocols
+pacman -Ss xcb
+pacman -Ss xcb | grep Installiert
+cd
+ls -a
+startx
+pacman -Ss glib
+sudo pacman -S glib2
+locate
+sudo find / -iname "*glib.h*"
+pkg-config --cflags --libs glib-2.0
+vim Makefile
+git clone https://git.suckless.org/surf
+cd surf
+./surf-open.sh
+pacman -Ss webkit2gtk
+sudo pacman -S webkit2gtk
+sudo pacman -S gcr-3
+sudo pacman -S gcr
+sudo make clean install
+./surf https://paulgo.io
+./surf https://youtube.de
+pacman -Ss gstreamer
+pacman -Ss gstreamer | grep plugin
+pacman -Ss gstreamer | grep Plugin
+./surf https://github.com/termux
+sudo pacman -S mandb
+sudo pacman -S man-db
+man surf
+paru -Rsn grc webkit2gtk
+paru -Rsn gcr webkit2gtk
+cd ..
+rm -rf surf
+pacman -Ss surf
+paru -Ss surf
+cd Apps/suckless
+git clone https://git.suckless.org/dmenu dmenu_new
+cd dmenu_new
+make
+ls
+./dmenu_run
+./dmenu
+dmenu
+cd Apps/suckless/dmenu_new
+./dmenu
+mkdir patches
+cd patches
+wget https://tools.suckless.org/dmenu/patches/fuzzymatch/dmenu-fuzzymatch-4.9.diff
+wget https://tools.suckless.org/dmenu/patches/mouse-support/dmenu-mousesupport-5.2.diff
+wget https://tools.suckless.org/dmenu/patches/center/dmenu-center-5.2.diff
+wget https://tools.suckless.org/dmenu/patches/case-insensitive/dmenu-caseinsensitive-5.0.diff
+wget https://tools.suckless.org/dmenu/patches/bar_height/dmenu-bar-height-5.2.diff
+ll
+cd ..
+vim Makefile
+rm config.def.h
+make clean
+Ã¶s
+patch -p1 < patches/dmenu-center-5.2.diff
+patch -p1 < patches/dmenu-fuzzymatch-4.9.diff
+vim config.h n
+patch -p1 < patches/dmenu-caseinsensitive-5.0.diff
+patch -p1 < patches/dmenu-bar-height-5.2.diff
+patch -p1 < patches/dmenu-mousesupport-5.2.diff
+vim dmenu.c
+./dmenu_run
+rm config.mk.orig
+ls
+vim config.h
+make
+sudo make clean install
+dmenu -c
+./dmenu_run -c
+cd Apps/suckless/dmenu_new
+vim config.h.rej
+vim dmenu.c.rej
+make clean
+rm dmenu.1.*
+rm dmenu.c.*
+rm config.h.*
+cd ..
+cd dmenu
+ls
+vim config.h
+pacman -Ss wayland | grep Installiert
+paru -Rsn xorg-xwayland
+paru -Rsn lib32-wayland
+cd Apps/suckless/dwm
+vim dwm.c
+make
+sudo make clean install
+vim config.h
+cdls
+make clean
+ls -a
+rm -rf .git
+cp -r dmenu/.git dmenu_new
+cd dmenu_new
+git add *
+git commit -a
+git push
+cd ..
+rm -rf dmenu
+mv dmenu_new dmenu
+cd st
+cd --
+cd Apps/suckless
+cd slstatus
+cd
+cd Apps
+ls
+ll
+ll -a
+ping gnu.org
+cd Drives/NVMe/Games/MO2SSE/downloads
+l
+rm -rf *
+cd
+ls
+sudo pacman -Rsn ${pacman -Qdtq}
+sudo pacman -Rsn $(pacman -Qdtq)
+paru -Rsn $(paru -Qdtq)
+ls
+paru -Ss | grep Installiert
+paru -Ss
+paru -Ss *
+paru -Ss y
+paru -Ss yuzu
+paru -S yuzu-early-access-appimage
+sudo poweroff
+paru
+paru -Rsn $(paru -Qdtq)
+cd Apps/suckless/dwm
+ls
+vim config.h.rej
+vim dwm.c.rej
+cd Apps/suckless/dwm
+wget https://dwm.suckless.org/patches/systray/dwm-systray-6.4.diff
+ls
+patch -p1 < dwm-systray-6.4.diff
+vim config.h
+vim dwm.c
+make
+sudo make clean instal
+sudo make clean install
+cd Apps/suckless/dwm
+vim config.h
+make
+sudo make clean install
+cd Apps/suckless/dwm
+make clean
+ls
+vim config.h
+make
+sudo make clean install
+cd Apps/suckless/dwm
+vim config.h
+make
+sudo make clean install
+cd Apps/suckless/dwm
+vim config.h
+sudo make clean install
+cd Apps/suckless/dwm
+cd ..
+rm -rf dwm
+git clone https://github.com/TyroneWatermelon420/dwm
+cd dwm
+sudo make clean install
+ls
+make clean
+git clone https://github.com/jdhao/nvim-config.git
+rm -rf .local/share/nvim/site/pack/packer
+rm -rf .local/share/nvim/mason
+rm -rf .local/share/nvim/nvchad
+ls .local/share/nvim
+ls .local/share/nvim/site
+ls .local/share/nvim/site/pack
+rm -rf .local/share/nvim/site
+mv init.vim bac.init.vim
+nvim init.lua
+cd ~/.local
+cd share
+cd state
+rm -rf nvim
+nvim
+git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
+ls :LOCALAPPDATA\\nvim-data\\site\\pack\\packer\\start\\packer.nvim
+rm -rf :LOCALAPPDATA\\nvim-data\\site\\pack\\packer\\start\\packer.nvim
+paru -S nvim-packer-git
+l
+pacman -Ss statusline
+ls plugin
+rm -rf plugin
+rm -rf init.lua lua
+git clone https://github.com/NvChad/NvChad.git
+mv NvChad/* .
+rm -rf NvChad
+rm -rf .git .github .gitignore
+nvim +PackerSync
+rm init.lua lazy-lock.json LICENSE lua
+rm -rf lua
+cp bac.init.vim ~/Dokumente/Code/Git/dotfiles/.config/nvim/init.vim
+rm bac.init.vim
+cd ~/Dokumente/Code/Git/dotfiles
+cd .config/nvim
+rm -rf *
+touch init.lua
+mkdir lua
+touch lua/plugins.lua
+pip install pynvim
+pacman -Ss python nvim
+npm i -g neovim
+sudo npm i -g neovim
+paru -Ss packer
+paru -Ss packer | grep Installiert
+paru -Rsn nvim-packer-git
+ls ~/.local/share
+ls ~/.local/state
+ls ~/.local/state/nvim
+cat lua/plugins.lua
+cat init.lua
+vim lua/colors.lua
+ks
+clear
+touch lua/keymaps.lua
+ls lua
+vim lazy-lock.json
+rm lazy-lock.json
+ls -a
+rm -rf ~/.local/state/nvim
+rm -rf ~/.local/share/nvim
+vim
+vim init.lua
+vim lua/plugins.lua
+vim lua/options.lua
+vim lua/keymaps.lua
+cd ~/.local/state/nvim
+cd swap
+rm %home%erik%.config%nvim%lua%keymaps.lua.swp
+cd
+cd nvim-config
+sl
+cd ..
+ls
+rm -rf nvim-config
+cd Apps/suckless/dwm/themes
+rm decayce.h
+vim default.h
+touch catppuccin.h dracula.h gruvchad.h onedark.h tokyonight.h
+ls
+vim nord.h
+cd Dokumente/Code/C++/cxx-calc/src
+vim CMakeLists.txt
+d ..
+cd ..
+cd Riu
+cd Rust
+cd test
+cargo build --release
+vim src/main.rs
+cd ../../C++/cxx-crypt/src
+ls
+vim main.cpp
+sudo -E nvidia-settings
+sudo reboot
+paru
+nvim
+vim .zprofile
+sudo poweroff
+paru
+icon
+vim .config/zsh/.zshrc
+icon
+wrestool
+sudo pacman -S icoutils
+paru -Rsn foot
+ls .config
+rm -rf .config/BraveSoftware
+cd Drives/NVMe/Games/Baldurs\ Gate\ 3/
+cd bin
+icon bg3.exe
+mv bg3.exe_14_101.ico bg3.ico
+mv bg3.ico bg3.png
+cd ..
+cd
+cd Drives/HDD/Games/Baldur\'s\ Gate\ -\ Enhanced\ Edition
+cd ../Baldur\'s\ Gate\ II\ -\ Enhanced\ Edition
+icon Baldur.exe
+mv Baldur.exe_14_107.ico Baldur.png
+rm gog*
+ls
+sudo pacman -S feh
+cd Downloads/bg3
+cd Desktop
+ls
+feh 01_BG_wallpaper_1920x1080px.jpg
+feh *
+paru
+paru -Rsn $(paru -Qdtq)
+cd .local/share/applications
+vim Proton\ Experimental.desktop
+steam steam://rungameid/1493710
+cd /usr/share/applications
+vim net.davidotek.pupgui2.desktop
+net.davidotek.pupgui2
+nm-tray
+whereis nm-tray
+nvim /usr/bin/nm-tray
+whereis discord
+vim /usr/bin/discord
+cd /opt
+ls
+ls intel
+ls intel/oneapi
+ls intel/oneapi/compiler
+ls intel/oneapi/compiler/2023.1.0
+ls intel/oneapi/compiler/2023.1.0/linux
+ls intel/oneapi/compiler/2023.1.0/linux/lib
+sudo pacman -Syu
+echo -e '\ue0b6\ue0b4'
+zinit
+cd .config/zsh
+ls
+ls -a
+zap list
+zap --help
+zap update
+vim .zshrc
+ls
+clear
+vim .zprofile
+vim .zprofile
+ls
+ls roundy
+cd Apps/suckless
+ls
+git clone https://git.suckless.org/st st_new
+cd st_new
+ls
+sudo make clean install
+vim config.
+ls
+vim Makefile
+ls
+rm config.def.h
+ls
+vim config.h
+ls
+sudo make clean install
+vim config.n
+vim config.h
+make
+sudo make clean install
+vim config.
+vim config.h
+cd ..
+ls
+rm -rf st_new
+wget https://github.com/nullxception/roundy/blob/main/roundy.zsh
+ls
+vim roundy.zsh
+rm roundy.zsh
+git clone https://github.com/nullxception/roundy
+vim .config/zsh/.zshrc
+pacman -Ss uap
+pacman -Ss zap
+paru -Ss zap | grep Installiert
+zap
+paru -Rsn starship
+vim spacezsh.zsh
+vim .config/zsh/.zshrc
+vim .config/zsh/.zshrc
+vim .config/zsh/.zshrc
+ls
+rm spacezsh.zsh
+ls
+paru
+cd Apps/suckless/st
+ls
+vim config.h
+ls
+killall picom
+ls
+sudo make clean install
+picom
+cd .config/zsh
+cd
+ls
+vim .config/zsh/.zshrc
+ls
+rm -rf roundy
+ls
+paru
+paru
+whereis protonup-qt
+whereis net.davidotk.pupgui2
+whereis net.davidotek.pupgui2
+vim /usr/bin/net.davidotek.pupgui2
+vim /usr/bin/protonup-qt
+ll
+cd Dokumente/Code/C++/Wrapper/MO2
+ll
+vim MO2FO4.cpp
+./build.sh
+cd ../nxm
+ls
+vim nxmfo4
+git clone https://github.com/HansKristian-Work/vkd3d-proton.git
+ls
+git clone --recursive https://github.com/HansKristian-Work/vkd3d-proton
+ls
+cd vkd3d-proton
+glslang
+meson
+pacman -Ss meson
+mingw-w64
+sudo pacman -Ss meson mingw-w64
+sudo pacman -S meson mingw-w64
+ls
+vim package-release.sh
+ls
+mkdir out
+./package-release.sh master out --no-package
+ls
+cd out
+ls
+cd vkd3d-proton-master/x64
+ls
+cp * /home/erik/.steam/root/compatibilitytools.d/GE-Proton8-13/files/lib64/wine/vkd3d-proton
+ll /home/erik/.steam/root/compatibilitytools.d/GE-Proton8-13/files/lib64/wine/vkd3d-proton
+cp -f * /home/erik/.steam/root/compatibilitytools.d/GE-Proton8-13/files/lib64/wine/vkd3d-proton
+cd ../x86
+cp -f */home/erik/.steam/root/compatibilitytools.d/GE-Proton8-13/files/lib/wine/vkd3d-proton
+MO2FO4
+cd Dokumente/Code/C++/Wrapper/MO2
+ls
+vim MO2FO4.cpp
+ls
+vim
+vim .xinitrc
+cd .config/nvim/
+ls
+cd lua
+ls
+cd ..
+ls
+vim lua/plugins.lua
+vim lua/plugins.lua
+vim lua/plugins.lua
+vim lua/plugins.lua
+vim lua/plugins.lua
+vim lua/plugins.lua
+vim lua/plugins.lua
+vim lua/plugins.lua
+vim lua/plugins.lua
+vim lua/plugins.lua
+vim lua/plugins.lua
+vim lua/plugins.lua
+vim lua/plugins.lua
+vim lua/plugins.lua
+vim lua/plugins.lua
+vim lua/plugins.lua
+ls
+pacman -Ss lua-language
+sudo pacman -S lua-language-server
+cd Dokumente/Code/C++/Wrapper/MO2
+ls
+vim MO2FO4.cpp
+cd Dokumente/Code/Git/dotfiles
+ls
+git add .config/nvim/*
+ls
+git commit -a
+git push
+git clone https://github.com/stevenwenxu/sexy-zsh-prompt.git
+ls
+mv sexy-zsh-prompt/.zsh_prompt .
+ls
+rm sexy-zsh-prompt
+rm -rf sexy-zsh-prompt
+vim .config/zsh/.zshrc
+ks
+ls
+sudo pacman -Syu
+vim .config/zsh/.zshrc
+vim .config/zsh/.zshrc
+ls
+ls -a
+rm .zsh_prompt
+ls
+ls
+cd Dokumente
+ls
+vim .config/zsh/.zshrc
+ls
+cp .config/zsh/.zshrc Dokumente/Code/Git/dotfiles/.config/zsh
+cd Dokumente/Code/Git/dotfiles
+git commit -a
+git push
+vim .config/zsh/.zshrc
+cd Drives/NVMe/Games
+ls
+mkdir MO2FO4
+ls
+ls
+cd
+ls
+ls
+ls Desktop
+ls
+vim Desktop/Baldur\'s\ Gate\ -\ Enhanced\ Edition.desktop
+steam steam://rungameid/14044694623054462976
+cd Drives/HDD/Games/Baldur\'s\ Gate\ -\ Enhanced\ Edition
+ls
+wine Baldur.
+wine Baldur.exe
+cd Drives/HDD/Games/Baldur\'s\ Gate\ -\ Enhanced\ Edition
+ls
+cd
+l
+ls
+ls Baldur\'s\ Gate\ -\ Enhanced\ Edition
+ls
+rm -rf Baldur\'s\ Gate\ -\ Enhanced\ Edition Desktop
+ls
+steam
+clear
+ping gnu.org
+ls
+ls
+ls
+sls
+sl
+sls
+ls
+sls
+ls
+sl
+sl
+sl
+ls
+ls
+ls
+ll -a
+vim .npmrc
+surfd
+surf
+paru -Ss surf | grep Installiert
+whereis surf
+pacman -Ss surf
+pacman -Ss surf | grep Installiert
+ls
+whereis surf
+ls /usr/local/bin
+dwl
+sudo rm /usr/local/bin/dwl /usr/local/bin/surf
+ll -a
+rm -rf .surf
+ls
+paru -Rsn $(paru -Qdtq)
+neofetch
+sudo poweroff
+paru
+paru
+sudo pacman -S bashls
+nxmvim
+vim
+vim
+nxmvim
+python
+time dmenu_run
+./Dokumente/Scripts/USB-1.sh
+nxmvim
+ll
+ls Downloads
+paru
+ll
+ll -a
+vim dot.sh
+chmod +x dot.sh
+ls
+./dot.sh
+ll -a
+cat .python_history
+rm .python_history
+ll
+ll -a
+ls .trash
+ls -a .trash
+ranger
+lf
+whereis lf
+paru -Rsn lf
+ll -a
+nnn
+ranger
+ls -con
+ls .config
+cd .config
+ls
+rm -rf Atom-ng coc inkscape qtile 
+vim QtProject
+vim QtProject.conf
+ls nvim
+vim nvim/init.lua
+vim nvim/init.lua
+vim nvim/lua/plugins.lua
+ls
+vim nvim/lua/colors.lua
+nxmvim
+ls
+cd Apps/suckless/dwm
+vim themes/tokyonight.h
+ls
+cd themes
+ls
+cat *
+ls
+cat catppuccin.h
+cat default.h
+cat dracula.h
+cat gruvchad.h
+cat onedark.h
+cat tokyonight.h
+vim tokyonight.h
+ls
+vim tokyonight.h
+cd ..
+vim config.h
+cd .config/nvim
+ls
+vim lua/plugins.lua
+vim
+vim
+vim
+vim
+vim lua/plugins.lua
+vim lua/plugins.lua
+vim lua/plugins.lua
+vim lua/plugins.lua
+vim
+vim
+vim
+ls
+vim
+rm test1
+vim
+vim lua/plugins.lua
+vim lua/plugins.lua
+vim lua/plugins.lua
+vim lua/plugins.lua
+ll
+cat dot.sh
+cd Apps/suckless/dwm
+ls
+vim config.
+vim config.h
+ll
+vim dwm.c
+ll
+ls themes
+vim config.h
+make
+make
+vim config.h
+vim config.h
+make
+sudo make clean install
+sudo dmesg
+sudo dmesg
+sudo pacman -S cuda-memcheck
+sudo pacman -Ss cuda-memcheck
+compute-sanitizer
+sudo pacman -S compute-sanitizer
+nxmvim
+cd .config/nvim
+ls
+ll lua
+vim lua/colors.lua
+paru
+nvidia-smi
+sudo pacman -Syu
+paru
+paru -Ss nvidia | grep Installiert
+startx
+dwl
+pacman -Ss hyprland
+sudo pacman -S hyprland
+Hyprland
+sudo reboot
+Hyprland
+sudo Hyprland
+export XDG_RUNTIME_DIR=/home/erik
+sudo Hyprland
+sudo XDG_TUNTIM_DIR=/home/erik Hyprland
+sudo XDG_TUNTIM_DIR=/home/erik Hyprland
+startx
+Hyprland
+Hyprland -h
+pacman -Ss seatd
+seatd
+sudo seatd
+startx
+paru -Sc
+cd /var/cache/pacman/pkg
+ls
+ll
+time ll
+sudo pacman -U nvidia-dkms-535.98-1-x86_64.pkg.tar.zst
+sudo pacman -U nvidia-dkms-535.98-1-x86_64.pkg.tar.zst nvidia-utils-535.98-1-x86_64.pkg.tar.zst
+sudo pacman -U nvidia-dkms-535.98-1-x86_64.pkg.tar.zst nvidia-utils-535.98-1-x86_64.pkg.tar.zst lib32-nvidia-utils-535.98-1-x86_64.pkg.tar.zst
+pacman -Ss nvidia | grep Installiert
+sudo pacman -U nvidia-dkms-535.98-1-x86_64.pkg.tar.zst nvidia-utils-535.98-1-x86_64.pkg.tar.zst lib32-nvidia-utils-535.98-1-x86_64.pkg.tar.zst nvidia-settings-535.98-1-x86_64.pkg.tar.zst
+sudo pacman -U nvidia-dkms-535.98-1-x86_64.pkg.tar.zst nvidia-utils-535.98-1-x86_64.pkg.tar.zst lib32-nvidia-utils-535.98-1-x86_64.pkg.tar.zst nvidia-settings-535.98-1-x86_64.pkg.tar.zst libxnvctrl-535.98-1-x86_64.pkg.tar.zst
+startx
+paru
+sudo poweroff
+paru
+paru -Syu bluez bluez-libds
+paru -Syu bluez bluez-libs
+paru -Sy bluez bluez-libs
+paru -Rsn $(paru -Qdtq)
+ping gnu.org
+ls Downloads
+cd Downloads
+ls
+7z x flawlesswidescreen_x64.zip
+rm MiscHairstyle1.6\ by\ Atherisz.7z
+ls
+wine FlawlessWidescreen.exe
+cd Apps/suckless/dwm
+ls
+git commit -a
+git add themes/*
+make clean
+ls
+git commit -a
+git push
+vim config.
+vim config.h
+vim dwm.1
+vim dwm.c
+make
+sudo make clean install
+make clean
+ls
+ls extract
+ls
+ls finisched
+rm -rf *
+mkdir archives
+mkdir Override
+paru
+paru -Sy openexr
+paru
+paru -Rsn $(paru -Qdtq)
+vim ink
+vim
+paru
+paru
+cd .config/nvim
+ls
+vim lua/plugins.lua
+paru
+paru -Sy rust-analyzer
+sudo pacman -Syu
+sudo pacman -Sy
+ll
+vim dot.sh
+ll -R
+ll
+vim Dokumente/Code/C++/cxx-crypt
+cd Dokumente/Code/C++/cxx-crypt
+ls
+ls
+ls -a
+cd
+ls -a
+./dot.sh
+ls
+ls -a
+ls .trash
+ls -a .trash
+rm -rf .trash
+./dot.sh
+ls -a
+ls -a .trash
+cd Apps/suckless/dwm
+ll
+vim README
+paru
+sudo pacman -Sy android-file-tansfer svt-av1
+sudo pacman -Sy android-file-transfer svt-av1
+cd Apps/suckless/dwm
+vim config.h
+ls
+ll
+cd Apps/suckless/dwm
+ls
+cd themes
+ll
+cat
+cat *
+nxmvim
+paru
+paru
+paru -Sy
+paru -Syu
+ll -a
+ll
+ll /
+paru
+paru -Sy lib32-sqlite libreoffice-fresh libva mangohud openrazer-daemon openrazer-driver-dkms python-openrazer spdlog sqlite uchardet
+sudo reboot
+paru
+paru -Rsn $(paru -Qdtq)
+sudo poweroff
+paru
+paru
+paru -Ss shiboken6
+paru -S shiboken6
+paru -S extra/shiboken6
+paru -S extra/shiboken6 clang
+pacman -Ss qtcreator
+paru -S extra/shiboken6 clang world/qtcreator
+paru
+pacman -Ss clangd
+sudo pacman -Sy artix-mirrorlist clazy compiler-rt db5.3 lib32-llvm-libs lib32-mesa llvm llvm-libs protobuf python-protobuf qt5-tools qt6-tools
+paru
+paru
+sudo reboot
+startx
+vim
+vim
+startx
+vim .local/share/xorg/Xorg.0.log
+sudo dmesg
+sudo pacman -S nvidia-dkms
+dkms --help
+dkms status
+sudo reboot
+startx
+sudo dmesg
+sudo dmesg | less
+paru -Sc
+cd /var/cache/pacman/pkg
+ls
+sudo pacman -U nvidia-dkms-535.98-1-x86_64.pkg.tar.zst nvidia-utils-535.98-1-x86_64.pkg.tar.zst lib32-nvidia-utils-535.98-1-x86_64.pkg.tar.zst nvidia-settings-535.98-1-x86_64.pkg.tar.zst libxnvctrl-535.98-1-x86_64.pkg.tar.zst
+sudo reboot
+paru
+sudo poweroff
+paru
+paru -Sy gd libavif qbittorrent qt5-declarative
+paru
+pacman -Ss linux-zen
+cd Dokumente/Code/C++/
+lks
+ls
+mkdir cxx-login
+cp -r cxx-calc/* cxx-login
+ls
+cd cxx-login
+ls
+ls -a
+rm -rf .git
+ls -a
+vim CMakeLists.txt
+Ã¶s
+ls
+rm -rf build
+ls
+./build.sh
+cmake --build build
+paru
+paru -Sy discord highway libwacom perl-uri pyside6 python
+paru
+paru -Rsn $(paru -Qdtq)
+setxkbmap -layout de
+neofetch
+paru
+paru
+sudo mkinitcpio -P
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo mkinitcpio -P
+sudo reboot
+pacman -Ss passmenu
+cd Downloads
+ls
+mpv Bro,\ StepSisterâ€ƒ¹s\ pussy\ takes\ no\ prisoners\ SHE\ CRAZY\ \[www.saveporn.net\].mp4
+ls
+chmod +x balenaEtcher-1.18.11-x64.AppImage
+./balenaEtcher-1.18.11-x64.AppImage
+pacman -Ss gksu
+pacman -Ss lxsession
+paru -S polkit-dumb-agent
+paru -Ss polkit-dumb-agent
+paru -S polkit-efl-git
+paru -S ts-polkitagent
+paru -S ts-polkitagent
+htop
+cd Downloads
+./balenaEtcher-1.18.11-x64.AppImage
+paru -Ss ts-polkit
+ts-polkitagent
+/usr/lib/ts-polkitagent
+vim .xi
+cd
+vim .xinitrc
+cd Downloads
+./balenaEtcher-1.18.11-x64.AppImage
+lsblk
+pacman -Ss gnome
+pacman -Ss gnome wayland#
+pacman -Ss gnome wayland
+pacman -Ss gnome wayland
+ping gnu.org
+ping gnu.org
+sudo poweroff
+paru
+paru
+paru
+paru
+sudo pacman -S meson mingw-w64 glslang
+sudo pacman -S mingw-w64 glslang
+cp vkd3d-proton/out/vkd3d-proton-master/x86/* .steam/root/compatibilitytools.d/GE-Proton8-13/files/lib/wine/vkd3d-proton/
+cp -f vkd3d-proton/out/vkd3d-proton-master/x86/* .steam/root/compatibilitytools.d/GE-Proton8-13/files/lib/wine/vkd3d-proton/
+cp -f vkd3d-proton/out/vkd3d-proton-master/x64/* .steam/root/compatibilitytools.d/GE-Proton8-13/files/lib64/wine/vkd3d-proton/
+st -v
+ls
+rm Assassin\'s\ Creed\ -\ Unity.desktop
+ls
+git clone https://github.com/HansKristian-Work/vkd3d-proton.git
+rm -rf vkd3d-proton
+git clone --recursive https://github.com/HansKristian-Work/vkd3d-proton
+cd vkd3d-proton
+mkdir out
+./package-release.sh master out --no-package
+ls
+ls
+ls
+sl
+ls
+sudo pacman -S gnome
+setxkbmap -layout de
+sudo find / -iname "*.desktop"
+cd
+cd .local/share/applications
+vim st.desktop
+nautilus
+gnome-session
+vim .xinitrc
+vim .xinitrc
+ls
+cd .local/share/applications
+ls
+touch st.desktop
+ls
+vim /usr/share/applications
+paru
+neofetch
+nvidia-settings
+sudo nvidia-settings
+sudo -E nvidia-settings
+flatpak list
+sudo pacman -Rsn flatpak
+sudo pacman -Rsn flatpak malcontent
+sudo pacman -Rsn flatpak malcontent gnome-software
+pacman -Ss gnome | grep Installiert
+paru -Rsn epiphany gnome-calendar gnome-music gnome-calculator gnome-calendar gnome-clocks  gnome-user-docs gnome-user-share gnome-weather gnome-maps gnome-console gnome-connections gdm
+neofetch
+paru -Rsn $(paru -Qdtq)
+pacman -Ss gnome | grep Installiert
+baobab
+orca
+paru -Rsn gnome-contacts
+paru -Rsn gnome-contacts gnome-photos gnome-remote-desktop gnome-text-editor gnome-video-effects 
+paru -Rsn gnome-contacts gnome-photos gnome-remote-desktop gnome-text-editor gnome-video-effects cheese
+neofetch
+paru -Rsn gnome-contacts gnome-photos gnome-remote-desktop gnome-text-editor gnome-video-effects cheese gnome-disk-utility gnome-font-viewer gnome-color-manager gnome-characters baobab orca
+paru -Rsn gnome-contacts gnome-photos gnome-remote-desktop gnome-text-editor gnome-video-effects cheese gnome-disk-utility gnome-font-viewer gnome-characters baobab orca
+pacman -Ss orca
+killall orca
+htop
+pacman -Ss gnome | grep Installiert
+vim .xinitrc
+paru -Rsn gnome
+neofetch
+paru
+pacman -Ss gnome | grep Installiert
+ls
+killall Discord
+paru -Rsn $(paru -Qdtq)
+paru
+paru
+paru
+paru -Rsn $(paru -Qdtq)
+setxkbmap -layout de
+neofetch
+cd Dokumente/Code/C++/Wrapper/MO2
+ls
+vim MO2FO4.cpp
+vim MO2SSE.cpp
+./build.sh
+cd ../nxm
+ls
+vim nxmsse
+vim nxmfo4
+paru -Ss legendar
+paru -Ss legendary
+vim
+vcpkg
+cd Apps/suckless/dwm
+git commit -a
+git push
+ls
+make
+sudo make clean install
+make clean
+git commit -a
+exit
+cd Downloads
+ls
+chmod +x NexusMods.App.x86_64.AppImage
+./NexusMods.App.x86_64.AppImage
+rm NexusMods.App.x86_64.AppImage
+cd Games
+ls
+cd Cemu
+ls
+vim BUILD.md
+git pull --recurse-submodules
+git pull --recurse-submodules --force
+git pull --recurse-submodules --override
+ls
+ls bin
+mv bin ..
+ls
+cd ..
+ls
+rm -rf Cemu
+git clone --recursive https://github.com/cemu-project/Cemu
+cd Cemu
+cmake -S . -B build -DCMAKE_BUILD_TYPE=release -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -G Ninja
+sudo pacman -S ninja nasm
+vim CMakeLists.txt
+sudo pacman -S ninja nasm
+cmake -S . -B build -DCMAKE_BUILD_TYPE=release -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -G Ninja
+vim CMakeLists.txt
+pacman -Ss vcpkg
+paru -Ss vcpkg
+paru -S vcpkg
+cmake -S . -B build -DCMAKE_BUILD_TYPE=release -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -G Ninja
+vim src/Common/CMakeLists.txt
+vim src/input/CMakeLists.txt
+cmake -S . -B build -DCMAKE_BUILD_TYPE=release -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -G Ninja
+cmake --build build
+paru -Ss codium
+ls
+ls
+ls ..
+ls ../bin
+cd ..
+ls
+ls bin
+ls Cemu/bin
+ls Cemu/bin
+ls
+cd
+ls
+rm DLCCoast\ -\ Textures-65720-1-0-1667445243.zip
+rm -rf vkd3d-proton Vorlagen Ãƒ¶ffentlich Videos Schreibtisch 
+ls
+ls Bilder
+rmdir Bilder
+l
+ls
+ls -a
+ls .trash
+rmdir .trash
+rm -rf .hyprland
+pacman -Ss hyprland
+paru -Rsn hyprland
+neofetch
+ls -a
+cd .config
+ls
+rm -rf balena-etcher configstore evolution gnome-session hypr inkscape nautilus 
+ls
+cd Dokumente/Code/C++/Wrapper/MO2
+ls
+mkdir src bin
+ls
+touch CMakeLists.txt
+ls
+mv *.cpp src
+ls
+ls
+vim build.sh
+vim CMakeLists.txt
+ls
+ls
+./build.sh
+vim CMakeLists.txt
+dmenu -c
+dmenu_run -c
+sudoedit
+sudoedit -h
+sudoedit -A
+ls
+ls
+ls
+ls -a
+vim .gitconfig
+vim .git-credentials
+cd Dokumente/Code/C++/cxx-calc
+ls
+cp build.sh ../Wrapper/MO2
+cp CMakeLists.txt ../Wrapper/MO2
+ls
+ll
+ll -R
+paru
+dwm -v
+git clone https://aur.archlinux.org/dwm.git
+ls
+cd dwm
+ls
+paru -Ss dwm
+paru -h
+paru -p dwm
+paru -p aur/dwm
+paru -p dwm
+paru -P dwm
+wget
+wget https://github.com/TyroneWatermelon420/dwm/blob/main/dwm.desktop
+vim dwm.desktop
+cd Apps/suckless/dwm
+ls
+touch dwm.desktop
+vim dwm.desktop
+git add dwm.desktop
+git commit -a
+git push
+git pull
+git pull
+mv dwm.desktop ..
+cd ..
+rm -rf dwm
+git clone https://github.com/TyroneWatermelon420/dwm
+mv dwm.desktop dwm
+cd dwm
+ls
+git add dwm.desktop
+git commit -a
+git push
+make
+cd Dokumente/Code/C++/Wrapper/MO2
+ls
+vim CMakeLists.txt
+cd
+cd .cache/paru/clone
+ls
+cd atom-ng-bin
+ls
+vim PKGBUILD
+cd ..
+ls
+cd dwm
+ls
+cd ..
+cd dwmn
+cd dwm
+vim dwm.desktop
+cd Apps/suckless/dwm
+ls
+git commit -a
+wget https://raw.githubusercontent.com/TyroneWatermelon420/dwm/dwm.desktop
+ls
+vim dwm.desktop
+rm dwm.desktop
+rm -rf dwm
+wget https://raw.github.com/TyroneWatermelon420/dwm/dwm.desktop
+vim dwm.desktop
+ls
+cd Apps/suckless/dwm
+git describe --long --tags | sed -E 's/([^-]*-g)/r\1/;s/-/./g'
+cd ..
+rm -rf dwm
+git clone https://github.com/TyroneWatermelon420/dwm/tree/main
+git clone https://github.com/TyroneWatermelon420/dwm
+cd dwm
+git describe --long --tags | sed -E 's/([^-]*-g)/r\1/;s/-/./g'
+make
+sudo make clean install
+make clean
+git describe --long --tags | sed -E 's/([^-]*-g)/r\1/;s/-/./g'
+cd
+cd Dokumente/Code/Git/PKGBUILDs/dwm
+ls
+cat PKGBUILD
+makepkg
+makepkg -si
+makepkg -si
+makepkg -si
+makepkg -si
+makepkg -si
+makepkg -si
+makepkg -si
+makepkg -si
+makepkg -si
+paru -Ss dwm | grep Installiert
+pacman -Q
+pacman -Q | grep dwm
+paru -Rsn dwm-watermelon
+ls
+rm -rf dwm*
+ls
+rm -rf pkg src
+ls
+cd ../st
+ls
+rm -rf st src pkg
+ls
+cd Apps/suckless/dwm
+cd ../st
+vim st.desktop
+git add st.desktop
+killall git
+git add st.desktop
+htop
+rm .git/index.lock
+git add st.desktop
+git commit -a
+git push
+cd
+cd Dokumente/Code/Git/PKGBUILDs/st
+ls
+vim PKGBUILD
+cd ../slstatus
+cd ../dmenu
+vim PKGBUILD
+cd ../st
+vim PKGBUILD
+ls
+cd ..
+ls
+ls dmenu
+ls -R
+touch slstatus/PKGBUILD
+git add *
+ls
+git commit -a
+git push
+cd Drives/NVMe/Games
+ls
+cd Starfield
+ls
+vim Starfield.ini
+vim DefaultGlobalGraphicsSettings.json
+ll
+vim Ultra.ini
+vim Starfield_de.ini
+vim Starfield.rne
+cd
+cd Dokumente/Code/Git/dotfiles
+ls
+git add *
+git commit -a
+git push
+git commit -a
+vim .xinitrc
+git push
+cd ..
+ls
+cd PKGBUILDs
+ls
+ls
+ls
+mkdir dwm dmenu slstatus
+ls
+cd dwm
+touch PKGBUILD
+vim PKGBUILD
+cd Apps/suckless/dwm
+vim dwm.desktop
+cd Apps/suckless/st
+git pull
+git describe --long --tags | sed -E 's/([^-]*-g)/r\1/;s/-/./g'
+cd Apps/suckless/slstatus
+lks
+ls
+git describe --long --tags | sed -E 's/([^-]*-g)/r\1/;s/-/./g'
+ls -a
+git commit -a
+git push
+git describe --long --tags | sed -E 's/([^-]*-g)/r\1/;s/-/./g'
+git describe --long --tags
+git describe --long --tags | sed -E 's/([^-]*-g)/r\1/;s/-/./g'
+git describe --long --tags | sed -E 's/([^-]*-g)/r\1/;s/-/./g'
+vim slstatus.desktop
+git add slstatus.desktop
+git commit -a
+git push
+cd ..
+rm -rf slstatus
+git clone https://github.com/TyroneWatermelon420/slstatus
+cd slstatus
+git describe --long --tags | sed -E 's/([^-]*-g)/r\1/;s/-/./g'
+ls
+cat README
+cat README.md
+rm README
+ls
+git describe --long --tags | sed -E 's/([^-]*-g)/r\1/;s/-/./g'
+cd ../dmenu
+git describe --long --tags | sed -E 's/([^-]*-g)/r\1/;s/-/./g'
+dmenu_run -m 0 -fn Hack Nerd Font Mono:size=11 -nb #2e3440 -nf #bbbbbb -sb #5e81ac -sf #eeeeee
+dmenu_run -m -fn Hack Nerd Font Mono:size=11 -nb #2e3440 -nf #bbbbbb -sb #5e81ac -sf #eeeeee
+dmenu_run -m
+dmenu_run 
+dmenu_run -c -l15
+dmenu_run -c -l 15
+dmenu_run -c -l 15 -fn Hack Nerd Font Mono:size=11
+dmenu_run -c -l 15 -fn "Hack Nerd Font Mono:size=11"
+dmenu -h
+dmenu --help
+man dmenu
+cd Apps/suckless/dwm
+vim config.h
+cd Dokumente/Scripts
+ls
+touch MO2select
+chmod +x MO2select
+ll
+vim MO2select
+vim MO2select
+cd Apps/suckless/dwm/themes
+vim nord.h
+dmenu_run -c -l 15 -fn "Hack Nerd Font Mono:size=11" -nb #2e3440 -nf #bbbbbb -sb #5e81ac -sf #eeeeee
+dmenu_run -c -l 5 -fn "Hack Nerd Font Mono:size=11" -nb #2e3440 -nf #bbbbbb -sb #5e81ac -sf #eeeeee
+cd Dokumente/Scripts
+ls
+touch kill
+vim kill
+chmod +x kill
+./kill
+vim kill
+paru
+paru
+paru -Rsn $(paru -Qdtq)
+cd Drives/NVMe
+ls
+ls Games
+ls
+ls lost+found
+ls -a lost+found
+cd ..
+ls
+ls HDD/lost+found
+sudo ls HDD/lost+found
+sudo ls HDD/lost+found
+ls SataSSD/lost+found
+sudo ls SataSSD/lost+found
+cd
+ll
+ls
+cd DOk
+cd Dokumente
+ls
+cd Schule
+ls
+cd Praktikum
+ls
+mkdir CT-Datentechnik
+ls
+mv Anschreiben_CT-Datentechnik.pdf CT-Datentechnik
+ls
+mv Lebenslauf_2023.pdf CT-Datentechnik
+mv Erik\ Rosebrock_Zeugnis.pdf CT-Datentechnik
+ls
+mkdir Golschmiede\ Krempel
+ls
+cd Golschmiede\ Krempel
+ls
+vim mail
+ping nexusmods.com
+dmenu -p
+dmenu -p "via"
+dmenu -p "via" -i -l 5
+dmenu -p -i -l 5
+dmenu -p "dmenu_run" -i -l 5
+dmenu -p "dmenu_run" -i -l 5
+dmenu -p "dmenu_run" -l 5
+ls
+cat dot.sh | dmenu
+cd ..
+cat erik/dot.sh | dmenu
+cd
+Ã¶s
+ls
+nxmvim
+ping gnu.org
+ping gnu.org
+paru
+dmenu_run -c -l 5 -fn "Hack Nerd Font Mono:size=11" -nb #2e3440 -nf #bbbbbb -sb #5e81ac -sf #eeeeee
+cd Dokumente/Scripts
+ls
+vim MO2select
+./MO2select
+./MO2select
+MO2Select
+vim MO2select
+./MO2select
+vim MO2select
+./MO2select
+vim MO2select
+./MO2select
+vim MO2select
+vim MO2select
+./MO2select
+vim MO2select
+./MO2select
+vim MO2select
+./MO2select
+vim MO2select
+ls
+cat MO2select | dmenu
+vim sls.sh
+chmod +x sls.sh
+./sls.sh
+vim sls.sh
+./sls.sh
+vim sls.sh
+echo -e "No\nYes"
+echo -e "No\nYes" | dmenu
+echo -e "No\nYes" | dmenu -i -p "Select the MO2 Instance you want to run"
+echo -e "No\nYes" | dmenu -p "Select the MO2 Instance you want to run"
+echo -e "MO2SSE\nMO2FNV\nMO2FO3\nMO2FO4\nMO2OBV" | dmenu -p "Select the MO2 Instance you want to run"
+echo -e "MO2SSE\nMO2FNV\nMO2FO3\nMO2FO4\nMO2OBV" | dmenu -c -l 5 -p "Select the MO2 Instance you want to run"
+vim MO2select
+vim MO2select
+./MO2select
+vim sls.sh
+./sls.sh
+./sls.sh
+./sls.sh
+rm sls.sh
+ls
+vim kill
+./kill
+ls
+vim MO2select
+ls
+./MO2select
+vim MO2select
+./MO2select
+./MO2select
+vim MO2select
+./MO2select
+./MO2select
+ls
+dmenu_run -c -l 5 -fn "Hack Nerd Font Mono:size=11" -nb #2e3440 -nf #bbbbbb -sb #5e81ac -sf #eeeeee
+vim MO2select
+./MO2select
+vim MO2select
+./MO2select
+vim MO2select
+./MO2select
+vim MO2select
+./MO2select
+git add MO2select
+ls
+vim MO2select
+./MO2select
+git commit -a
+git push
+exit
+htop
+nxmvim
+nxmvim
+ls
+ls Dokumente
+ls Dokumente/Scripts
+MO2select
+cp Dokumente/Scripts/MO2select .local/share/bin
+cd .local/share
+ls
+mv bin ../bin/MO2select
+cd ../bin
+ls
+./hellpo
+vim hellpo
+r, hellpo
+rm hellpo
+ls statusbar
+ls
+rm -rf statusbar
+ls
+MO2select
+paru -Rsn $(paru -Qdtq)
+cd Dokumente/Scripts
+vim kill
+ls
+cd
+cd Apps/suckless/dwm
+ls
+vim config.h
+make
+vim config.h
+make
+sudo make clean install
+/home/erik/Dokumente/Scripts/MO2select
+MO2select
+dmenu_run -c -l 5 -fn "Hack Nerd Font Mono:size=11" -nb #2e3440 -nf #bbbbbb -sb #5e81ac -sf #eeeeee
+cd Dokumente/Scripts
+./MO2select
+./MO2select
+./MO2select
+./MO2select
+./MO2select
+cd Apps/suckless/dwm
+ls
+vim config.h
+make
+sudo make clean install
+vim config.h
+make
+sudo make clean install
+vim config.h
+make
+sudo make clean install
+cd
+cd Dokumente/Scripts
+ls
+vim MO2select
+./MO2select
+vim MO2select
+paru
+ls
+./dot.sh
+ls -a .trash
+exit
+nxmvim
+paru
+paru -Rsn $(paru -Qdtq)
+eww daemon
+cd .config
+ls
+mkdir eww
+ls
+cd eww
+eww daemon
+touch eww.yuck eww.css
+ls
+eww daemon
+killall eww
+eww daemon
+eww open example
+eww open monitor
+eww open monitor
+cd Apps/suckless/dwm
+vim config.h
+vim .xinitrc
+cd .config/eww
+ls
+mv eww.css eww.scss
+ls
+vim eww.yuck
+eww open monitor
+eww open monitor
+htop
+ll -R
+htop
+paru
+cd Drives/SataSSD
+ls
+ls Games
+ls
+cd
+sudo -E nvim /etc/fstab
+lsblk
+ll -R
+cd Apps/suckless/dwm
+git commit -a
+ls
+make clean
+ls
+htop
+ll -R
+ll -R
+ll -R
+paru
+par
+paru
+sudo reboot
+ping
+ping gnu.org
+2ru
+paru
+paru -Rsn $(paru -Qdtq)
+paru -Rsn $(paru -Qdtq)
+ping gnu.org
+nvim
+nvim
+nvim .xinitrc
+exit
+pacman -Ss nvidia 525
+paru -Ss nvidia 525
+ping gnu.org
+lsblk
+sudo mount /dev/sda2 /mnt
+cp -r /mnt/Games/Starfield Drives/NVMe/Games
+sudo poweroff
+loginctl poweroff
+paru
+paru
+paru
+sudo pacman -Syu
+htop
+paru -Ss nvidia 525
+paru -S nvidia-525xx-dkms nvidia-525xx-utils lib32-nvidia-525xx-utils nvidia-525xx-settings libxnvctrl-525xx
+paru -Rsn lib32-nvidia-utils
+paru -S lib32-intel-vulkan
+paru -Ss lib32-intel-vulkan
+paru -Ss lib32 intel vulkan
+paru -S lib32-vulkan-intel
+paru -Rsn lib32-nvidia-utils
+paru -S nvidia-525xx-dkms nvidia-525xx-utils lib32-nvidia-525xx-utils nvidia-525xx-settings libxnvctrl-525xx
+modprobe --help
+setxkbmap -layout de
+modprobe -r nvidia
+lsblk
+sudo mount /dev/sda2 /mnt
+cp -r /mnt/Users/Erik/Documents/My\ Games/Starfield/ .
+ls
+ll
+mv Starfield .steam/root/steamapps/compatdata/3113147552/pfx/drive_c/users/steamuser/Documents/My\ Games
+mv -f Starfield .steam/root/steamapps/compatdata/3113147552/pfx/drive_c/users/steamuser/Documents/My\ Games
+rm -rf .steam/root/steamapps/compatdata/3113147552/pfx/drive_c/users/steamuser/Documents/My Games/Starfield
+mv -f Starfield .steam/root/steamapps/compatdata/3113147552/pfx/drive_c/users/steamuser/Documents/My\ Games
+rm -rf .steam/root/steamapps/compatdata/3113147552/pfx/drive_c/users/steamuser/Documents/My\ Games/Starfield
+mv -f Starfield .steam/root/steamapps/compatdata/3113147552/pfx/drive_c/users/steamuser/Documents/My\ Games
+paru
+paru
+paru -Rsn lib32-vulkan-intel
+paru -Rsn $(paru -Qdtq)
+setxkbmap -layout de
+lsblk
+neofetch
+neofetch
+neofetch
+neofetch
+neofetch
+sudo dmidecode --type 17
+sudo lshw -short -C memory
+wget https://master.dl.sourceforge.net/project/memconf/v3.16/memconf.v3.16.pl.gz
+ls
+sudo pacman -S cpu-x
+paru -S cpu-x
+cpu-x
+paru -Rsn cpu-x
+sudo pacman -S dmidecode
+sudo dmidecode --type 17
+cd .config/neofetch
+vim config.bac.1
+paru
+ls
+sudo rm -rf /boot/*
+sudo pacman -S linux-zen linux-zen-headers
+sudo grub-install --target=x86_64-efi --bootloader-id=Artix --efi-directory=/boot
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+nvim .config/neofetch/config.
+nvim .config/neofetch/config.conf
+cd .config/neofetch
+ls
+mv config.conf config.bac.1
+mv config.bac config.conf
+vim config.conf
+paru -Rsn dmidecode
+neofetch
+ls
+rm config.conf
+neofetch
+rm config.conf
+ls
+mv config.bac.1 config.conf
+neofetch
+cd
+clear
+ls
+./dot.sh
+rm -rf .trash
+./dot.sh
+cd Dokumente
+ls
+mkdir  Stuff
+cd Stuff
+ls
+vim Aura
+./Dokumente/Scripts/USB-1.sh
+lsblk
+sudo umount /dev/sdc1
+sudo poweroff
+lsblk
+ls /mnt
+ls
+sudo mount /dev/sda3 /mnt
+sudo mount --mkdir /dev/sda1 /mnt/boot
+lsblk
+cd /mnt/bi
+cd /mnt/
+ls
+ls boot
+ls dev
+ls etc
+ll
+cd home
+ll
+cd erik
+ll
+ll -a
+cd .steam
+cd .steam
+ll
+cd .steam/root
+sudo su
+lsblk
+sudo fdisk /dev/sda
+sudo fdisk /dev/sda
+lsblk
+sudo su
+vim LINK
+nvim
+nvim
+nvim
+lslbk
+lsblk
+ls .local/share
+ls .local/share/Trash
+ls .trash
+ls -a .trash
+cd Downloads
+ls
+ls
+chmod +x balenaEtcher-1.18.11-x64.AppImage
+ls
+./balenaEtcher-1.18.11-x64.AppImage
+sudo reboot
+paru
+paru -Rsn $(paru -Qdtq)
+lsblk
+paru
+rsync
+paru -Rsn $(paru -Qdtq)
+ping kuchen.tv
+pacman -Ss lib nvidia
+setxkbmap -layout de
+pacman -Ss nvidia-utils
+sudo pacman -S lib32-vulkan-intel
+sudo pacman -S nvidia-dkms nvidia-utils nvidia-settings lib32-nvidia-settings libxnvctrl
+sudo pacman -S nvidia-dkms nvidia-utils nvidia-settings lib32-nvidia-utils libxnvctrl
+modinfo -F depends nvidia
+sudo modinfo -F depends nvidia
+sudo rmmod nvidia
+sudo rmmod nvidia nvidia_uvm nvidia_modeset
+sudo rmmod nvidia nvidia_uvm nvidia_modeset nvidia_drm
+sudo rmmod -f nvidia nvidia_uvm nvidia_modeset nvidia_drm
+sudo mkinitcpio -P
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo reboot
+paru
+sudo powerof
+sudo poweroff
+paru
+sudo winetricks --self-update
+pacman -Ss nvidia
+setxkbmap -layout de
+paru -Ss nvidia beta
+paru
+lsblk
+sudo poweroff
+paru
+cpu-x
+sudo pacman -S cpu-x
+sudo pacman -Ss cpu-x
+paru -S cpu-x
+cpu-x
+sudo dmidecode --type 17
+sudo pacman -S dmidecode
+sudo dmidecode --type 17
+sudo pacman -Rsn dmidecode cpu-x
+paru
+paru -Rsn $(paru -Qdtq)
+cd Downloads
+ks
+ls
+cp -f dxvk-2.3/x64/* ~/.steam/root/compatibilitytools.d/GE-Proton8-14/files/lib64/wine/dxvk
+cp -f dxvk-2.3/x64/* ~/.steam/root/compatibilitytools.d/GE-Proton8-14/files/lib/wine/dxvk
+cp -f dxvk-2.3/x32/* ~/.steam/root/compatibilitytools.d/GE-Proton8-14/files/lib/wine/dxvk
+ll -R
+git clone --recursive https://github.com/HansKristian-Work/vkd3d-proton
+cd vkd3d-proton
+./package-release.sh master out --no-package
+cd .local/share/Trash
+ls -a .tr
+c
+cd
+ rm -rf .trash
+paru
+cd .local/share/Trash
+ls
+cd files
+s
+ls
+rm -rf *
+ls
+cd ..
+ls
+cd info
+ls
+rm -rf *
+ls
+cd 
+yes
+no
+not
+cd vkd3d-proton/out
+ls
+cd vkd3d-proton-master
+ls
+cp -f x86 ~/.steam/root/compatibilitytools.d/GE-Proton8-14/files/lib/wine/vkd3d-proton
+cp -f x86/* ~/.steam/root/compatibilitytools.d/GE-Proton8-14/files/lib/wine/vkd3d-proton
+cp -f x64/* ~/.steam/root/compatibilitytools.d/GE-Proton8-14/files/lib/wine/vkd3d-proton
+cd
+ls
+ls Schreibtisch
+rm -rf vkd3d-proton Schreibtisch
+ls
+rm LINK
+ls
+ll
+./dot.sh
+vim dot.sh
+./dot.sh
+ls .local/share/Trash
+ls .local/share/Trash/files
+ls .local/share/Trash/info
+vim dot.sh
+clear
+Trash
+ll
+./dot.sh
+whereis not
+vim /usr/bin/not
+yuzu -v
+yuzu --version
+ll -R
+ls
+vim steam-14044694623054462976.log
+rm steam-14044694623054462976.log
+paru
+paru -Ss protontricks
+paru -S yuzu-early-access-appimage
+paru -Ss yuzu-early-access-appimage
+paru -S yuzu-early-access-appimage
+ls
+unrar l Baldurs.Gate.3.Update.v4.1.1.3696083
+unrar -h
+unrar --help
+unrar h
+unrar p Baldurs.Gate.3.Update.v4.1.1.3696083
+unrar lr Baldurs.Gate.3.Update.v4.1.1.3696083
+unrar lar Baldurs.Gate.3.Update.v4.1.1.3696083
+unrar l[a]r Baldurs.Gate.3.Update.v4.1.1.3696083
+unrar l[a] Baldurs.Gate.3.Update.v4.1.1.3696083
+unrar l[t] Baldurs.Gate.3.Update.v4.1.1.3696083
+unrar lt Baldurs.Gate.3.Update.v4.1.1.3696083
+st
+st
+st
+st
+st
+st
+st
+git clone https://github.com/sandsmark/polkit-dumb-agent.git
+cd polkit-dumb-agent
+ls
+cmake -S . -B build
+pacman -Ss kf6su
+pacman -Ss kf5su
+pacman -Ss kf5
+sudo pacman -S extra-cmake-modules
+cmake -S . -B build
+sudo pacman -Rsn extra-cmake-modules
+sudo pacman -S kf5
+sudo pacman -S extra-cmake-modules
+cmake -S . -B build
+sudo pacman -Rsn extra-cmake-modules
+sudo pacman -S kinit
+sudo pacman -S kinit
+cmake -S . -B build
+sudo pacman -Rsn kinit
+paru -Rsn $(paru -Qdtq)
+setxkbmap -layout de
+ls
+vim CMakeLists.txt
+cmake -S . -B build
+vim CMakeLists.txt
+cmake -S . -B build
+cmake --build build
+vim agent.h
+cmake --build build
+cd ..
+rm -rf polkit-dumb-agent
+git clone https://github.com/sandsmark/polkit-dumb-agent.git
+cd polkit-dumb-agent
+sudo pacman -S kf5
+cmake --build build
+cmake --build
+cmake -S . -B build
+vim CMakeLists.txt
+setxkbmap -layout de
+cmake -S . -B build
+vim CMakeLists.txt
+cmake -S . -B build
+rm -rf build
+cmake -S . -B build
+vim CMakeLists.txt
+cmake -S . -B build
+cmake --build build
+vim sendreply.c
+cmake --build build
+cd ..
+rm -rf polkit-dumb-agent
+paru -Ss polkit-dumb-agent
+paru
+paru -Rsn $(paru -Qdtq)
+ls
+st
+vim .xinitrc
+ls
+ll
+ll -a
+cd .config
+ll
+goa
+paru -Rsn kf5
+paru -Rsn kf5 nm-tray-git
+neofetch
+setxkbmap -layout de
+sudo mkinitcpio -P
+sudo poweroff
+cd Apps/suckless/dwm
+vim config.h
+make
+sudo make clean install
+paru
+kys
+kys
+cd Dokumente/Scripts
+ls
+touch kys
+./MO2select
+paru
+sudo poweroff
+paur
+paru
+paru -Ss nvidia beta
+pacman -Ss nvidia
+./Dokumente/Scripts/USB-1.sh
+HTOP
+htop
+paru
+cd Downloads
+ls
+vim LmKlHGQ6.rss
+ls
+rm -rf *
+ll -R
+pacman -Q
+pacman -Q > pkgs
+ls
+vim pkgs
+rm pkgs
+paru -Rsn abseil-cpp
+paru -Rsn aom
+paru -Rsn argon2
+paru -Rsn blueman bluez-openrc
+paru -Rsn blueman bluez-openrc bluez-libs
+paru -Rsn blueman bluez-openrc
+neofetch
+paru -Rsn citra-appimage
+paru -Rsn dav1d
+dav1d
+paru -Rsn feh
+paru -Rsn fontconfig
+paru -Rsn gsettings-desktop-schemas
+paru -Rsn gsettings-qt
+gsettings
+paru -Rsn heroic-games-launcher-bin
+paru -Rsn krb5
+paru -Rsn mingw-w64
+paru -Rsn nasm
+paru -Rsn ninja
+paru -Rsn ninja meson
+paru -Rsn ntfs-3g
+paru -Rsn os-prober
+paru -Rsn rust-analyzer
+neofetch
+paru -Rsn $(paru -Qdtq)
+paru
+sudo poweroff
+paru
+paru -Rsn $(paru -Qdtq)
+sudo winetricks --self-update
+winetricks -v
+winetricks -h
+winetricks -V
+ls
+ll
+./dot.sh
+ls .local/share/Trash/files
+ls -a .local/share/Trash/files
+cd Drives/NVMe/Games/MO2SSE/downloads
+ls
+rm -rf *
+nvim
+vim .tmux.conf
+exit
+ll
+paru
+tmux
+ls
+ls .config
+ls -a
+vim .tmux.conf
+tmux
+tmux
+paru
+ll
+ll /usr/bin/eza
+#echo
+echo(joe momma)
+echo("joe momma")
+echo "joe monma"
+paru
+eza
+eza
+ll
+ls
+exa
+whereis exa
+ll /usr/bin/exa
+nvim .config/zsh/.zshrc
+zsh
+pacman -Ss opear
+pacman -Ss opera
+paru -Ss opera
+clear
+cd Drives/HDD/Repacks
+ll
+ls
+ls
+ls
+ll
+ll
+ll
+sudo poweroff
+nvim nvim
+nvim
+nvim
+paru
+cd Drives/NVMe/Games/Baldurs\ Gate\ 3
+ls
+cd Data
+ls
+cd ..
+ls
+cd bin
+ls
+vim steam_emu.ini
+ls db
+vim db/settings.dat
+cd ../Data
+ls
+ls Localization
+cd Localization
+ls
+ls German
+cd German
+ls
+mv German.pak German.pak.bac
+cp ../English.pak German.pak
+ls
+rm German.pak
+ls
+mv German.pak.bac German.pak
+paru
+pacman -Ss ayatana
+printf "\x1b[${bg};2;${red};${green};${blue}m\n"
+printf "\x1b[38;2;255;100;0mTRUECOLOR\x1b[0m\n"
+awk 'BEGIN{\
+    s="/\\/\\/\\/\\/\\"; s=s s s s s s s s;\
+    for (colnum = 0; colnum<77; colnum++) {\
+        r = 255-(colnum*255/76);\
+        g = (colnum*510/76);\
+        b = (colnum*255/76);\
+        if (g>255) g = 510-g;\
+        printf "\033[48;2;%d;%d;%dm", r,g,b;\
+        printf "\033[38;2;%d;%d;%dm", 255-r,255-g,255-b;\
+        printf "%s\033[0m", substr(s,colnum+1,1);\
+    }\
+    printf "\n";\
+}'
+printf "/\\/\\/\\/\\/\\"
+whereis printf
+vim /usr/bin/printf
+vim /usr/bin/echo
+wget https://gist.github.com/lilydjwg/fdeaf79e921c2f413f44b6f613f6ad53
+ls
+vim fdeaf79e921c2f413f44b6f613f6ad53
+rm fdeaf79e921c2f413f44b6f613f6ad53
+wget https://gist.githubusercontent.com/lilydjwg/fdeaf79e921c2f413f44b6f613f6ad53/raw/94d8b2be62657e96488038b0e547e3009ed87d40/colors.py
+python colors.py
+rm colors.py
+ls
+paru
+paru -Rsn $(paru -Qdtq)
+paru -S opera
+sudo pacman -S opera
+pacman -Ss opera
+sudo poweroff
+paru
+paru -Rsn lib32-vulkan-intel
+paru -Rsn $(paru -Qdtq)
+paru
+paru -Rsn $(paru -Qdtq)
+sudo poweroff
+paru
+nxmvim
+vim .xinitrc
+./Dokumente/Scripts/USB-1.sh
+paru
+pacman -Ss nvidia
+paru -Ss nvidia beta
+paru
+sudo reboot
+cd .local/share/xorg
+ll
+vim Xorg.0.log
+sudo pacman -S wlroots wayland-protocols
+sudo usermod -aG seat erik
+cd Apps/suckless/dwm
+vim config.h
+cd Apps/suckless
+git clone https://github.com/djpohly/dwl.git
+cd dwl
+ll
+vim Makefile
+ls
+vim Makefile
+mv config.def.h config.h
+ls
+vim LICENSE.sway
+vim config.h
+vim Mak
+vim Makefile
+vim config.mk
+make
+sudo make clean install
+sudo pacman -S foot bemenu
+sudo pacman -S xwayland
+sudo pacman -S xorg-xwayland
+killall dwl
+cd Apps/suckless/dwm
+bemenu-run
+cd Apps/suckless/dwm
+cd ../dwl
+ls
+make clean
+ls
+vim config.h
+make
+sudo make clean install
+vim .zprofile
+sudo -E nvim /etc/environment
+sudo -E nvim /etc/environment
+MOZ_ENABLE_WAYLAND=1 librewolf
+picom
+exit
+MOZ_ENABLE_WAYLAND=1 librewolf
+st
+clear
+paru
+cd Apps/suckless/dwl
+vim config.h
+make
+vim config.h
+sudo make clean install
+cd Apps/suckless/dwm
+vim config.h
+dwm
+dwl
+erik
+dwl
+source .zprofile
+dwl
+dwl
+sudo reboto
+sudo reboot
+neofetch
+pfetch
+cd Apps/suckless/dwl
+xprop
+xprop --help
+pacman -Ss xprop
+xprop steam
+clear
+clear
+xprop steam
+cd Apps/suckless/dwl
+vim config.h
+make
+sudo make clean install
+vim config.h
+cd 
+cd .config
+mkdir foot
+cd foot
+vim foot.ini
+cd .config
+ls
+./Dokumente/Scripts/USB-1.sh
+dwl
+dwk
+dwl
+sudo poweroff
+cd Apps/suckless/dwl
+ls
+make clean
+ls protocols
+vim protocols/wlr-layer-shell-unstable-v1.xml
+vim dwl.c
+vim config.h
+vim dwl.c
+make
+nvim dwl.c
+make
+sudo make clean install
+cd Apps/suckless/dwl
+vim config.h
+make
+vim config.h
+mak
+make
+sudo make clean install
+cd /usr/local/bin
+ls
+sudo rm dwl
+dwl
+dwl
+paru -Rsn wlroots wayland-protocols foot
+cd Apps/suckless
+ls
+rm -rf dwl
+cd
+paru
+sudo reboot
+paru
+neofetch
+setxkbmap -layout de
+paru
+vim .xinitrc
+xinput --list
+vim .xinitrc
+xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1
+vim .xinitrc
+paru
+./Dokumente/Scripts/USB-1.sh
+nxmvim
+nxmvim
+sudo pacman -S qtile
+sudo pacman -S footr
+sudo pacman -S foot
+nvim /usr/share/xsessions/qtile.desktop
+pacman -Ss qtile
+qtile --help
+pacman -Ss qtile
+qtile start -b wayland\
+
+qtile start -b wayland
+pacman -Ss pywayland
+paru -S python-pywayland
+exit
+ls
+st
+cd .config/qtile
+ls
+vim config.py
+vim config.py
+paru -S python-pywayland python-pywlroots qtile
+paru -Rsn python-pywayland python-pywlroots qtile
+killall qtile
+sudo pacman -S xmonad
+xmonad
+vim .xinitrc
+st
+killall swaz
+killall sway
+killall swally
+kill
+kill
+kill
+kill
+neofetch
+neofetch
+vim .config/hypr/hyprland.conf
+vim .config/hypr/hyprland.conf
+paru
+st
+neofetcjh
+neofetch
+neofetch
+startx
+startx
+startx
+startx
+vim .xinitrc
+vim .xinitrc
+startx
+paru -Rsn xmonad
+vim .xinitrc
+sudo pacman -S hyprland sway
+sway
+sway --unsupported-gpu
+Hyprland
+paru -Rsn foot
+paru -S kitty
+Hyprland
+paru -Rsn kitty sway hyprland
+qtile
+qtile start
+qtile start
+qtile start -b wayland
+pacman -Ss wlroots
+sudo pacman -S python-pywlroots
+qtile start -b wayland
+nxmvim
+gamemoderun mangohud PROTON_ENABLE_NVAPI=1 STEAM_COMPAT_CLIENT_INSTALL_PATH=/usr/bin/steam STEAM_COMPAT_DATA_PATH=/home/erik/Drives/NVMe/SteamLibrary/steamapps/compatdata/377160 /home/erik/.steam/root/compatibilitytools.d/GE-Proton8-14/proton run /home/erik/Drives/NVMe/Games/MO2FO4/ModOrganizer.exe
+gamemoderun mangohud PROTON_ENABLE_NVAPI=1 STEAM_COMPAT_CLIENT_INSTALL_PATH=/usr/bin/steam STEAM_COMPAT_DATA_PATH=/home/erik/Drives/NVMe/SteamLibrary/steamapps/compatdata/377160 /home/erik/.steam/root/compatibilitytools.d/GE-Proton8-14/proton run /home/erik/Drives/NVMe/Games/MO2FO4/ModOrganizer.exe
+STEAM_COMPAT_CLIENT_INSTALL_PATH=/usr/bin/steam STEAM_COMPAT_DATA_PATH=/home/erik/Drives/NVMe/SteamLibrary/steamapps/compatdata/377160 /home/erik/.steam/root/compatibilitytools.d/GE-Proton8-14/proton run /home/erik/Drives/NVMe/Games/MO2FO4/ModOrganizer.exe
+STEAM_COMPAT_CLIENT_INSTALL_PATH=/usr/bin/steam STEAM_COMPAT_DATA_PATH=/home/erik/Drives/NVMe/SteamLibrary/steamapps/compatdata/377160 /home/erik/.steam/root/compatibilitytools.d/GE-Proton8-14/proton run /home/erik/Drives/NVMe/Games/MO2FO4/ModOrganizer.exe
+MO2SSE
+htop
+MO2FO4
+cd Dokumente/Code/C++/Wrapper/MO2
+ls
+vim src/MO2FO4.cpp
+sudo poweroff
+paru
+eza
+ls
+ll
+whereis eza
+vim /bin/eza
+paru -Rsn $(paru -Qdtq)
+paru
+paru -Rsn $(paru -Qdtq)
+sudo poweroff
+paru
+paru
+paru -Ss librewolf
+paru -S librewolf-bin
+paru -Rsn $(paru -Qdtq)
+paru -Rsn pulseaudio
+setxkbmap -layout de
+sudo reboot
+Hyprland
+neofetch
+paru
+./Dokumente/Scripts/USB-1.sh
+ll -R
+ls
+paru
+sudo poweroff
+paru
+paru
+ll -R
+nxmvim
+paru
+paru -Rsn $(paru -Qdtq)
+exit
+paru -Ss nvidia beta
+./Dokumente/Scripts/USB-1.sh
+ll -R
+cd Games
+ls
+cd Cemu
+git pull --recurse-submodules
+cmake -S . -B build -DCMAKE_BUILD_TYPE=release -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -G Ninja
+sudo pacman -S ninja nasm
+cmake -S . -B build -DCMAKE_BUILD_TYPE=release -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -G Ninja
+cmake -S . -B build -DCMAKE_BUILD_TYPE=release -DCMAKE_C_COMPILER=/usr/bin/clang -DENABLE_WAYLAND=OFF -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -G Ninja
+cmake --build build
+./bin/Cemu_release
+ll -R
+ll
+./dot.sh
+ls -a .local/share/Trash/files
+clear
+ll
+ll -a
+paru -Rsn qtcreator
+vim .txt.txt
+ll -a
+ls .designer
+ls .designer/templates
+paru -Rsn gimp
+rm -rf .designer 
+paru -Rsn tmux
+rm -rf .tmux.conf .txt.txt
+cd .config
+ls
+ll
+rm -rf balena-etcher citra-emu foot heroic hypr kitty legendary QtProject 
+ll
+ls clangd
+vim clangd/config.yaml
+rm -rf clangd
+cmus --help
+paru -Rsn cmus
+rm -rf cmus
+ll
+ls Electron
+rmdir Electron
+ls ibus
+ls ibus/bus
+rm -rf ibus
+ls libfm
+vim libfm/libfm.conf
+pacman -Ss libfm
+ll
+ls menus
+ls menus/applications-merged
+rm -rf menus
+ls pulse
+ll
+ll pulse
+cd pulse
+ls
+cd ..
+rm -rf pulse
+ls pupgui
+vim pupgui/config.ini
+rm -rf qtile
+neofetch
+ls totem
+vim totem/state.ini
+pacman -Ss totem
+rm -rf totem
+ls whoozle.github.io
+vim whoozle.github.io/aft-linux-qt.conf
+paru -Ss whoozle
+ll
+ls transmission
+vim transmission/settings.json
+paru -Rsn transmission
+paru -Ss transmission
+rm -rf transmission
+ll
+pacman -Ss dleyna
+rm dleyna-*
+ls
+ll
+vim QtProject.conf
+vim mimeapps.list
+ll
+vim user-dirs.dirs
+cd ..
+ls
+cd .cache
+ls
+ll
+rm -rf BraveSoftware epiphany totem starship qtile menus kitty gnome-* flatpak 
+ll
+latencyflex
+cd .cache/paru/clone/latencyflex-bin
+ls
+vim PKGBUILD
+cd ../latencyflex-proton-ge-custom
+ls
+vim 
+vim PKGBUILD
+makepkg -si
+ll -R
+ll
+pacman -Ss latencyflex
+paru -Ss latencyflex
+paru -S latencyflex-bin
+paru -S latencyflex-proton-ge-custom
+latencyflex#
+latencyflex
+paru -Ss latencyflex
+paru -Rsn latencyflex-bin latencyflex-proton-ge-custom
+paru -Rsn $(paru -Qdtq)
+neofetch
+sudo reboot
+paru
+vim .xinitrc
+xinput --list
+xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1
+setxkbmap -layout de
+paru
+paru -Rsn $(paru -Qdtq)
+sudo reboot
+sudo poweroff
+paru
+ls
+ll
+sudo powerof
+sudo poweroff
+paru
+paru -Ss openrazer
+paru -Rsn openrazer-meta
+paru -S openrazer-meta-git
+paru -Rsn openrazer-meta-git
+ls
+neofetch
+paru
+paru -Ss eww
+paru -S eww-x11
+gpg --recv-keys B558974128820CB473BD9807E321AD71B1D1F27F 94E8F34BCE4F4BA8ED9B29BD50E76B4711E4C3E4 5DE3E0509C47EA3CF04A42D34AEE18F83AFDEB23
+clear
+paru
+paru -Rsn $(paru -Qdtq)
+cat /usr/local/bin/nxmhandler
+nxmvim
+sudo poweroff
+paru
+paru -Rsn $(paru -Qdtq)
+pacman -Ss geekbench
+paru -Ss geekbench
+paru -S geekbench5
+geekbench5
+paru -Ss linux git
+paru -Ss linux git | grep 6.6
+cd Downloads
+ls
+vim kind_macros.h
+htop
+ls /opt
+cd /opt
+paru -Rsn geekbench5
+whereis yuzu
+vim /usr/bin/yuzu
+ls /usr/bin/yuzu
+ls /usr/bin/discord
+ll /usr/bin/yuzu
+ll /usr/bin/discord
+ls yuzu-early-access-appimage
+paru -Ss yuzu-early-access-appimage
+paru -S yuzu-early-access-appimage
+ll yuzu-early-access-appimage
+whereis discord
+vim /usr/bin/discord
+ll
+ll -R
+ls Apps
+ls Apps/suckless
+vim Dokumente/Code/C++/Wrapper/MO2/src/MO2FO4.cpp
+paru
+paru
+paru -Rsn $(paru -Qdtq)
+setxkbmap -layout de
+sudo poweroff
+paru
+ls .librewolf
+ls /usr/lib/librewolf
+ll /usr/bin/librewolf
+vim /usr/bin/librewolf
+ll /usr/bin/libreoffice
+paru -Rsn $(paru -Qdtq)
+ln -sf /usr/lib/wine/x86_64-windows/latencyflex_layer.dll
+ln -sf /usr/lib/wine/x86_64-windows/latencyflex_wine.dll
+ls /usr/share/vulkan/implicit_layer.d
+ls /usr/lib/wine/x86_64-unix
+ls /usr/lib/wine/x86_64-windows
+sudo find / -iname "MangoHud.conf"
+mkdir .config/MangoHud
+vim .config/MangoHud/MangoHud.conf
+ll
+ll -R
+cd Dokumente/Code/C++/Wrapper/MO2
+ls /usr/share/vulkan/implicit_layer.d
+cd
+paru -Ss latencyflex
+paru -S latencyflex-bin
+cd .cache/paru/clone/latencyflex-bin
+ls
+vim PKGBUILD
+nxmvim
+paru
+paru -Rsn $(paru -Qdtq)
+paru
+paru -Rsn $(paru -Qdtq)
+sudo poweroff
+paru
+./Dokumente/Scripts/USB-1.sh
+ll
+cd
+ll
+ll -a
+vim .config/zsh/.zshrc
+dd --help
+man dd
+ll -a
+vim .npm
+vim .npmrc
+rustup default stable
+paru -Rsn rustup
+paru -Rsn rust-analyzer
+rm -rf .rustup
+ll .cache/zsh
+echo -ne '\e[5 q'
+echo -ne '\e[5 q'
+echo -ne '\e[5 q'
+echo '\e[5 q'
+echo -ne '\e[5 q'
+echo -ne '\e[1 q'
+MO2select
+MO2select
+whereis MO2select
+vim .local/bin/MO2select
+vim Apps/suckless/dwm/config.h
+ls Dokumente/Scripts
+vim Dokumente/Scripts/MO2select
+vim Dokumente/Scripts/MO2select
+cd Dokumente/Code/C++/Wrapper/MO2
+ls
+vim build.sh
+cmake --build build
+cmake --build build
+ls
+./build.sh
+cd src
+ls
+vim MO2SSE.cpp
+nxmvim
+nxmvim
+cd Dokumente/Code/C++/Wrapper/nxm
+ls
+vim nxmsse
+ping gnu.org
+paru
+paru -Rsn $(paru -Qdtq)
+sudo poweroff
+paru
+winecfg
+sudo poweroff
+paru
+paru -Rsn $(paru -Qdtq)
+sudo reboot
+pacman -Ss nvidia
+paru -Ss nvidia beta
+paru
+paru
+ls
+ll
+sudo nvim /etc/conf.d/hwclock
+sudo -E nvim /etc/localtime
+ls /etc/conf.d
+sudo -E nvim /etc/conf.d/swclock
+sudo reboot
+paru
+sudo poweroff
+sudo poweroff
+tree-sitter
+paru
+paru
+paru -Rsn $(paru -Qdtq)
+neofetch
+paru -Ss librewolf
+clear
+nvim
+vim .config/nvim/init.lua
+vim .config/nvim/lua/plugins.lua
+vim .config/nvim/lua/plugins.lua
+paru -Ss nvidia beta
+ping gnu.org
+paru
+paru
+paru
+paru
+paru
+ping artix.sakamoto.pl
+sudo -E nvim /etc/pacman.conf
+sudo poweroff
+paru8
+paru
+librewolf
+paru
+paru -Ss nvidia beta
+dmenu_run
+dmenu_run -c -l 5 -fn "Hack Nerd Font Mono:size=11" -nb #2e3440 -nf #bbbbbb -sb #5e81ac -sf #eeeeee
+vim
+vim Apps/suckless/dwm/config.h
+ll -R
+ll
+ll -a
+free .config
+free
+free -h
+free -mb
+free -m -b
+free -b
+free -m
+free -m -b
+free -b -m
+free -bm
+free --mega
+free -m
+./Dokumente/Scripts/USB-1.sh
+paru
+sudo poweroff
+pacman -Ss ffmpeg
+lsblk
+paru -Rsn tensorflow
+paru -Rsn tensorflow python-tensorflow
+neofetch
+paru -Rsn python-etils
+paru -Rsn python-etils python-ml-dtypes
+paru -Rsn python-etils python-ml-dtypes python-orbax-checkpoint
+paru -Rsn python-etils python-ml-dtypes python-orbax-checkpoint python-jax python-jaxlib python-flax
+neofetch
+neofetch
+paru -Ss bcml
+paru
+paru -Rsn $(paru -Qdtq)
+setxkbmap -layout de
+paru -Rsn $(paru -Qdtq)
+paru -Qdtq
+paru -Qdt
+paru -Qd
+paru -Qdparu
+paru
+paru -Rsn $(paru -Qdtq)
+pacman -Ss python | grep Installiert
+paru -Ss nvidia beta
+xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1
+paru -Ss yuzu-early-access-appimage
+paru -S yuzu-early-access-appimage
+git clone https://github.com/HolographicWings/TOTK-Mods-collection/tree/main
+git clone https://github.com/HolographicWings/TOTK-Mods-collection/
+pacman -Ss gnome
+paru -Ss gnome | grep 45
+sudo poweroff
+cd Downloads
+ls
+chmod Ã¼x TOTK.Optimizer.1.3.3.AppImage
+chmod +x TOTK.Optimizer.1.3.3.AppImage
+./TOTK.Optimizer.1.3.3.AppImage
+paru
+paru
+paru
+paru -Rsn $(paru -Qdtq)
+setxkbmap -layout de
+xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1
+sway
+paru
+paru -Ss nvidia beta
+nvidia-settings
+paru -Rsn eww-x11-git
+eww
+eww
+clear
+paru -Rsn $(paru -Qdtq)
+paru
+paru -Rsn python-inputs
+pacman -Qm
+paru -Rsn latencyflex-bin prismlauncher-qt5-bin
+neofetc
+neofetch
+paru -Ss dwarftherapist
+paru
+paru
+paru -Ss paru
+paru -S paru-bin
+paru
+paru -Ss python-inputs
+paru
+cd Dokumente/Code/Rust
+ls
+cd test
+ls
+cargo build --release
+sudo pacman -S rustup
+rustup default stable
+ls
+cargo build --release
+./target/release/rust-test
+paru -Ss codiu,
+paru -Ss codium
+sudo pacman -S vscodium
+mkdir testr
+cd testr
+cargo new hello_world
+ls
+cd hello_world
+ls
+ls src
+vim src/main.rs
+cargo build --release
+ls
+./target/release/hello_world
+sudo pacman -S rust-analyzer
+vim
+vim Dokumente/Code/Rust/test/src/main.rs
+rustc --version
+cd .config/nvim
+cd Drives/NVMe/SteamLibrary/steamapps/compatdata
+ll
+rm -rf 1091500
+pacman -Ss onivim
+paru -Ss onivim
+paru -S onivim2-bin
+Oni2
+cd .cache/paru/clone/onivim2-bin
+ls
+vim PKGBUILD
+paru -Rsn onivim2-bin
+paru -Rsn $(paru -Qdtq)
+cd
+paru -Rsn vscodium
+ls
+ls -a
+ll -a
+ls .keras
+vim .keras/keras.json
+rm -rf .keras
+pacman -Ss keras
+rm -rf .vscode-oss .npm
+rm .npmrc
+ll -a
+pacman -Ss npm
+paru -Rsn npm
+paru -Rsn nodejs
+pacman -Ss npm
+paru -Rsn openpmix
+vim
+vim .bashrc
+ll -a
+ll .nv
+ll .nv/ComputeCache
+cd .config/nvim
+ls
+cd
+cd Dokumente/Code/Git/dotfiles
+git commit -a
+git add .config/neofetch/config.bac
+git commit -a
+git push
+cd
+cd .config/nvim
+rm -rf *
+nvim
+ls
+touch init.lua
+mkdir lua
+ls
+mkdir lua/plugins
+ls -R
+ll -R
+touch lua/plugins/init.lua
+vim init.lua
+vim lua/plugins/init.lua
+vim init.lua
+vim
+ll -R
+vim lua/plugins/init.lua
+vim lua/plugins/init.lua
+vim lua/plugins/init.lua
+vim lua/plugins/init.lua
+vim lua/plugins/init.lua
+mkdir core
+vim core/utils.lua
+vim core/utils.lua
+vim core/init.lua
+vim init.lua
+vim init.lua
+rm -rf core
+ls lua/plugins
+vim lua/plugins
+vim lua/plugins
+vim lua/plugins
+vim lua/plugins/init.lua
+vim lua/plugins/init.lua
+vim lua/plugins/init.lua
+vim lua/plugins/init.lua
+ls
+ll -R
+mkdir lua/core
+vim lua/core/init.lua
+ll -R 
+touch lua/core/util.lua
+clear
+ls
+ls lua
+vim lua/core/init.lua
+rm -rf lua/core
+vim
+vim ~/.zprofile
+ls
+vim lua/plugins/init.lua
+vim lua/plugins/init.lua
+ls
+vim init.lua
+vim init.lua
+vim lua/options.lua
+vim lua/options.lua
+vim lua/options.lua
+vim lua/options.lua
+vim lua/options.lua
+vim lua/plugins
+cd lua
+ls
+rmdir plugins
+vim plugins.lua
+vim plugins.lua
+vim plugins.lua
+vim
+vim plugins.lua
+vim plugins.lua
+vim plugins.lua
+vim plugins.lua
+vim plugins.lua
+vim plugins.lua
+vim plugins.lua
+vim plugins.lua
+vim plugins.lua
+vim
+vim
+vim plugins.lua
+vim plugins.lua
+vim plugins.lua
+vim
+vim plugins.lua
+vim plugins.lua
+vim
+vim
+vim plugins.lua
+vim
+ls
+touch keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim ../init.lua
+vim ../init.lua
+vim ../init.lua
+cd .config/nvim
+lks
+ls
+ls lua
+cd lua
+mv plugins/init.lua plugins.lua
+touch options.lua
+par
+paru
+paru
+paru
+sudo reboot
+paru
+paru -Rsn $(paru -Qdtq)
+cd Downloads
+git clone https://github.com/HolographicWings/TOTK-Mods-collection
+pacman -Ss minecraft
+paru -Ss minecraft
+vim
+cd .config/nvim
+ls
+cd ..
+mv nvim nvim_nac
+vim
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+ls
+vim
+cd
+cd .config
+rm -rf nvim
+cd
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+vim
+rm -rf .config/nvim
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+vim .xinitrc
+cd .config
+rm -rf nvim
+mv nvim_nac nvim
+vim
+cd nvim
+vim lua/plugins.lua
+vim lua/plugins.lua
+vim
+vim lua/plugins.lua
+vim lua/plugins.lua
+vim lua/plugins.lua
+vim
+cd
+clear
+ls
+ll -a
+vim .xinitrc
+vim .zprofile
+vim .config/zsh/.zshrc
+cd Dokumente/Code/Git/dotfiles/.config/nvim
+ls
+vim init.lua
+cd lua
+ls
+vim plugins.lua
+cd
+paru
+paru -Rsn $(paru -Qdtq)
+paru
+paru -Rsn $(paru -Qdtq),
+paru -Rsn $(paru -Qdtq)
+paru -Rsn
+paru -Rsn $(paru -Qdtq)
+paru -Rsn $(paru -Qdtq)
+paru
+paru -Ss nvidia beta
+ls /usr/share/zoneinfo
+ls /usr/share/zoneinfo/Europe/Berlin
+vim /usr/share/zoneinfo/Europe/Berlin
+sudo echo "Europe/Berlin" > /etc/timezone
+sudo su
+hwclock --show
+sudo hwclock --show
+sudo -E nvim /etc/adjtime
+sudo -E nvim /etc/conf.d/swclock
+ls /var/lib/misc/
+adjtimex
+sudo rc-service ntp-client start
+hwclock --show
+sudo !
+sudo hwclock --show
+sudo -E nvim /etc/conf.d/ntpd
+paru -Rsn ntp-openrc
+paru -Rsn ntp
+date 092122492023
+sudo date 092122492023
+sudo date 092122502023
+ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
+sudo su
+ntp
+sudo pacman -S ntp
+ntp
+sudo pacman -S ntp-openrc
+sudo -E nvim /etc/conf.d/ntp-client
+paru
+xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1
+git clone --recursive https://github.com/maximegmd/CyberEngineTweaks.git
+cd CyberEngineTweaks
+ls
+vim BUILD.md
+xmake -y
+sudo pacman -S xmake
+xmake -<
+xmake -y
+paru -Rsn xmake
+cd ..
+rm -rf CyberEngineTweaks
+paru
+paru -Rsn $(paru -Qdtq)
+setxkbmap -layout de
+sudo poweroff
+paru
+paru -Rsn $(paru -Qdtq)
+paru
+sudo poweroff
+vim
+ls
+ll
+ll -a
+paru
+./Dokumente/Scripts/USB-1.sh
+paru
+pacman -Ss librewolf
+pip
+pacman -Qn
+pacman -Qm
+vim .zprofile
+nvim
+vim .config/nvim/lua/plugins.lua
+sudo poweroff
+paru -Ss nvidia beta
+sudo reboot
+paru
+pacman -Ss nvidia-dkms
+paru
+git clone --recursive https://github.com/maximegmd/CyberEngineTweaks.git
+xmake -yv
+sudo pacman -S xmake
+xmake -yv
+cd CyberEngineTweaks
+xmake -y
+xmake -yv
+pacman -Ss xmake
+ll
+vim xmake.lua
+xmake config
+xmake f -p linux
+xmake f -p windows
+xmake f -vp windows
+cd ..
+rm -rf CyberEngineTweaks
+paru -Rsn xmake
+ll
+ll -a
+rm -rf .xmake
+git clone --recursive https://github.com/maximegmd/CyberEngineTweaks.git
+git clone --recursive https://github.com/psiberx/cp2077-archive-xl.git
+git clone --recursive https://github.com/psiberx/cp2077-tweak-xl
+ll
+cd cp2077-
+cd cp2077-archive-xl
+sudo pacman -S xmake
+xmake f -vp windows
+cd ..
+git clone --recursive https://github.com/WopsS/RED4ext.git
+cd RED4ext
+xmake f -vp windows
+ls
+cmake -S . -B build
+cmake --build build
+cmake -S . -B build -DCMAKE_BUILD_TYPE=release -DCMAKE_C_COMPILER=/usr/bin/x86_64-linux-gnu-gcc -DCMAKE_CXX_COMPILER=/usr/bin/x86_64-linux-gnu-gcc++
+cmake -S . -B build -DCMAKE_BUILD_TYPE=release -DCMAKE_C_COMPILER=/usr/bin/x86_64-linux-gnu-gcc -DCMAKE_CXX_COMPILER=/usr/bin/x86_64-linux-gnu-g++
+cmake --build build
+rm -rf build
+cmake -S . -B build -DCMAKE_BUILD_TYPE=release -DCMAKE_C_COMPILER=/usr/bin/x86_64-linux-gnu-gcc -DCMAKE_CXX_COMPILER=/usr/bin/x86_64-linux-gnu-g++
+cmake --build build
+vim CMakeLists.txt
+paru -Rsn xmake mingw-w64
+cd ..
+ll
+rm -rf cp2077-archive-xl cp2077-tweak-xl CyberEngineTweaks RED4ext
+ll
+sudo pacman -S mingw-w64
+sudo find / -iname "*gcc*"
+cd .local/bin/
+ls
+./MO2select
+vim MO2select
+gamemoderun mangohud STEAM_COMPAT_CLIENT_INSTALL_PATH=/usr/bin/steam STEAM_COMPAT_DATA_PATH=/home/erik/Drives/NVMe/SteamLibrary/steamapps/compatdata/489830/ /home/erik/.steam/root/compatibilitytools.d/GE-Proton8-16/proton run /home/erik/Drives/NVMe/Games/MO2SSE/ModOrganizer.exe
+ll -R
+ll /Drives/HDD/Games/Baldur's Gate - Enhanced Edition/lang/pl_PL/override
+ll "/Drives/HDD/Games/Baldur's Gate - Enhanced Edition/lang/pl_PL/override"
+ll "Drives/HDD/Games/Baldur's Gate - Enhanced Edition/lang/pl_PL/override"
+clear
+paru
+pacman -Ss nvidia-dkms
+cd .local/bin
+ls
+vim MO2select
+cd
+cd Drives/NVMe/Games
+ls
+mkdir MO2FNV
+cd Dokumente/Code/C++/Wrapper/MO2
+ls
+vim src/MO2FNV.cpp
+cd ..
+rm -rf MO2
+ls
+cd nxm
+ks
+ls
+vim nxmfnv
+nxmvim
+nxmvim
+paru
+cd .local/bin
+vim MO2select
+ls
+paru
+ll
+ll
+ll
+ll "Drives/HDD/Games/Baldur's Gate - Enhanced Edition/lang/pl_PL/override"
+paru
+paru -Ss nvidia beta
+neofetch
+paru
+ll
+paru
+paru -Rsn $(paru -Qdtq)
+cd Games/Crysis\ 2\ Remastered
+ls
+cd Bin64
+ls
+wine Crysis2Remastered.exe
+winecfg
+wine Crysis2Remastered.exe
+protontricks
+protontricks-launch
+protontricks --gui
+cd
+ls
+vim steam-9925265122933080064.log
+vim steam-9925265122933080064.log
+pacman -Ss nvidia-dkms
+paru -Ss nvidia beta
+sudo pacman -S lib32-vulkan-intel
+paru -S nvidia-settings-beta nvidia-utils-beta lib32-nvidia-utils-beta nvidia-beta-dkms libxnvctrl-beta
+paru -S nvidia-settings-beta nvidia-utils-beta lib32-nvidia-utils-beta nvidia-beta-dkms
+paru -S nvidia-settings-beta nvidia-utils-beta lib32-nvidia-utils-beta nvidia-beta-dkms
+paru -S nvidia-beta-dkms
+paru -Rsn lib32-nvidia-utils
+paru -S nvidia-settings-beta nvidia-utils-beta lib32-nvidia-utils-beta nvidia-beta-dkms
+paru -S nvidia-settings-beta nvidia-utils-beta nvidia-beta-dkms
+paru -Rsn nvidia-dkms nvidia-settings nvidia-utils
+sudo pacman -S vulkan-intel
+paru -S nvidia-settings-beta nvidia-utils-beta nvidia-beta-dkms lib32-nvidia-utils-beta
+paru -Rsn nvidia-dkms nvidia-settings nvidia-utils
+paru -Rsn lib32-nvidia-utils
+pacman -Ss nvidia | grep Installiert
+paru -S nvidia-settings-beta nvidia-utils-beta nvidia-beta-dkms lib32-nvidia-utils-beta
+pacman -Ss nvidia | grep Installiert
+paru -Ss nvidia | grep Installiert
+sudo mkinitcpio -P
+sudo reboot
+pacman -Ss nvidia | grep Installiert
+paru -Ss libxnvctrl
+paru -S nvidia-beta-dkms nvidia-utils-beta nvidia-settings-beta lib32-nvidia-utils-beta
+setxkbmap -layout de\ 
+setxkbmap -layout de
+sudo winetricks --self-update
+echo '2C45C6 :EB'
+echo '2C45C6: EB' | xxd -r - Cyberpunk2077.exe
+sudo pacman -S xxd
+echo '2C45C6: EB' | xxd -r - Cyberpunk2077.exe
+xxd --help
+paru -Rsn vim
+paru -S gvim
+gvim
+paru -Rsn gvim
+cd
+pacman -Ss amd psp
+paru
+rustc
+cd Dokumente/Code/Rust
+ls
+cd test
+ls
+cd src
+ls
+rustc main.rs
+ls
+./main
+rm main
+paru
+paru -Rsn $(paru -Qdtq)
+paru
+pacman -Ss gnome
+paru -Rsn $(paru -Qdtq)
+ping artix.sakamoto.pl
+sudo -E nvim /etc/pacman.conf
+pacman -Ss linux-firmware | grep Installiert
+cd Downloads
+dd
+ls
+lsblk
+vim .config/zsh/.zshrc
+cd Downloads
+lsblk
+dd if=artix-lxqt-openrc-20230814-x86_64.iso of=/dev/sdd
+paru
+sudo poweroff
+paru
+sudo pacman -S nvidia-dkms nvidia-utils nvidia-settings lib32-nvidia-utils libxnvctrl
+paru
+paru -Sc
+ls .cache/paru/clone
+ls .cache/paru/clone/afdko
+ls .cache/paru/clone/atom-ng-bin
+paru /Ss afdko
+paru -Ss afdko
+setxkbmap -layout de
+sudo poweroff
+paru
+pacman -Ss gnome
+pacman -Ss gnome | grep 45

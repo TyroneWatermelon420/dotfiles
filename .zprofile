@@ -8,6 +8,7 @@ export GTK_THEME="Nordic-darker"
 export QT_QPA_PLATFORMTHEME="qt5ct"
 #export QT_STYLE_OVERRIDE="adwaita"
 export MANGOHUD_CONFIGFILE=/home/erik/.config/MangoHud/MangoHud.conf
+export WLR_NO_HARDWARE_CURSORS=1
 
 xdg-mime default pcmanfm.desktop inode/directory application
 

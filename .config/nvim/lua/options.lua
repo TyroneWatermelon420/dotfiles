@@ -9,3 +9,6 @@ vim.opt.cursorline = true                       -- highlight the current line
 vim.opt.number = true                           -- set numbered lines
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1                    -- disable netrw
+
+
+vim.cmd [[colorscheme tokyonight-storm]]
