@@ -28,7 +28,7 @@ alias nxmvim="sudo -E nvim /usr/local/bin/nxmhandler"
 alias lf="st lf"
 alias icon="wrestool -x --output=. -t14"
 alias dd="sudo dd status=progress"
+alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash'
 
 # variables
 export PATH="$HOME/.local/bin:$PATH"
-

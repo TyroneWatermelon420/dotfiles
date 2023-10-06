@@ -11,4 +11,4 @@ vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1                    -- disable netrw
 
 
-vim.cmd [[colorscheme tokyonight-storm]]
+vim.cmd [[colorscheme tokyonight-moon]]

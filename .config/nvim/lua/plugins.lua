@@ -14,12 +14,13 @@ vim.opt.rtp:prepend(lazypath)
 local plugins = {
   -- UI --
   "nvim-tree/nvim-web-devicons",
-  "lukas-reineke/indent-blankline.nvim",
   "startup-nvim/startup.nvim",
   "nvim-tree/nvim-tree.lua",
-  
+  "lukas-reineke/indent-blankline.nvim",
+
   -- Colorschemes --
   "folke/tokyonight.nvim",
+  { "ellisonleao/gruvbox.nvim", priority = 1000 },
 
   -- Lua --
   "nvim-lua/plenary.nvim",
@@ -28,11 +29,11 @@ local plugins = {
 
 require("lazy").setup(plugins, opts)
 
-
 -- Plugin Configuration --
 require"startup".setup()
+require"indent_blankline".setup()
 require("nvim-tree").setup({
-  sort_by = "case_insensitive",
+  sort_by = "case_sensitive",
   view = {
     width = 30,
   },
