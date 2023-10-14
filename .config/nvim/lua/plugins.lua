@@ -15,8 +15,18 @@ local plugins = {
   -- UI --
   "nvim-tree/nvim-web-devicons",
   "startup-nvim/startup.nvim",
-  "nvim-tree/nvim-tree.lua",
   "lukas-reineke/indent-blankline.nvim",
+
+  -- Git --
+  "tpope/vim-fugitive",
+  "tpope/vim-rhubarb",
+
+  -- LSP --
+  {'VonHeikemen/lsp-zero.nvim', branch = 'v3.x'},
+  {'neovim/nvim-lspconfig'},
+  {'hrsh7th/cmp-nvim-lsp'},
+  {'hrsh7th/nvim-cmp'},
+  {'L3MON4D3/LuaSnip'},
 
   -- Colorschemes --
   "folke/tokyonight.nvim",
@@ -25,22 +35,23 @@ local plugins = {
   -- Lua --
   "nvim-lua/plenary.nvim",
   "nvim-telescope/telescope.nvim",
+
+  -- Debugger --
+  "sakhnik/nvim-gdb",
 }
 
 require("lazy").setup(plugins, opts)
 
 -- Plugin Configuration --
 require"startup".setup()
-require"indent_blankline".setup()
-require("nvim-tree").setup({
-  sort_by = "case_sensitive",
-  view = {
-    width = 30,
-  },
-  renderer = {
-    group_empty = true,
-  },
-  filters = {
-    dotfiles = true,
-  },
-})
+require("ibl").setup()
+
+local lsp_zero = require('lsp-zero')
+
+lsp_zero.on_attach(function(client, bufnr)
+  -- see :help lsp-zero-keybindings
+  -- to learn the available actions
+  lsp_zero.default_keymaps({buffer = bufnr})
+end)
+
+require'lspconfig'.clangd.setup{}

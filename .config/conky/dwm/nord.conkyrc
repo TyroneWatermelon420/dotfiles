@@ -111,7 +111,7 @@ ${color1}[M]+[SHIFT]+lrud${alignr}${color2}move window${color}
 ${color1}[M]+[1-9]${alignr}${color2}switch workspace${color}
 ${color1}[M]+[SHIFT]+[1-9]${alignr}${color2}send window${color}
 ${color1}${hr}${color}
-${color1}[S]+[CTRL]+[SHIFT]+r${alignr}${color2}restart dwm${color}
-${color1}[S]+[SHIFT]+c${alignr}${color2}quit dwm${color}
+${color1}[M]+[CTRL]+[SHIFT]+q${alignr}${color2}restart dwm${color}
+${color1}[M]+[SHIFT]+c${alignr}${color2}quit dwm${color}
 ]];
 

@@ -7,8 +7,9 @@ vim.opt.shiftwidth = 2                          -- the number of spaces inserted
 vim.opt.tabstop = 2                             -- insert 2 spaces for a tab
 vim.opt.cursorline = true                       -- highlight the current line
 vim.opt.number = true                           -- set numbered lines
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1                    -- disable netrw
+vim.wo.relativenumber = true
+--vim.g.loaded_netrw = 1
+--vim.g.loaded_netrwPlugin = 1                    -- disable netrw
 
 
 vim.cmd [[colorscheme tokyonight-moon]]
