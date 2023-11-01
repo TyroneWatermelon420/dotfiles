@@ -2,3 +2,6 @@
 [Default Applications]
 inode/directory=pcmanfm.desktop
 application=pcmanfm.desktop
+x-scheme-handler/discord-460807638964371468=discord-460807638964371468.desktop
+x-scheme-handler/http=librewolf.desktop
+x-scheme-handler/https=librewolf.desktop
