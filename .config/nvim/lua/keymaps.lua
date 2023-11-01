@@ -1,7 +1,7 @@
-vim.g.mapleader = ','
+vim.g.mapleader = 'ö'
 -- Shorten function name
+local builtin = require('telescope.builtin')
 local keymap = vim.keymap.set
--- Silent keymap option
 local opts = { silent = true }
 
 -- Modes
@@ -14,5 +14,5 @@ local opts = { silent = true }
 
 -- Normal --
 keymap("n", "<C-c>", ":qa!<CR>")
-keymap("n", "<C-t>", ":NvimTreeToggle | wincmd p<CR>")
-keymap("n", "<C-p>", ":NvimTreeFocus<CR>")
+keymap('n', '<leader>ff', builtin.find_files, {})
+keymap("n", "<leader>g", builtin.git_status, {})

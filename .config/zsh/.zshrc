@@ -19,16 +19,30 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # aliases
-alias ls="eza --color=always --group-directories-first --icons"
-alias ll="eza -hl --color=always --group-directories-first --icons"
+alias ls="eza --color=always --group-directories-first --icons=auto"
+alias ll="eza -hl --color=always --group-directories-first --icons=auto"
 alias v=nvim
 alias vi=nvim
 alias vim=nvim
+alias suvim="sudo -E nvim"
 alias nxmvim="sudo -E nvim /usr/local/bin/nxmhandler"
 alias lf="st lf"
 alias icon="wrestool -x --output=. -t14"
 alias dd="sudo dd status=progress"
 alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash'
+alias ..="cd .."
+alias ....="cd ../.."
+alias poweroff="loginctl poweroff"
+alias reboot="loginctl reboot"
 
 # variables
 export PATH="$HOME/.local/bin:$PATH"
+
+# colored man page
+export LESS_TERMCAP_mb=$'\e[1;32m'
+export LESS_TERMCAP_md=$'\e[1;32m'
+export LESS_TERMCAP_me=$'\e[0m'
+export LESS_TERMCAP_se=$'\e[0m'
+export LESS_TERMCAP_so=$'\e[01;33m'
+export LESS_TERMCAP_ue=$'\e[0m'
+export LESS_TERMCAP_us=$'\e[1;4;31m'

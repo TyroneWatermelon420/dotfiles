@@ -40,7 +40,7 @@ local plugins = {
   "sakhnik/nvim-gdb",
 }
 
-require("lazy").setup(plugins, opts)
+require("lazy").setup(plugins)
 
 -- Plugin Configuration --
 require"startup".setup()
@@ -55,3 +55,35 @@ lsp_zero.on_attach(function(client, bufnr)
 end)
 
 require'lspconfig'.clangd.setup{}
+require'lspconfig'.rust_analyzer.setup{
+  settings = {
+    ['rust-analyzer'] = {
+      diagnostics = {
+        enable = false;
+      }
+    }
+  }
+}
+require'lspconfig'.lua_ls.setup {
+  on_init = function(client)
+    local path = client.workspace_folders[1].name
+    if not vim.loop.fs_stat(path..'/.luarc.json') and not vim.loop.fs_stat(path..'/.luarc.jsonc') then
+      client.config.settings = vim.tbl_deep_extend('force', client.config.settings, {
+        Lua = {
+          runtime = {
+            version = 'LuaJIT'
+          },
+          workspace = {
+            checkThirdParty = false,
+            library = {
+              vim.env.VIMRUNTIME
+            }
+          }
+        }
+      })
+
+      client.notify("workspace/didChangeConfiguration", { settings = client.config.settings })
+    end
+    return true
+  end
+}
