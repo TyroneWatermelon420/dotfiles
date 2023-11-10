@@ -13,6 +13,8 @@ local opts = { silent = true }
 --   command_mode = "c",
 
 -- Normal --
-keymap("n", "<C-c>", ":qa!<CR>")
-keymap('n', '<leader>ff', builtin.find_files, {})
+keymap("n", "<C-c>", "<cmd>qa!<CR>")
+keymap('n', "<leader>ff", builtin.find_files, {})
 keymap("n", "<leader>g", builtin.git_status, {})
+keymap("n", "<leader>t", "<cmd>Telescope<CR>")
+keymap("n", "<leader>l", "<cmd>Lazy<CR>")

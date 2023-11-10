@@ -7,10 +7,9 @@ feh --bg-fill /home/erik/github-repos/wallpaper/cyberpunk.jpg &
 dwmblocks &
 picom --config ~/.config/picom/picom.conf &
 conky -c .config/conky/dwm/nord.conkyrc
-
 pipewire &
 pipewire-pulse &
 wireplumber &
-
+xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1
 xrdb ~/.config/X11/Xresources
 exec dbus-run-session dwm

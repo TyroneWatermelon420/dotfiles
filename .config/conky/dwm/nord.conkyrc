@@ -105,7 +105,8 @@ ${color1}${hr}${color}
 ${color1}[M]+[RET]${alignr}${color2}open terminal${color}
 ${color1}[M]+w${alignr}${color2}open librewolf${color}
 ${color1}[M]+d${alignr}${color2}open dmenu${color}
-${color1}[M]+[SHIFT]+q${alignr}${color2}close window${color}
+${color1}[M]+q${alignr}${color2}kill active window${color}
+${color1}[M]+[SHIFT]+q${alignr}${color2}open dm-kill${color}
 ${color1}[M]+[LEFT]/[RIGHT]${alignr}${color2}move win focus${color}
 ${color1}[M]+[SHIFT]+lrud${alignr}${color2}move window${color}
 ${color1}[M]+[1-9]${alignr}${color2}switch workspace${color}
@@ -114,4 +115,3 @@ ${color1}${hr}${color}
 ${color1}[M]+[CTRL]+[SHIFT]+q${alignr}${color2}restart dwm${color}
 ${color1}[M]+[SHIFT]+c${alignr}${color2}quit dwm${color}
 ]];
-
