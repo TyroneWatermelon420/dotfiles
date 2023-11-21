@@ -25,7 +25,7 @@ alias v=nvim
 alias vi=nvim
 alias vim=nvim
 alias suvim="sudo -E nvim"
-alias nxmvim="sudo -E nvim /usr/local/bin/nxmhandler"
+alias nxmvim="nvim ~/.local/bin/nxmhandler"
 alias lf="st lf"
 alias icon="wrestool -x --output=. -t14"
 alias dd="sudo dd status=progress"
