@@ -1,0 +1,8 @@
+#!/bin/bash
+exec <&-
+somebar &
+swaybg -i Drives/HDD/Stuff/github-repos/wallpaper/cyberpunk.jpg &
+pipewire &
+pipewire-pulse &
+wireplumber &
+wlr-randr --output HDMI-A-1 --preferred --pos 0,0 --output DP-2 --preferred --pos 1920,0 --adaptive-sync enabled --mode 1920x1080@143.854996Hz

@@ -5,7 +5,7 @@ eval "$(starship init zsh)"
 
 HISTSIZE=1000000
 SAVEHIST=1000000
-HISTFILE=~/.cache/zsh/history
+HISTFILE=~/.config/zsh/zsh_history
 
 # Basic auto/tab complete:
 autoload -U compinit

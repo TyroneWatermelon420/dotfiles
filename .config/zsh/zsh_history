@@ -1,0 +1,4117 @@
+ll
+ll
+pcmanfm
+pacman -Ss librewolf
+sudo pacman -S librewolf
+paru -Rsn firedragon
+sudo pacman -S wireplumber pavucontrol
+sudo pacman -S rtkit
+setxkbmap -layout de
+vim .zprofile
+xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1
+feh --bg-scale Stuff/github-repos/wallpaper/cyberpunk.jpg
+sudo pacman -S xarchiver
+sudo pacman -S unzip p7zip
+sudo pacman -S mpv
+lsblk
+sudo umount /dev/sdb1
+sudo mkfs.ext4 -L HDD /dev/sdb1
+poweroff
+sudo gpasswd -a $USER plugdev
+xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1
+setxkbmap -layout de
+pacman -Ss protonup
+sudo pacman -S protonup-qt
+killall steam
+pacman -Ss openrazer
+sudo pacman -S openrazer-driver-dkms
+sudo pacman -S openrazer-daemon
+paru -S polychromatic
+ll
+ll -a
+lsblk
+sudo mount /dev/nvme1n1p1 Drives/NVMe
+cd Drives/NVMe
+ll
+rm -rf Games SteamLibrary \$RECYCLE.BIN
+ll
+rm -rf System\ Volume\ Information
+ll Stuff
+cd
+sudo umount /dev/nvme1n1p1
+lsblk
+sudo mkfs.ext4 -L HDD /dev/nvme1n1p1
+suvim /etc/fstab
+sudo blkid
+sudo blkid
+ln -sf Drives/HDD/Stuff/github-repos
+ll
+sudo mkfs.ext4 -L NVMe /dev/nvme1n1p1
+cd Drives/NVMe
+lsblk
+sudo pacman -S xrdb
+sudo pacman -S xorg-xrdb
+sx .config/X11/xinitrc
+pacman -Q
+xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1
+paru -Rsn pipewire-session-manager
+paru
+ll -a
+mv 
+mv --help
+lsblk
+sudo mount /dev/sdb1 Drives/HDD
+ll Drives
+cd Drives
+sudo chown erik:erik HDD
+ll -a
+ll HDD
+cd
+mv -v Stuff Drives/HDD
+ll
+reboot
+cd Drives/NVMe
+ll
+ll SteamLibrary
+ll SteamLibrary/steamapps/common
+paru
+ln -sf Drives/HDD/Stuff/Dokumente
+ll
+rm -rf git
+rm Database.kdbx
+ll
+ll -a
+rm -rf .firedragon
+paru -Ss capcut
+paru
+cd Drives/NVMe/Games
+ll
+mkdir MO2SSE MO2CP2077 MO2FO4 MO2FNV
+ll
+lsblk
+ll Drives
+cd Drives
+sudo chown erik:erik NVMe
+ll
+cd
+sx .config/X11/xinitrc
+pacman -Ss shotcut
+sudo pacman -S shotcut
+steam
+pacman -Ss nvidia
+pacman -Ss vulkan
+pacman -Ss pkcs
+reboot
+reboot
+MO2select
+sudo pacman -S gamemoderun mangohud
+sudo pacman -S gamemode mangohud
+MO2select
+nxmhandler nxm://skyrimspecialedition/mods/12604/files/35407?key=DRaJ5h0Of-GeYCoYleM4rA&expires=1703428574&user_id=171723098
+nxmhandler "nxm://skyrimspecialedition/mods/12604/files/35407?key=DRaJ5h0Of-GeYCoYleM4rA&expires=1703428574&user_id=171723098"
+nxmvim
+nxmhandler "nxm://skyrimspecialedition/mods/12604/files/35407?key=DRaJ5h0Of-GeYCoYleM4rA&expires=1703428574&user_id=171723098"
+ll github-repos
+nxmvim
+nxmhandler "nxm://skyrimspecialedition/mods/12604/files/35407?key=DRaJ5h0Of-GeYCoYleM4rA&expires=1703428574&user_id=171723098"
+nxmvim
+nxmhandler "nxm://skyrimspecialedition/mods/12604/files/35407?key=DRaJ5h0Of-GeYCoYleM4rA&expires=1703428574&user_id=171723098"
+nxmvim
+chmod +x .local/bin/nxmhandler
+nxmvim
+paru
+cd Drives/NVMe/Games/MO2SSE/mods/SSE\ Engine\ Fixes/skse/plugins
+ll
+vim EngineFixes.toml
+cd
+paru -S neofetch
+neofetch
+neofetch
+paru -S localsend
+pacman -Ss brave
+sudo pacman -S brave-bin
+paru
+ll -R
+ls -R
+ls -a
+ls -h
+ls -H
+vim .config/zsh/.zshrc
+ls -l
+ls -hl
+ls -lR
+ls -lHR
+ls -lH
+ls -lh
+ls -lhR
+ll -R
+sudo pacman -S protontricks
+cp github-repos/dotfiles/.config/mimeapps.list .config/mimeapps.list
+nxmvim
+nvim x
+ll
+rm ModOrganizer-2.5.1rc1-20231222T143404.dmp
+ll
+ll -a
+rm -rf Videos
+paru -Rsn shotcut
+paru
+ll -a
+sx .config/X11/xinitrc
+htop
+sudo pacman -S htop
+htop
+reboot
+paru
+sudo grub-install --target=x86_64-efi --bootloader-id=Artix --efi-directory=/boot
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+paru
+paru -Rsn $(paru -Qdtq)
+ll -a
+sx .config/X11/xinitrc
+reboot
+ll
+cp -f * ~/.steam/root/compatibilitytools.d/GE-Proton8-25/files/lib64/wine/vkd3d-proton
+cd ../x86
+cp -f * ~/.steam/root/compatibilitytools.d/GE-Proton8-25/files/lib/wine/vkd3d-proton
+sx .config/X11/xinitrc
+sudo pacman -S ufw-openrc gufw
+gufw
+sudo gufw
+sudo -E gufw
+sudo rc-update add ufw default
+reboot
+sudo ufw enable
+reboot
+sudo pacman -S xcursor-breeze
+xrdb .config/X11/Xresources
+cd Drives
+ll
+cd
+cd Downloads
+ll
+ll
+wine WitcherScriptMerger.exe
+nxmvim
+sx .config/X11/xinitrc
+ll
+7z l AutoLoot\ \(MSF\)
+7z l AutoLoot\ \(MSF\)-8418-1-2-2-1702148458.7z
+paru
+paru
+paru -S qbittorrent
+paru
+ping gnu.org
+poweroff
+paru
+vim .zprofile
+sx .config/X11/xinitrc
+clear
+MO2select
+cd Drives/NVMe/Games
+ll
+ll MO2FNV
+paru
+ll
+ll Desktop
+rm -rf Desktop
+conky
+mkdir -p .config/conky/dwm
+cp github-repos/dotfiles/.config/conky/dwm/* .config/conky/dwm
+ll .config/conky/dwm
+ls -R
+nxmvim
+nxmvim
+vim github-repos/scripts/dmenu/MO2select
+vim github-repos/scripts/dmenu/MO2select
+cp github-repos/scripts/dmenu/MO2select ~/.local/bin/MO2select
+nxmvim
+paru
+paru
+neofetch
+poweroff
+paru
+paru
+ll
+ll Downloads
+cd Downloads
+ll
+sudo pacman -S unrar
+unrar l Vampire.The.Masquerade.Bloodlines.v1.2.rar
+unrar x Vampire.The.Masquerade.Bloodlines.v1.2.rar
+ll
+ls -R
+ping gnu.org
+ping nexusmods.com
+paru
+paru
+nxmvim
+vim i
+vim i
+ls -R
+ll
+ll -a
+vim x
+rm x
+sudo pacman -S hyprland
+sudo pacman -S alacritty
+cd Downloads
+ll
+rm -rf PerformanceVersion REACTOR* WrapperVersion patreon.url www.enbdev.com.url
+ll
+rm enbseries_*
+ll
+rm f4se_0_06_23.7z nvse_6_3_4.7z The\ Mod\ Configuration\ Menu-42507-1-5.7z
+ll
+nxmvim
+Hyprland
+sx .config/X11/xinitrc
+suvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+suvim /etc/mkinitcpio.conf
+sudo mkinitcpio -P
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+vim .config/hypr/hyprland.conf
+reboot
+vim .config/hypr/hyprland.conf
+sudo pacman -S wofi
+LKJH:;,
+steam
+paru
+killall steam
+steam
+steam
+Hyprland
+dbus-run-session Hyprland
+paru
+paru -S yuzu-early-access-appimage
+paru -Ss nvk
+pacman -Ss chrome
+sudo pacman -S google-chrome
+sudo pacman -Rsn google-chrome
+ll -a
+ll .cache
+ll .config
+rm -rf .cache/firedragon .cache/google-chrome .config/google-chrome 
+export
+pam
+pam
+paru -Ss erik
+nxmvim
+paru
+htop
+pacman -Ss spotify
+sudo pacman -S spotify-launcher
+ls -R
+ll -a
+ll .config/X11
+paru
+poweroff
+paru
+echo net.ipv4.tcp_mtu_probing=1 | sudo tee /etc/sysctl.d/custom-mtu-probing.conf
+rebooz
+reboot
+reboot
+paru
+ls -R
+htop
+htop
+ls -R
+paru
+ll Downloads
+cd Downloads
+ll
+rm -rf *
+ls -R
+ls -R
+paru
+sudo pacman -S firefox
+pacman -Ss librewolf
+sudo pacman -Rsn librewolf
+librewolf
+pacman -Ss librewolf
+sudo pacman -S librewolf
+sudo pacman -Rsn firefox
+cd Drives/NVMe/SteamLibrary/steamapps/compatdata
+ll
+cd
+ll
+ll Games
+rm -rf Games
+rm -rf Drives/NVMe/Games/Assassin\'s\ Creed\ Valhalla
+free
+ll
+ll .config
+ll .cache
+ll -a
+rm -rf .mozilla
+rm -rf .cache/mozilla
+ll .config
+feh LMSH2i.ico
+htop
+htop
+sudo -E nvidia-settings
+nxmvim
+poweroff
+sudo -E nvidia-settings
+feh --bg-scale Drives/HDD/Stuff/github-repos/wallpaper/cupple-rooftop.jpg
+feh --bg-scale Drives/HDD/Stuff/github-repos/wallpaper/gruvbox_anime_landscape.png
+paru
+reboot
+poweroff
+sudo -E nvidia-settings
+ln -sf Drives/HDD/Stuff/bac/Apps
+ll
+paru
+paru
+paru -Ss cemu
+paru -S cemu-bin
+ll Downloads
+rm Downloads/BethINI\ Standalone\ Version-4875-3-6-1-1651358897.zip
+rm Downloads/hhhhhhhhhhhhhhhhhhhhll.torrent
+ll -R
+ls -lhR
+ll -R
+ll -a
+paru
+paru
+ll -R
+ll -a
+paru
+paru -S gamemode
+paru -R gamemode
+paru -S gamemode
+paru
+gamemoded
+gamemodelist
+ll
+wine bg3.exe
+wine bg3_dx11.exe
+gamemodelist
+gamemoderun
+ls /var/spool/mail
+sx .config/X11/xinitrc
+poweroff
+paru
+cd Drives/HDD/Stuff/bac/Media/.P/
+ll
+sudo pacman -S https://media.soundgasm.net/sounds/187b89a7f10a9df13a39ba465dfe15c398975fb9.m4a
+sudo pacman -S wget
+wget https://media.soundgasm.net/sounds/187b89a7f10a9df13a39ba465dfe15c398975fb9.m4a
+ll
+mv 187b89a7f10a9df13a39ba465dfe15c398975fb9.m4a "Corrupting Her Angel.m4a"
+ll
+wget https://media.soundgasm.net/sounds/a106f6855d0ca662b0666224ca64063fed95abca.m4a
+mv a106f6855d0ca662b0666224ca64063fed95abca.m4a "Dicked Down on the Kitchen Counter.m4a"
+wget https://media.soundgasm.net/sounds/3563998849dc1f3fbbd5e16d74b24120670d4e6d.m4a
+mv 3563998849dc1f3fbbd5e16d74b24120670d4e6d.m4a "The Goddesses � Sacrifice.m4a"
+nmtui
+ip a
+androiddeployqt6
+pacman -Ss android
+sudo pacman -S android-file-transfer
+androiddeployqt6
+ping gnu.org
+nmtui
+ll
+ll /dev
+nmtui
+ip a
+sudo ip link set wlan0 up
+ip a
+man ip
+poweroff
+nxmvim
+paru
+htop
+cd github-repos/scripts
+vim dmenu/MO2select
+cp dmenu/MO2select ~/.local/bin/MO2select
+cp dmenu/MO2select ~/.local/bin/MO2select
+vim dmenu/MO2select
+vim github-repos/scripts/dmenu/MO2select
+cp github-repos/scripts/dmenu/MO2select ~/.local/bin/MO2select
+poweroff
+paru
+nxmvim
+ls -R
+paru
+sudo pacman -S android-file-transfer
+paru
+htop
+vim github-repos/scripts/dmenu/MO2select
+cp github-repos/scripts/dmenu/MO2select ~/.local/bin/MO2select
+cd github-repos/scripts/MO2
+ll
+vim nxmfo3
+vim nxmfo4
+vim nxmfo3
+vim nxmfo3
+vim nxmfo3
+vim nxmfo4
+vim nxmsse
+vim nxmcp2077
+vim nxmobv
+vim nxms
+vim nxmsse
+vim nxmobv
+vim nxmfnv
+paru
+pacman -Ss yuzu
+paru -S yuzu-early-access-appimage
+pacman -Ss cemu
+sudo pacman -S cemu
+pacman -Ss minecraft
+sudo pacman -S prismlauncher
+wine MilesMorales.exe
+unrar l TLOZ-BOW-EUR-DLC-LOADIINE-ZIPERTO.part1.rar
+htop
+ll
+ls
+mv trl-rikuuancientarmfixed.zip /home/erik/Drives/HDD/Stuff/bac/games
+mpv
+ping gnu.org
+htop
+poweroff
+poweroff
+paru
+pacman -Ss nvidia
+paru -Ss nvidia beta
+paru
+ls -R
+poweroff
+paru
+pacman -Ss surf
+sudo pacman -S surf-git
+surf google.de
+cp rstb.json rstb.json.bac
+vim rstb.json
+nxmvim
+paru
+ls -R
+ll -a
+paru
+ll
+rm linkle.zip
+ll
+git clone --recursive https://github.com/GloriousEggroll/proton-ge-custom
+vim Downloads/cyberpunk-vkd3d\(1\).txt
+nxmvim
+cd proton-ge-custom
+ll
+cd wine
+ll
+ll include
+ll include/wine
+ls
+ls include
+paru
+setxkbmap -layout de
+xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1
+ll
+rm -rf proton-ge-custom
+ll -a
+paru -Rsn $(paru -Qdtq)
+ll .cache
+ll .cache/Meltytech
+paru -Rsn shotcut
+rm -rf .cache/Meltytech
+ll .cache/menus
+vim .cache/menus/0265efa9fd8b2d4f47032c445323844e
+pacman -Ss lxde
+pacman -Ss lxde | grep Installiert
+paru -Rsn lxmenu-data
+ll .cache
+ll .config
+pacman -Ss inkscape
+rm -rf .config/inkscape
+cd .local/share
+ll
+rm -rf localsend_app
+ll Trash
+ll Trash/files
+rm -rf Trash/files/*
+pacman -Ss heroic
+sudo pacman -S heroic-games-launcher-bin
+pacman -Ss performance
+pacman -Ss performance-tweaks
+paru -Ss performance-tweaks
+paru -Ss performance-tweaks
+paru -Ss performance tweaks
+paru -Ss cachy
+sudo su
+xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1
+setxkbmap -layout de
+paru
+ulimit -H
+ulimit
+ulimit
+whereis ulimit
+ulimit
+pacman -Ss ulimit
+vim y
+pipewire &
+ll /run/user/1000
+killall pipewire
+killall pipewire-pulse
+killall wireplumber
+pipewire &
+pipewire-pulse&
+pipewire-pulse &
+wireplumber&
+vim y
+breezy
+ping gnu.org
+librewolf y
+ping gnu.org
+pacman -Ss dxvk
+paru -Ss dxvk
+pacman -Ss vkd3d
+paru -Ss vkd3d
+suvim /etc/makepkg.conf
+sx .config/X11/xinitrc
+poweroff
+htop
+paru
+/lib/ld-linux-x86-64.so.2 --help
+paru
+nxmvim
+ls -R
+ls -R
+ll -a
+htop
+paru
+neofetch
+nxmvim
+ll -a
+paru
+pacman -Ss mercury
+paru -Ss mercury
+paru
+sx .config/X11/xinitrc
+vim EMPRESS.nfo
+sx .config/X11/xinitrc
+ls -R
+paru
+poweroff
+ls -R
+ll -a
+rm y
+paru
+paru
+echo net.ipv4.tcp_mtu_probing=1 | sudo tee /etc/sysctl.d/custom-mtu-probing.conf
+reboot
+htop
+ls -R
+ll -a
+sx .config/X11/xinitrc
+ls -R
+poweroff
+vim /etc/sysctl.d/custom-mtu-probing.conf
+paru
+pacman -Ss firefox
+pacman -Ss firefox hard
+paru
+nxmvim
+ls -R
+paru
+paru
+ll -a
+paru -Rsn $(paru -Qdtq)
+poweroff
+pacman -Ss nvidia
+pacman -Ss nvidia open
+sudo pacman -S nvidia-open-dkms
+sudo pacman -S nvidia-open-dkms nvidia-settings lib32-nvidia-utils
+sudo pacman -S steam setxkbmap xorg-xinput
+sudo pacman -S steam xkbmap xorg-xinput
+sudo pacman -S steam xorg-xinput
+reboot
+sudo nvidia-settings
+sudo pacman -S git
+git clone https://aur.archlinux.org/paru-bin
+cd paru-bin
+makepkg -si
+paru
+paru -Ss hack nerd
+sudo pacman -S ttf-hack-nerd
+feh
+vim .config/X11/xinitrc
+sudo pacman -S numlockx xorg-xrdb pipewire pipewire-pulse pipewire-alsa pipewire-jack wireplumber pavucontrol
+sudo pacman -S rtkit
+ln -sf Drives/HDD/Stuff/github-repos
+sudo pacman -S keepassxc pcmanfm-gtk3
+sudo pacman -S xarchiver
+paru -Ss nordic 3.20
+paru -S nordic-darker-theme-git
+cd github-repos/scripts/dmenu
+ll
+rm ModOrganizer-2.5.0rc2-20231126T16*
+ll
+cp * 
+cp * ~/.local/bin
+mkdir -p .local/bin
+paru -Ss librewolf
+sudo pacman -S librewolf
+pacman -Ss breeze
+sudo pacman -S xcursor-breeze
+xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1
+setxkbmap -layout de
+cd Downloads
+ll
+chmod +x ProtonUp-Qt-2.8.2-x86_64.AppImage
+./ProtonUp-Qt-2.8.2-x86_64.AppImage
+sudo pacman -S fuse
+./ProtonUp-Qt-2.8.2-x86_64.AppImage
+setxkbmap -layout de
+xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1
+pacman -Ss openrazer
+sudo pacman -S openrazer-daemon
+sudo pacman -S gamemode mangohud
+mv ProtonUp-Qt-2.8.2-x86_64.AppImage ~/.local/bin/protonup-qt
+sudo pacman -S unzip p7zip unrar
+sudo pacman -S xclip
+ls -R
+sudo pacman -S firefox
+cp -r .mozilla/native-messaging-hosts .librewolf
+paru -Rsn fire
+paru -Rsn firefox
+cd .local/bin
+ll
+vim nxmhandler
+chmod +x nxmhandler
+./nxmhandler "nxm://skyrimspecialedition/mods/97715/files/457749?key=1rK44ptqrkzuVZPb3ZX9Ag&expires=1704718971&user_id=171723098"
+paru
+nxmvim
+sx .config/X11/xinitrc
+sx .config/X11/xinitrc
+sx .config/X11/xinitrc
+mkdir Games
+poweroff
+paru
+nxmvim
+sudo pacman -S winetrick
+sudo pacman -S protontricks
+paru -S protontricks
+paru -S polychromatic
+paru -Rsn $(paru -Qdtq)
+sudo pacman -S neofetch
+neofetchj
+neofetch
+ll -R
+poweroff
+paru
+nxmvim
+paru
+suvim /etc/makepkg.conf
+paru -S yuzu-early-access-appimage
+paru -S cemu-git
+paru -Ss brav
+paru -Ss brave
+sudo pacman -S brave-bin
+paru -S brave-bin
+poweroff
+paru
+sudo pacman -S qbittorrent
+ll Downloads
+rm Downloads/S*
+ll Downloads
+nxmvim
+paru
+paru
+paru
+paru
+suvim /etc/pacman.d/mirrorlist
+paru
+paru
+reboot
+nxmvim
+htop
+sudo pacman -S htop
+htop
+sudo pacman -S hyprland alacritty
+nxmvim
+ls -R
+Hyprland
+sx .config/X11/xinitrc
+paru
+paru
+poweroff
+paru
+nxmvim
+paru
+ls -R
+paru
+paru
+sudo pacman -S plasma-desktop
+paru -Rsn xcursor-breeze
+sudo pacman -S plasma-desktop
+pacman -Ss plasma wayland
+paru -S plasma-wayland-session
+sudo pacman -S xorg-xwayland
+reboot
+dbus-run-session plasma_session
+sx .config/X11/xinitrc
+suvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+suvim /etc/mkinitcpio.conf
+sudo mkinitcpio -P
+vim .zprofile
+reboot
+ls /usr/share/wayland-sessions
+vim /usr/share/wayland-sessions/plasmawayland.desktop
+cd .config
+ll
+mkdir alacritty
+cd alacritty
+vim alacritty.toml
+ll
+touch alacritty.toml
+vim alacritty.toml
+vim alacritty.toml
+vim .config/alacritty/alacritty.toml
+vim .config/alacritty/alacritty.toml
+vim .config/alacritty/alacritty.toml
+vim .config/alacritty/alacritty.toml
+vim .config/alacritty/alacritty.toml
+cd .config/alacritty
+mv alacritty.toml alacritty.yml
+ll
+mv alacritty.yml alacritty.toml
+alacritty migrate
+mv alacritty.toml alacritty.yml
+vim alacritty.yml
+alacritty migrate
+vim alacritty.toml
+exit
+cd .config/alacritty
+ll
+rm alacritty.yml
+vim alacritty.toml
+exit
+cd .config/alacritty
+ll
+ll -a
+vim alacritty.toml
+nvidia-xconfig
+nvidia-settings
+paru
+dbus-run-session plasma_session
+Hyprland
+dbus-run-session startplasma-wayland
+clear
+clear
+htop
+paru
+paru -Rsn plasma-desktop
+paru -Rsn plasma-desktop
+sudo pacman -S plasma-desktop
+pacman -Ss plasma wayland
+paru -Rsn plasma-desktop plasma-wayland-session
+sudo pacman -S xcursor-breeze
+reboot
+paru
+sudo winetricks --self-update
+paru
+paru
+ll -a
+rm -rf Bilder Dokumente Musik paru-bin Videos Vorlagen Ã�ffentlich .bash*
+ll -a
+rm -rf .mozilla
+ll -a
+rm -rf Schreibtisch
+cd .config
+ll
+rm -rf plasma*
+ll -a
+rm -rf akregatorrc baloofilerc kactivitymanagerd* kateschemarc kc* kde*
+ll -a
+pacman -Ss inkscape
+ll
+rm -rf inkscape session kglobalshortcutsrc krunnerrc ks* ktimezonedrc kwinr* kxkbrc
+ll
+rm systemsettingsrc
+ll
+vim mimeapps.list
+rm powermanagementprofilesrc
+vim QtProject.conf
+vim Trolltech.conf
+rm Trolltech.conf
+vim user-dirs.dirs
+rm user-dirs.*
+ll
+cd ../cac
+cd ../.cache
+l
+ll
+rm -rf plasma*
+ll
+cdl
+cd
+ll
+ll -a
+poweroff
+nxmvim
+paru
+paru
+vim
+vim
+paru
+paru -Rsn $(paru -Qdtq)
+poweroff
+paru
+paru -Rsn $(paru -Qdtq)
+paru -Rsn $(paru -Qdtq)
+htop
+nxmvim
+nxmvim
+nxmvim
+ls -R
+paru
+nxmvim
+paru
+pacman -Ss linux-zrm
+pacman -Ss linux-zen
+paru -S linux
+pacman -Ss linux
+sx .config/X11/xinitrc
+poweroff
+paru
+nxmvim
+poweroff
+paru
+ll -a
+vim
+ll -a
+ll -R
+ls -R
+ll -a
+vim
+paru -Rsn $(paru -Qdtq)
+paru
+poweroff
+paru
+nxmvim
+sx .config/X11/xinitrc
+paru
+ll -a
+po
+poweroff
+paru
+suvim /etc/sudoers
+paru
+htop
+pacman -Ss wl clip
+paru -S wl-clipboard
+suvim /etc/conf.d/keymaps
+suvim /etc/conf.d/keymaps
+vim .config/hypr/hyprland.conf
+vim .config/hypr/hyprland.conf
+vim .config/hypr/hyprland.conf
+vim .config/hypr/hyprland.conf
+paru -S wofi
+vim .config/hypr/hyprland.conf
+hto
+htop
+htop
+vim .config/hypr/hyprland.conf
+st
+hyprctl
+hyprctl devices
+vim .config/hypr/hyprland.conf
+vim .config/hypr/hyprland.conf
+Hyprland
+Hyprland
+sx .config/X11/xinitrc
+Xwayland
+htop
+nxmvim
+paru
+paru
+paru
+poweroff
+paru
+paru -Rsn $(paru -Qdtq)
+ping gnu.org
+paru
+vim steam-14522848199632224256.log
+rm steam-14522848199632224256.log
+vim .config/hypr/hyprland.conf
+cd github-repos
+ll
+cd dwl
+ll
+make
+sudo pacman -S wlr
+paru -S wayland-protocols
+paru -S wlroots
+make
+cd ..
+rm -rf dwl
+git clone --recursive https://github.com/djpohly/dwl.git
+cd dwl
+cd ..
+rm -rf dwl
+git clone https://codeberg.org/dwl/dwl.git
+paru -S pkg-config libinput
+make
+cd dwl
+make
+ll
+sudo make clean install
+make clean
+ll /a
+ll -a
+setxkbmap -layout de
+xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1
+ll -a
+rm LICENSE*
+ll
+rm config.def.h
+vim config.h
+sudo make clean install
+cd github-repos/dwl
+vim config.h
+sudo make clean install
+st
+cd github-repos/dwl
+vim config.h
+ll
+vim config.mk
+sudo make clean install
+st
+cd github-repos/dwl
+vim config.h
+ll
+mkdir patches
+cd patches
+paru -S wget
+xkbcli
+interactive-wayland
+xkbcli interactive-wayland
+xkbcli interactive-wayland
+wget https://codeberg.org/dwl/dwl-patches/raw/branch/main/numlock-capslock/numlock-capslock.patch
+wget https://codeberg.org/dwl/dwl-patches/raw/branch/main/right/right.patch
+wget https://codeberg.org/dwl/dwl-patches/raw/branch/main/vanitygaps/vanitygaps.patch
+ll
+cd ..
+patch -p1 < patches/vanitygaps.patch
+ll
+sudo make clean install
+vim config.h
+sudo make clean install
+vim github-repos/dwm/config.h
+vim .config/hypr/hyprland.conf
+vim
+sx .config/X11/xinitrc
+dwl
+dwl
+dwl
+dwl
+wlr-randr
+wlr-randr
+pacman -Ss wlr-randr
+paru -Ss wlr-randr
+paru -S wlr-randr
+ping gnu.org
+paru -S wlr-randr
+paru -S wlr-randr
+poweroff
+paru
+paru
+htop
+sx .config/X11/xinitrc
+reboot
+paru
+paru -S heroic-games-launcher-bin
+nxmvim
+paru
+feh --bg-scale Drives/HDD/Stuff/github-repos/wallpaper/gruvbox_anime_landscape.png
+ll
+cd github-repos/dw
+cd github-repos/dwl
+foot
+vim config.h
+make
+vim config.h
+make
+sudo make clean install
+vim github-repos/dwm/config.h
+cd github-repos/dwl
+vim config.h
+sudo make clean install
+paru -Ss swaybg
+sudo pacman -S swaybg
+swaybg
+swaybg
+swaybg Drives/HDD/Stuff/github-repos/wallpaper/cyberpunk.jpg
+swaybg -i Drives/HDD/Stuff/github-repos/wallpaper/cyberpunk.jpg
+cd .config/X11
+ll
+vim dwl
+chmod +x dwl
+vim .config/X11/xinitrc
+swaybg -i Drives/HDD/Stuff/github-repos/wallpaper/cyberpunk.jpg
+cd github-repos/dwl
+vim config.h
+dwl
+dwl
+dwl
+./.config/X11/dwl
+vim .config/X11/dwl
+./.config/X11/dwl
+dwl
+paru
+st
+htop
+paru -Rsn wofi
+paru -S bemenu
+bemenu
+bemenu-run
+cd github-repos/dwl
+vim config.h
+sudo make clean install
+paru -S foot
+foot
+htop
+paru -Rsn alacritty
+cd github-repos/dwl
+vim config.h
+cd
+cd .config
+mkdir foot
+cd foot
+vim foot.ini
+vim /etc/xdg/foot/foot.ini
+cp /etc/xdg/foot/foot.ini .config/foot
+paru
+vim .config/X11/dwl
+vim .config/foot/foot.ini
+paru
+paru -Ss nvidia beta
+paru -S clangd
+paru -S clang
+vim github-repos/dwm/config.h
+pacman -Ss llvm
+./.config/X11/dwl
+vim .config/X11/dwl
+./.config/X11/dwl
+sx .config/X11/xinitrc
+pow
+poweroff
+paru
+nxmvim
+paru
+ping gnu.org
+conky -o .config/conky/dwm/nord.conkyrc 
+vim .config/X11/dwl
+vim .config/X11/dwl
+ll -a
+foot
+htop
+poweroff
+suvim /etc/makepkg.conf
+parui
+paru
+paru -Rsn $(paru -Qdtq)
+paru -S yuzu-early-access-appimage
+ll -R
+ls -R
+paru
+ll -a
+vim i
+mkdir cTest
+cd cTest
+vim main.c
+gcc main.c
+vim main.c
+gcc main.c
+./a.out
+vim main.c
+gcc main.c
+./a.out
+nxmvim
+htop
+paru
+paru
+vim merge.py
+ll
+python merge.py
+l
+ll
+vim combined.json
+ll
+ln -sf Drives/HDD/Stuff/bac/Apps
+paru
+vim
+vim
+poweroff
+ls -R
+paru
+paru
+reboot
+sx .config/X11/xinitrc
+Hyprland
+sx .config/X11/xinitrc
+vim /var/log/Xorg.1.log
+sudo dmesg
+sudo dmesg | grep NVIDIA
+sudo dmesg | grep nvidia
+sudo mkinitcpio -P
+pacman -Ss nvidia
+pacman -Ss nvidia | less
+pacman -Ss nvidia | more
+paru -S extra/nvidia-open-dkms
+ll /boot
+ll /boot/EFI
+ll /boot/EFI/Artixd
+ll /boot/EFI/Artix
+lsblk
+free
+free /dev/sda1
+free -h
+free -hsi
+free --si
+free --si -h
+cd /var/cache/pacman/pkg
+ll
+paru -U linux-zen-6.6.10.zen1-1-x86_64.pkg.tar.zst linux-zen-headers-6.6.10.zen1-1-x86_64.pkg.tar.zst
+paru -S extra/nvidia-open-dkms
+reboot
+paru
+ll /boot
+sudo fdisk /dev/sda
+lsblk
+pacman -Ss gparted
+sudo pacman -S gparted
+sudo -E gparted
+sudo umount /dev/sda1
+sudo swapoff /dev/sda2
+sudo fdisk /dev/sda
+lsblk
+sudo pacman -S dosfstools
+sudo mkfs.vfat -F 32 /dev/sda1
+sudo mkswap /dev/sda2
+suvim /etc/fstab
+sudo pacman -Syu
+sudo pacman -S linux-zen linux-zen-headers
+paru -S extra/nvidia-open-dkms
+sudo grub-install --target=x86_64-efi --bootloader-id=Artix --efi-directory=/boot
+ll /boot
+sudo pacman -S amd-ucode
+ll /boot
+sudo mkinitcpio -P
+lsblk
+sudo rm /boot
+sudo rm -rf /boot
+sudo mount /dev/sda1 /boot
+sudo mount --mkdir /dev/sda1 /boot
+sudo pacman -S linux-zen linux-zen-headers
+sudo pacman -S amd-ucode
+ll /boot
+sudo grub-install --target=x86_64-efi --bootloader-id=Artix --efi-directory=/boot
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+ll /boot
+reboot
+sudo -E gparted
+sudo -E gparted
+sudo blkid
+neofetch
+neofetch
+neofetch
+pacman -Ss dwarfs
+paru -Ss dwarfs
+paru -S dwarfs-bin
+setxkbmap -layout de
+xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1
+MO2select
+cd Drives/HDD/Repacks/Wolfenstein.The.New.Order-jc141
+ll
+cd files
+ll
+dwarfsextract --help
+dwarfsextract -i groot.dwarfs -o /home/erik/Drives/NVMe/Games/Wolfenstein\ The\ New\ Order
+dwarfsextract -i groot.dwarfs -o /home/erik/Drives/NVMe/Games/Wolfenstein\ The\ New\ Order -n 12
+dwarfsextract -i groot.dwarfs -o /home/erik/Drives/NVMe/Games/Wolfenstein\ The\ New\ Order -n 12 --stdout-progress
+nxmvim
+cd Drives/NVMe/Games
+ll
+mkdir "Wolfenstein The New Order"
+dir
+pwd
+cd Wolfenstein\ The\ New\ Order
+pwd
+ll
+ll
+rm -rf *
+rm -rf *
+cd
+paru
+paru
+ll -a
+nxmvim
+poweroff
+paru
+paru -Rsn $(paru -Qdtq)
+nxmvim
+paru
+cp ~/Downloads/extract_314.exe .
+ll
+wine extract_314.exe
+wine /home/erik/.wine/drive_c/Program\ Files\ \(x86\)/Game\ Extractor/GameExtractor.exe
+nxmvim
+paru
+poweroff
+paru
+ll -a
+nxmvim
+paru -Ss hyprland
+hyprpm
+paru -Ss hyprpm
+paru -Ss hypr plugins
+paru -Ss hypr plugin
+paru -Ss hyprdwl
+paru -S hyprdwl
+paru -S hyprdwl-git
+vim .config/X11/dwl
+vim .config/X11/xinitrc
+paru -S hyprdwl-git
+pacman -Ss jq
+wlr-randr
+paru
+foot
+pacman -Ss hyprland
+paru -Ss hyprland
+paru -S hyprland-git
+paru -S hyprland-git
+paru -Ss hyprload
+cd .config/hypr
+ll
+vim hyprland.conf
+paru
+htop
+paru -Ss waybar hyprland
+paru -S waybar-hyprland-git
+paru -Rsn $(paru -Qdtq)
+paru -S waybar
+waybar
+sudo usermod -aG input erik
+waybar
+mpd
+sudo usermod -aG input erik
+waybar
+waybar
+suvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+git clone --recursive https://gitlab.freedesktop.org/nouveau/mesa
+cd mesa
+git checkout nvk/main
+git checkout nvk/
+git checkout
+git checkout --list
+cd ..
+ll
+vim mesa
+vim mesa
+vim .config/nvim/init.lua
+vim .config/nvim/lua/plugins.lua
+paru -Ss nvk
+paru -S vulkan-nouveau-git
+paru -S lib32-vulkan-nouveau-git
+cd .cache/paru/clone/lib32-vulkan-nouveau-git
+vim PKGBUILD
+makepkg -si
+pacman -Ss bbswitch
+sudo usermod -aG input erik
+waybar
+dwl
+clear
+sx .config/X11/xinitrc
+ll
+cd mesa
+ll
+vim VERSION
+vim README.rst
+ll
+ll bin
+ll
+ll src
+paru -Ss nouveau
+pacman -Ss mesa
+paru -Ss mesa
+paru -S mesa
+paru -S aur/mesa-hit
+paru -S aur/mesa-git
+sudo su
+pacman -Ss mesa-git
+paru
+pacman -Ss mesa-git
+paru -S mesa-git
+pacman -Ss nouveau
+paru -S xf86-video-nouveau
+paru -Rsn nvidia-open-dkms
+reboot
+suvim /etc/pacman.conf
+cd .cache/paru/clone/vulkan-nouveau-git
+ll
+vim PKGBUILD
+nvidia-settings
+neofetch
+paru -Rsn nvidia-utils 
+paru -Rsn nvidia-utils  nvidia-settings lib32-nvidia-settings
+paru -Rsn nvidia-utils  nvidia-settings lib32-nvidia-utils
+paru -R nvidia-utils nvidia-settings lib32-nvidia-utils
+Hyprland
+Hyprland
+sx .config/X11/xinitrc
+reboot
+Hyprland
+sx .config/X11/xinitrc
+paru -S extra/nvidia-open-dkms nvidia-utils nvidia-settings lib32-nvidia-utils
+paru -R nvidia-utils nvidia-settings lib32-nvidia-utils
+paru -R nvidia-utils nvidia-settings lib32-nvidia-utils nvidia-open-dkms
+paru -S mesa
+paru -Ss vulkan nouveau
+pacman -Ss nouveau
+sudo pacman -S mesa-tkg-git
+sudo pacman -S lib32-mesa-tkg-git
+nvim
+reboot
+sx .config/X11/xinitrc
+suvim /etc/X11/xorg.conf
+sx .config/X11/xinitrc
+lsmod
+suvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+lsmod
+sudo modprobe nouveau
+sx .config/X11/xinitrc
+suvim /etc/mkinitcpio.conf
+sudo mkinitcpio -P
+reboot
+sx .config/X11/xinitrc
+lsmod
+sudo modprobe nouveau
+sx .config/X11/xinitrc
+vim .local/share/xorg/Xorg.2.log
+sudo rm /etc/X11/xorg.conf
+sx .config/X11/xinitrc
+Hyprland
+sx .config/X11/xinitrc
+reboot
+Hyprland
+rm .hyprland/*
+Hyprland
+vim .hyprland/hyprlandCrashReport2909.txt
+vim .local/share/xorg/Xorg.2.log
+rm .local/share/xorg/*
+sx .config/X11/xinitrc
+vim .local/share/xorg/Xorg.1.log
+sudo dmesg
+sudo dmesg | grep nvidia
+sudo dmesg | grep nouveau
+suvim /etc/mkinitcpio.conf
+sudo mkinitcpio -P
+reboot
+Hyprland
+dwl
+suvim /etc/mkinitcpio.conf
+suvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+paru -Rsn xf86-
+paru -Rsn xf86-video-nouveau
+paru -S extra/nvidia-open-dkms nvidia-utils nvidia-settings lib32-nvidia-utils
+suvim /etc/mkinitcpio.conf
+reboot
+sudo -E nvidia-settings
+steam -console
+steam --console
+steam steam://open/console
+pacman -Ss floorp
+sudo pacman -S floorp-bin
+paru -Rsn floorp
+paru -Rsn floorp-bin
+ll -a
+rm -rf .floorp .mozilla
+ll -a
+poweroff
+paru
+paru -Sy chaotic-aur/brave-bin system/gnutls lib32/lib32-libxml2 chaotic-aur/lib32-mesa-tkg-git omniverse/librewolf chaotic-aur/mesa-tkg-git world/python-idna system/sqlite chaotic-aur/vulkan-nouveau-git 
+paru
+paru -Ss lib32-vulkan-nouveau-git
+paru -S aur/lib32-vulkan-nouveau-git
+cd .cache/paru/clone/lib32-vulkan-nouveau-git
+vim PKGBUILD
+paru -S aur/lib32-vulkan-nouveau-git
+makepkg -si
+paru
+poweroff
+suvim /etc/pacman.conf
+paru
+paru -S aur/lib32-vulkan-nouveau-git
+cd .cache/paru/clone/lib32-vulkan-nouveau-git
+makepkg -si
+vim PKGBUILD
+makepkg -si
+paru
+paru
+paru -Rsn $(paru -Qdtq)
+pacman -Ss valgrind
+cd
+ll
+paru -Sc
+ll .cache/paru/clone
+ll
+rm -rf mesa
+ll
+ll -R
+nxmvim
+pacman -Ss nouveau
+uname -r
+sudo pacman -S xf86-video-nouveau
+sudo su
+reboot
+rm /etc/modprobe.d/nvidia-n-nouveau.conf
+sudo rm /etc/modprobe.d/nvidia-n-nouveau.conf
+modprobe --help
+sudo modprobe nouveau
+sudo modprobe -r nvidia
+sx .config/X11/xinitrc
+paru
+suvim /etc/pacman.conf
+paru
+suvim /etc/pacman.conf
+suvim /etc/pacman.conf
+paru
+paru -S aur/lib32-vulkan-nouveau-git
+cd .cache/paru/clone/lib32-vulkan-nouveau-git
+vim PKGBUILD
+makepkg -si
+reboot
+paru -S cmake
+paru -Rsn xf86-video-nouveau
+pacman -Ss nouveau
+suvim /usr/lib/modprobe.d/nvidia-open.conf
+suvim /usr/lib/modprobe.d/nvidia-utils.conf
+sudo rm /usr/lib/modprobe.d/nvidia-*
+suvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+ll /etc/X11/xorg.conf
+suvim /etc/X11/xorg.conf
+sudo rm /etc/X11/xorg.conf
+suvim /etc/mkinitcpio.conf
+sudo mkinitcpio -P
+reboot
+ll
+neofetch
+pacman -Ss vulkan
+sudo pacman -S vulkan-toosl
+sudo pacman -S vulkan-tools
+glxgears
+pacman -Ss mesa
+sudo pacman -S mesa-utils
+glxgears
+pacman -Ss xwayland
+vkcube
+gamemoderun mangohud vkcube
+gamemoderun mangohud vkcube
+swaybg -i Drives/HDD/Stuff/github-repos/wallpaper/cyberpunk.jpg
+glxgears
+gamemoderun mangohud vkcube
+mangohud vkcube
+vkcube
+mangohud vkcube
+mangohud gamemoderun glxgears
+sudo su
+sx .config/X11/xinitrc
+Hyprland
+dwl
+sx .config/X11/xinitrc
+vkcube
+suvim /etc/mkinitcpio.conf
+sudo mkinitcpio -P
+suvim /etc/default/grub
+paru -Rsn mesa-utils vulkan-tools
+reboot
+sudo -E nvidia-settings
+paru
+paru -S aur/vulkan-nouveau-git
+cd .cache/paru/clone/vulkan-nouveau-git
+ll
+vim PKGBUILD
+ll
+vim nvk-memory-budget.patch
+cd
+l
+ll
+nxmvim
+poweroff
+paru
+nxmvim
+sudo -E nvidia-settings
+paru
+paru -S aur/vulkan-nouveau-git
+cd .cache/paru/clone/lib32-vulkan-nouveau-git
+makepkg -si
+vim PKGBUILD
+cd
+paru -Rsn $(paru -Qdtq)
+neofetch
+nxmvim
+winecfg
+winecfg
+poweroff
+paru
+Hyprland
+dwl
+Hyprland
+Hyprland
+rm .hyprland/*
+Hyprland
+vim .hyprland/hyprlandCrashReport12572.txt
+paru -S hyprland-git
+Hyprland
+sudo pacman -S hyprland
+paru -R hyprland-git
+paru -S hyprland
+paru -Sc
+paru -S hyprland
+Hyprland
+paru
+poweroff
+cd .cache/paru/clone/lib32-vulkan-nouveau-git
+makepkg -si
+vim PKGBUILD
+vim PKGBUILD
+makepkg -si
+cd
+ll
+ll -a
+setxkbmap -layout de
+xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1
+paru
+paru -S aur/vulkan-nouveau-git
+paru
+paru
+paru -Rsn $(paru -Qdtq)
+reboot
+paru
+nxmvim
+paru
+pacman -Ss linux | grep 6.7
+pacman -Ss linux-mainline-v3
+pacman -Ss linux-amd
+mkdir plugins
+sudo winetricks --self-update
+paru
+vim
+cd .local/share/nvim
+ll
+cd lazy
+ll
+vim
+rm -rf nvim-lspconfig
+vim
+vim
+vim
+cd
+ll
+vim .zprofile
+wlr-randr
+cd github-repos/dwl
+ll
+vim config.h
+paru
+cd github-repos
+ll
+git clone https://github.com/TyroneWatermelon420/TyroneWatermelon420.github.io.git
+pacman -Ss vscodium
+paru -S vscodium
+Hyprland
+cd .config/hypr
+ll
+vim hyprland.conf
+Hyprland
+cd
+rm -rf .hyprland
+Hyprland
+vim .hyprland/hyprlandCrashReport3426.txt
+paru -S aur/hyprland-nosystemd-git
+paru -Ss tomlplusplus
+sudo pacman -S tomlplusplus
+paru -Ss tomlplusplus
+paru -S aur/hyprland-nosystemd-git
+pacman -Ss hyprland
+cd .cache/paru/clone/hyprland-nosystemd-git
+ll
+vim PKGBUILD
+paru -Rsn tomlplusplus
+makepkg -si
+cd
+Hyprland
+paru -Ss hyprland-nosystemd
+rm -rf .hyprland
+Hyprland
+vim .hyprland/hyprlandCrashReport19061.txt
+WLR_RENDERER_ALLOW_SOFTWARE=1 Hyprland
+vim /etc/mkinitcpio.conf
+dwl
+sx .config/X11/xinitrc
+pacman -Ss pixman
+paru
+nxmvim
+git config --global credential.helper 'store --file ~/.cache/git-credentials'
+cd github-repos/TyroneWatermelon420.github.io
+ll
+git add *
+git commit -a
+ git config --global user.email "erik.rosebrock@tutanota.com"
+ git config --global user.name "Tyrone Watermelon"
+git commit -a
+git push
+pacman -Ss chromium
+sudo pacman -S ungoogled-chromium
+cd github-repos/TyroneWatermelon420.github.io
+ll
+cd src
+ll
+touch baeren.html elephanten.html
+cd ..
+git add *
+git commit -a
+git push
+ll
+git commit -a
+git push
+git add *
+ll
+vim steam-292030.log
+./github-repos/scripts/tools/USB-1.sh
+mkdir Drives/USB-1
+./github-repos/scripts/tools/USB-1.sh
+cd github-repos/TyroneWatermelon420.github.io
+ll
+git add *
+git commit -a
+git push
+poweroff
+paru
+paru -S aur/vulkan-nouveau-git
+cd .cache/paru/clone/lib32-vulkan-nouveau-git
+makepkg -si
+paru
+clear
+Hyprland
+nxmvim
+paru -Rsn hyprdwl-git hyprland-nosystemd-git
+paru -Rsn $(paru -Qdtq)
+paru -S hyprland
+mkdir plugins
+mkdir plugins
+nxmvim
+ll -a
+cd Downloads
+ll
+diff playerWitcherWeight.ws playerWitcherLevel.ws
+vim playerWitcherLevel.ws
+mv playerWitcherLevel.ws playerWitcherLevel.txt
+mv playerWitcherWeight.ws playerWitcherWeight.txt
+ll
+diff playerWitcherWeight.txt playerWitcherLevel.txt
+vim playerWitcherLevel.txt
+diff -c playerWitcherWeight.txt playerWitcherLevel.txt
+diff -c playerWitcherWeight.txt playerWitcherLevel.txt
+diff -y -W 70 playerWitcherWeight.txt playerWitcherLevel.txt
+/bin/diff -y -W 70 playerWitcherWeight.txt playerWitcherLevel.txt
+sudo pacman -S colordiff
+cd Downloads
+ll
+colordiff -y -W 70 playerWitcherLevel.txt playerWitcherWeight.txt
+paru -Rsn colordiff ungoogled-chromium
+vim playerWitcherLevel.txt
+vim playerWitcherWeight.txt
+diff -y -W 70 playerWitcherWeight.txt playerWitcherLevel.txt
+clear
+diff playerWitcherWeight.txt playerWitcherLevel.txt
+sudo pacman -S colordiff
+colordiff playerWitcherLevel.txt playerWitcherWeight.txt
+paru
+ll
+rm steam-292030.log
+paru -Rsn $(paru -Qdtq)
+vim
+ll
+htop
+paru
+pacman -Ss linux-zen
+nxmvim
+paru
+vim .hyprland/hyprlandCrashReport9523.txt
+paru -Ss sway-git
+paru -S sway-git
+vim .config/sway/config
+htop
+htop
+vim .zprofile
+killall sway
+killall sway
+Hyprland
+vim .config/sway/config
+bemenu-run
+sway
+sway
+librewolf
+suvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+suvim /etc/default/grub
+suvim /etc/mkinitcpio.conf
+sudo mkinitcpio -P
+reboot
+Hyprland
+cd .config/hypr
+ll
+mv hyprland.conf hyprland.conf.bac
+cd
+Hyprland
+cd .config/h
+cd .config/hypr
+ll
+vim hyprland.conf
+hyprctl --help
+hyprctl hyprpaper
+cd
+rm -rf .hyprland
+Hyprland
+vim .hyprland/hyprlandCrashReport9523.txt
+sx .config/X11/xinitrc
+sway
+neofetch
+neofetch
+neofetch
+neofetch
+neofetch
+neofetch
+neofetch
+neofetch
+neofetch
+neofetch
+killall sway
+hyprctl hyprpaper Drives/HDD/Stuff/github-repos/wallpaper/cyberpunk.jpg
+sudo hyprctl hyprpaper Drives/HDD/Stuff/github-repos/wallpaper/cyberpunk.jpg
+printenv HYPRLAND_INSTANCE_SIGNATURE
+pacman -Ss jq
+ll github-repos
+cd .config/hypr
+ll
+vim hyprland.conf
+hyprctl --help
+hyprctl hyprpaper
+hyprctl plugin
+hyprctl plugin install
+hyprctl plugin --help
+sudo pacman -S man-db
+man hyprctl
+man Hyprlan
+man Hyprland
+cd
+cd github-repos
+git clone https://github.com/Duckonaut/split-monitor-workspaces.git
+cd split-monitor-workspaces
+ll
+make
+sudo pacman -S jq
+make
+make clean
+make
+ll
+cd
+cd .config/h
+cd .config/hypr
+vim hyprland.conf
+vim hyprland.conf
+cd .config/sway
+ll
+vim config
+htop
+killall foot
+waybar
+echo $GROUPS
+echo $GROUP
+sudo usermod -aG input erik
+cd Drives/NVMe/Games
+ll
+cd
+bemenu-run
+cd .config/hypr
+vim hyprland.conf
+paru
+steam
+killall steam
+steam
+killall steam
+st
+Xwayland --help
+Xwayland steam
+Xwayland 
+killall Xwayland
+steam
+cd .config/hypr
+hyprctl monitors all
+vim hyprland.conf
+dwl
+cd github-repos/dwl
+make
+sudo make clean install
+cd
+sway
+Hyprland
+cd .config/hypr
+ll
+rm hyprland.conf
+mv hyprland.conf.bac hyprland.conf
+cd
+Hyprland
+Hyprland
+waybar
+killall sway
+cd Drives/HDD/SteamLibrary/steamapps/common/Knights\ of\ the\ Old\ Republic\ II
+ll
+./KOTOR2
+pacman -Ss mesa-utils
+sudo pacman -S mesa-utils
+steam
+sudo pacman -S lib32-mesa-utils
+steam
+paru -Ss hyprland nvidia
+paru -S hyprland-nvidia-nosystemd-git
+cd .config/hypr
+hyprctl monitors all
+vim hyprland.conf
+stea
+steam
+killall steam
+steam
+cd /etc/X11
+ll
+cd
+pacman -Ss xwayland
+st
+steam-runtime
+sway
+vim .local/share/xorg/Xorg.1.log
+cd /etc/X11
+ll
+sudo mv xorg.conf xorg.conf.bac
+cd
+sx .config/X11/xinitrc
+Hyprland
+paru -Rsn sway-git
+sudo pacman -S wlroots
+paru
+st
+steam
+cd github-repos/dwl
+ll
+vim config.h
+make
+sudo make clean install
+cd github-repos/dwl
+ll
+vim config.h
+make
+sudo make clean install
+killall steam
+steam
+dwl
+dwl
+dwl
+Hyprland
+clear
+suvim /etc/mkinitcpio.conf
+suvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo mkinitcpio -P
+reboot
+htop
+htop
+htop
+st
+cd .local/bin
+ll
+./MO2select
+htop
+MO2select
+vim MO2select
+ mangohud PROTON_ENABLE_NVAPI=1 VKD3D_CONFIG=dxr STEAM_COMPAT_CLIENT_INSTALL_PATH=/usr/bin/steam STEAM_COMPAT_DATA_PATH=/home/erik/Drives/NVMe/SteamLibrary/steamapps/compatdata/1091500/ /home/erik/.steam/root/compatibilitytools.d/GE-Proton8-27/proton run /home/erik/Drives/NVMe/Games/MO2\ Instances/Cyberpunk/ModOrganizer.exe
+cd github-repos/dwk
+cd github-repos/dwl
+ll
+rm *
+ll
+rm -rf protocols
+ll
+ll -a
+git clone https://codeberg.org/dwl/dwl
+cd dwl
+ll
+mv *.c ..
+mv *.h ..
+ll
+mv LICENSE* ..
+ll
+mv Makefile README.md dwl.* config.mk CHANGELOG.md ..
+ll
+mv protocols ..
+l
+ll
+ll -a
+cd ..
+ll
+rm -rf dwl
+make
+vim .gitignore
+rm config.def.h
+vim config.h
+cd
+vim .zprofile
+brave --enable-features=VaapiVideoEncoder,VaapiVideoDecodeLinuxGL\
+
+brave --enable-gpu
+brave --enable-features=VaapiVideoEncoder,VaapiVideoDecodeLinuxGL\
+
+suvim /etc/default/grub
+suvim /etc/mkinitcpio.conf
+sudo mkinitcpio -P
+dlw
+dwl
+cd github-repos/dwl
+ll
+vim config.h
+make
+vim config.h
+ake
+mak
+make
+vim config.h
+mak
+make
+sudo make clean install
+vscodium
+cd .local/share/applications
+ll
+cd /usr/share/applications
+ll
+vim vscodium.desktop
+vim vscodium-uri-handler.desktop
+codium --help
+codium --help | grep way
+codium --help | grep Way
+codium --help | grep wayland
+codium --enable-features=UseOzonePlatform --ozone-platform=wayland
+paru
+cd github-repos/dwl
+ll
+vim config.h
+sudo make clean install
+man dwl
+cd github-repos/dwl
+ll
+MO2select
+cd .local/bin
+vim MO2select
+MO2select
+codium
+vim .config/zsh/zsh_history
+cd /etc/X11
+ll
+sudo mv xorg.conf.bac xorg.conf
+waybar -c .config/waybar/config
+waybar -c .config/waybar/config
+sway
+paru -Rsn $(paru -Qdtq)
+swaybg -i Drives/HDD/Stuff/github-repos/wallpaper/cyberpunk.jpg
+pacman -Ss somebar
+paru -Ss somebar
+paru -S somebar-git
+somebar
+somebar --help
+cd github-repos
+ll
+git clone https://git.sr.ht/~raphi/somebar/
+cd somebar
+ll
+paru -Rsn somebar-git
+ll
+cd src
+ll
+mv config.def.hpp config.hpp
+l
+ll
+vim config.hpp
+cd ..
+ll
+meson build
+ll
+ll build
+meson setup build
+ninja -C build
+öö
+ll
+ll build
+./build/somebar
+dwl -s ./build/somebar
+dwl -s ./build/somebar
+dwl -s ./build/somebar &
+dwl -s "swaybg -i Drives/HDD/Stuff/github-repos/wallpaper/cyberpunk.jpg"
+cd github-repos/somebar
+ll
+cd ..
+rm -rf somebar
+git clone https://github.com/MadcowOG/dwl-bar.git
+cd dwl-bar
+ll
+make
+ll
+./dwl-bar
+dwl -s ./dwl-bar
+vim src/config.h
+ake
+make
+ll
+./dwl-bar
+cd ..
+rm -rf dwl-bar
+git clone https://github.com/kolunmi/dwlb
+cd dwlb
+ll
+make
+sudo pacman -S pixman
+ll
+ll protocols
+vim pixman.h
+l
+ll
+vim dwlb.c
+make
+vim dwlb.c
+make -I/usr/include/pixman-1/
+vim Makefile
+ake
+make
+paru -Ss dwlb
+ll /usr/include/pixman-1
+suvim /usr/include/fcft/fcft.h
+make
+suvim /usr/include/pixman-1/pixman.h
+make
+ll
+./dwlb
+dwl -s ./dwlb
+./dwlb
+cd github-repos/dwl
+ll
+vim config.h
+swaybg -i Drives/HDD/Stuff/github-repos/wallpaper/cyberpunk.jpg
+swaybg -i Drives/HDD/Stuff/github-repos/wallpaper/cyberpunk.jpg
+sx .config/X11/xinitrc
+dwl
+dbus-run-session dwl
+paru
+paru -Rsn $(paru -Qdtq)
+Hyprland
+dwl
+rm -rf .config/nvim .local/share/nvim
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+vim
+vim .zprofile
+rm -rf .config/nvim .local/share/nvim
+cd github-repos/dotfiles/.config
+ll
+cp -r nvim ~/.config
+cd
+nvim
+vim .config/nvim/lua/plugins.lua
+vim .config/nvim/lua/plugins.lua
+vim .config/nvim/lua/plugins.lua
+vim ~/github-repos/dwm/config.
+vim ~/github-repos/dwm/config.h
+vim .config/nvim/lua/plugins.lua
+vim ~/github-repos/dwm/config.h
+vim .config/nvim/lua/keymaps.lua
+cd .config/nvim
+ll
+ll -a
+cd
+cd github-repos/dotfiles
+ll
+vim .config/nvim/lua/keymaps.lua
+cd
+vim
+sudo pacman -S ripgrep
+vim
+paru -Rsn $(paru -Qdtq)
+poweroff
+paru
+cd .cache/paru/clone/lib32-vulkan-nouveau-git
+ll
+makepkg -si
+paru -S aur/vulkan-nouveau-git
+paru -S aur/vulkan-nouveau-git
+vim main.cpp
+g++ main.cpp
+rm main.cpp
+vim .zprofile
+suvim /etc/mkinitcpio.conf
+suvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo mkinitcpio -P
+ls /usr/share/vulkan/icd.d/
+vim /usr/share/vulkan/icd.d/nouveau_icd.x86_64.json
+reboot
+killall steam
+steam
+cd /etc/X11
+ll
+sudo mv xorg.conf xorg.conf.bac
+cd 
+cd github-repos/dwl
+ll
+vim config.h
+make
+vim config.h
+make
+sudo make clean install
+steam
+st
+cd github-repos/dwl
+ll
+vim Makefile
+vim config.mk
+sudo make clean install
+vkcube
+sudo pacman -S vulkan-tools
+vkcube
+gamemoderun mangohud vkcube
+gamemoderun vkcube
+pacman -Ss vulkan info
+vim .zprofile
+source .zprofile
+vulkaninfo
+vulkaninfo | less
+killall steam
+steam
+cd github-repos/dwl
+ll
+vulkaninfo
+vulkaninfo | less
+Hyprland
+dwl
+dwl
+dwl
+Hyprland
+paru
+paru -Rsn $(paru -Qdtq)
+suvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+suvim /etc/mkinitcpio.conf
+sudo mkinitcpio -P
+st
+reboot
+cd /etc/X11
+ll
+sudo mv xorg.conf.bac xorg.conf
+suvim /etc/default/grub
+videoinfo
+suvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+paru
+paru -Rsn $(paru -Qdtq)
+nxmvim
+paru
+nxmvim
+nxmvim
+paru
+htop
+paru -S wlroots-git
+paru -S aur/wlroots-git
+paru -S hyprland-nvidia-nosystemd-git
+cd .cache/paru/clone/hyprland-nvidia-nosystemd-git
+ll
+vim PKGBUILD
+paru -S hyprland-nosystemd-git
+sudo pacman -S tomlplusplus
+paru -S hyprland-nosystemd-git
+cd src/
+ll
+cd hyprland-nvidia-nosystemd-git
+ll
+vim Makefile
+cd
+cd .cache/paru/clone/hyprland-nvidia-nosystemd-git
+cd ..
+ll
+cd hyprland-nosystemd-git
+ll
+makepkg -si
+pacman -Ss hyprland
+cd github-repos/dwk
+cd github-repos/dwl
+make
+make clean
+make
+dwl
+cd /usr/lib
+ll
+sudo ln -sf libwlroots.so libwlroots.so.12
+dwl
+echo $GLSyncToVblank
+printenv GLSyncToVblank
+hyprctl monitors all
+hyprctl monitors all
+hyprctl monitors all
+hyprctl monitors all
+MO2select
+wofi
+sudo pacman -S wofi
+wofi
+wofi --show
+wofi --show run
+wofi --show drun
+wofi --show run
+cd .config/waybar
+ll
+vim config
+sudo pacman -S waybar-hyprland
+paru -S waybar-hyprland
+cd
+cd .cache/paru/clone/waybar-hyprland
+ll
+vim PKGBUILD
+cd src
+ll
+cd wa
+cd Waybar-0.9.22
+ll
+vim Makefile
+pacman -Ss waybar
+cd
+cd .config/waybar
+ll
+vim config
+vim .config/hypr/hyprland.conf
+vim .config/hypr/hyprland.conf
+vim .config/hypr/hyprland.conf
+hyprctl monitors all
+cd .config/hypr
+ll
+vim hyprland.conf
+vim hyprland.conf
+vim .config/hypr/hyprland.conf
+cd github-repos/split-monitor-workspaces
+ll
+git pull
+Mak
+Make
+make
+meson setup build
+ll
+rm split-monitor-workspaces.so
+meson setup build
+meson setup --reconfigure
+ninja -C build
+meson setup build --wipe
+meson compile -C build
+cd
+vim .config/hypr/hyprland.conf
+sx .config/X11/xinitrc
+Hyprland
+Hyprland
+Hyprland
+vim .config/hypr/hyprland.conf
+Hyprland
+Hyprland
+paru
+paru -S aur/wlroots-git
+paru -S aur/vulkan-nouveau-git
+cd .cache/paru/clone/lib32-vulkan-nouveau-git
+makepkg -si
+vulkaninfo | less
+cd
+suvim /etc/default/grub
+suvim /etc/mkinitcpio.conf
+sudo mkinitcpio -P
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+suvim /etc/mkinitcpio.conf
+suvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo mkinitcpio -P
+vulkaninfo | less
+reboot
+paru
+pacman -Ss wlroots
+paru
+vulkaninfo
+waybar -c .config/waybar/config
+suvim /etc/default/grub
+suvim /etc/mkinitcpio.conf
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo mkinitcpio -P
+cd /etc/X11
+sudo mv xorg.conf.bac xorg.conf
+ll
+reboot
+paru
+paru -Rsn $(paru -Qdtq)
+ll -a
+rm core
+ll -a
+poweroff
+paru
+paru -S aur/vulkan-nouveau-git
+cd .cache/paru/clone/lib32-vulkan-nouveau-git
+makepkg -si
+paru -Rsn $(paru -Qdtq)
+cd
+ll -a
+paru -Ss nouveau
+paru -Ss nouveau
+Hyprland
+paru
+suvim /etc/mkinitcpio.conf
+suvim /etc/default/grub
+sudo mkinitcpio -P
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+cd /etc/X11
+ll
+sudo mv xorg.conf xorg.conf.nv
+cp xorg.conf.nv xorg.conf
+sudo cp xorg.conf.nv xorg.conf
+ll
+suvim xorg.conf
+reboot
+cd /etc/X11
+ll
+sudo rm xorg.conf
+vkcube
+pacman -Ss linux-git
+pacman -Ss linux git
+pacman -Ss gsp
+pciutils
+lspci
+pacman -Ss nouveau
+nvidia-smi
+gpustat
+pacman -Ss gpustat
+paru -Ss gpustat
+pacman -Ss glances
+sudo pacman -S glances
+glances
+paru -Rsn glances
+cd .config/hypr
+ll
+mv hyprland.conf hyprland.conf.bac
+paru
+waybar -c .config/waybar/config
+sx .config/X11/xinitrc
+Hyprland
+dwl
+cd /etc/X11
+ll
+sudo mv xorg.conf.nv xorg.conf
+cd
+suvim /etc/default/grub
+suvim /etc/mkinitcpio.conf
+sudo mkinitcpio -P
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+cd .config/hypr
+ll
+mv hyprland.conf.bac hyprland.conf
+vim hyprland.conf
+reboot
+vim Downloads/VERSIONS.txt
+killall nvim
+vim Downloads/VERSIONS.txt
+./hl2_linux
+./hl2.sh
+mangohud steam steam://rungameid/220
+mangohud steam steam://rungameid/220
+cd
+suvim /etc/mkinitcpio.conf
+suvim /etc/default/grub
+sudo mkinitcpio -P
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+cd /etc/X11
+ll
+sudo mv xorg.conf xorg.conf.nv
+reboot
+killall steam
+killall steamwebhelper
+htop
+vim .config/hypr/hyprland.conf
+Hyprland
+Hyprland
+sx .config/X11/xinitrc
+htop
+free --si -h
+reboot
+cd /etc/X11
+ll
+sudo mv xorg.conf.nv xorg.conf
+cd
+suvim /etc/default/grub
+suvim /etc/mkinitcpio.conf
+sudo mkinitcpio -P
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+rebooot
+reboot
+poweroff
+paru
+paru -S aur/vulkan-nouveau-git
+cd .cache/paru/clone/lib32-vulkan-nouveau-git
+makepkg -si
+paru -Rsn $(paru -Qdtq)
+pacman -Ss nouveau vulkan
+pacman -Ss nak
+ls /usr/share/vulkan/icd.d/
+vim /usr/share/vulkan/icd.d/nouveau_icd.x86_64.json
+cd
+winecfg
+winetricks --quite
+winetricks -
+winetricks -q
+pacman -Ss x conf
+pacman -Ss xorg conf
+sudo pacman -S grobi
+grobi
+paru -Rsn grobi
+suvim /etc/mkinitcpio.conf
+sudo mkinitcpio -P
+suvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+cd /etc/X11
+ll
+sudo mv xorg.conf xorg.conf.nv
+suvim xorg.conf
+sudo rm xorg.conf
+ll
+reboot
+xrandr
+vkcube
+vim /etc/X11/xorg.conf.nv
+pacman -Ss mesa config
+paru -Ss mesa conf
+paru -Ss mesact
+paru -Ss mesa ct
+cd /usr/share/X11/xorg.conf.d
+ll
+vim 10-
+vim 10-nvidia-drm-outputclass.conf
+sudo Xorg :0 -configure
+sudo Xorg :1 -configure
+sudo Xorg :0 -configure
+cd /etc/X11
+ll
+suvim xorg.conf
+sudo Xorg :0 -configure
+nxmvim
+cd
+cd .config
+ll
+cd
+cd Drives/NVMe/Games/Dark\ Souls\ Remastered
+ll
+mangohud MANGOHUD_CONFIG=full wine DarkSoulsRemastered.exe
+htop
+killall wine
+Hyprland
+suvim /etc/default/grub
+suvim /etc/mkinitcpio.conf
+sudo mkinitcpio -P
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+cd /etc/X11
+ll
+sudo mv xorg.conf xorg.conf.nvk
+sudo mv xorg.conf.nv xorg.conf
+neofetch
+xrandr --help
+xrandr --curren
+xrandr --current
+nxmvim
+nxmvim
+paru
+sudo pacman -S libreoffice-fresh
+pacman -Ss pdf vim
+pacman -Ss pdf
+sudo pacman -S mupdf
+cd Downloads
+ll
+mupdf Erik\ Rosebrock_Zeugnis.pdf
+paru
+paru
+sudo pacman -S  lib32-vulkan-nouveau-git
+cd .cache/paru/clone/lib32-vulkan-nouveau-git
+makepkg -si
+pacman -Ss nouveau vulkan
+paru
+cd .cache/paru/clone/lib32-vulkan-nouveau-git
+makepkg -si
+paru -Rsn $(paru -Qdtq)
+suvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+suvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+cd /etc/default
+ll
+vim
+paru -Rsn $(paru -Qdtq)
+paru -Sy yuzu-early-access-appimage
+vim .config/hypr/hyprland.conf
+cd github-repos/dwl
+vim config.h
+sudo make clean install
+cd
+paru -Rsn bemenu-wayland bemenu bluez-libs discord-rpc
+paru -Rsn bemenu-wayland bemenu
+neofetch
+ll -a
+paru -Rsn gparted
+cd /usr/share/applications
+ll
+vim lxshortcut.desktop
+lxshortcut
+paru -Rsn lxshortcut
+pacman -Ss lx
+pacman -Ss lx | grep Installiert
+paru -Rsn lxmenu-data
+ll
+pacman -Q
+glxinfo
+glxgears
+gamemoderun mangohud vkcube
+gamemoderun mangohud glxgears
+sx .config/X11/xinitrc
+reboot
+paru
+paru
+paru
+poweroff
+paru
+paru -S aur/vulkan-nouveau-git
+cd .cache/paru/clone/lib32-vulkan-nouveau-git
+makepkg -si
+paru -Rsn $(paru -Qdtq)
+cd
+ll -a
+vim
+paru
+nxmvim
+suvim /etc/default/grub
+suvim /etc/mkinitcpio.conf
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo mkinitcpio -P
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sx .config/X11/xinitrc
+cd .config/hypr
+ll
+vim 
+vim hyprland.conf
+reboot
+suvim /etc/default/grub
+vkcube
+htop
+cd /var/cache/pacman/pkg
+ll
+tar -l abseil-cpp-20230802.1-1.1-x86_64.pkg.tar.zst
+tar --help
+tar -t linux-firmware-20240115.9b6d0b08-1-any.pkg.tar.zst
+tar -tf linux-firmware-20240115.9b6d0b08-1-any.pkg.tar.zst
+vim .config/zsh/zsh_history
+vim .config/zsh/zsh_history
+paru
+vim .config/yambar
+vim .config/yambar/config.yml
+yambar
+vim .config/yambar/config.yml
+yambar
+vim .config/yambar/config.yml
+yambar
+vim .config/yambar/config.yml
+cd .local/bin
+vim dwl-tags.sh
+chmod +x dwl-tags.sh
+yambar
+cd
+vim .config/yambar/config.yml
+vim .local/bin/dwl-tags.sh
+cd github-repos/dwl
+vim config.h
+cd ../dwm
+vim config.h
+paru
+paru -Ss somebar
+paru -S somebar-git
+somebar
+somebar --help
+cd github-repos/dwl
+vim config.h
+make
+sudo make clean install
+cd ..
+ll
+git clone https://sr.ht/~raphi/somebar/
+git clone https://git.sr.ht/~raphi/someblocks/
+cd someblocks
+ll
+vim blocks.def.h
+make
+sudo make clean install
+somebar
+paru -Rsn somebar-git
+./someblocks
+vim blocks.def.h
+ll
+vim blocks.h
+make
+./someblocks
+echo $$XDG_RUNTIME_DIR
+echo $XDG_RUNTIME_DIR
+somebar
+./someblocks
+cd ../dwl
+vim config.h
+make
+sudo make clean install
+vim github-repos/dwmblocks/config.h
+dwl
+dwl -s .config/X11/dwl
+dwl -s .config/X11/dwl
+dwl -s .config/X11/dwl
+dwm
+sx .config/X11/xinitrc
+suvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+suvim /etc/mkinitcpio.conf
+sudo mkinitcpio -P
+reboot
+neofetch
+neofetch
+neofetch
+neofetch
+neofetch
+free --si -h
+free --si -h
+free --si -h
+free --si -h
+free --si -h
+free --si -h
+free --si -h
+free --si -h
+free --si -h
+free --si -h
+free --si -h
+free --si -h
+free --si -h
+free --si -h
+stea
+killall HogwartsLegacy.exe
+free --si -h
+free --si -h
+free --si -h
+free --si -h
+free --si -h
+free --si -h
+free --si -h
+dwl -s .config/X11/dwl
+Hyprland
+sx .config/X11/xinitrc
+sx .config/X11/xinitrc
+poweroff
+paru
+librewolf
+librewolf
+paru -Ss librewolf
+librewolf
+pacman -Ss libxpv
+cd /usr/lib/librewolf
+ll
+pacman -Ss libxul
+pacman -Ss libvpx
+cd /usr/lib
+sudo ln -sf libvpx.so libvpx.so.8
+librewolf
+sx .config/X11/xinitrc
+vim cl
+vim cl
+suvim /etc/mkinitcpio.conf
+sudo mkinitcpio -P
+suvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+vim cl
+git clone https://github.com/ventureoo/nouveau-reclocking.git
+cd nouveau-reclocking/src
+chmod +x nouveau-reclocking.lua
+ll
+./nouveau-reclocking.lua
+sudo ./nouveau-reclocking.lua
+sudo ./nouveau-reclocking.lua -l
+sudo ./nouveau-reclocking.lua -v
+paru -Ss xf86-video-nouveau
+paru -S xf86-video-nouveau
+sudo cat /sys/kernel/debug/dri/0/pstate
+cat /sys/kernel/debug/dri/0/pstate
+ls /sys/kernel/debug
+sudo ls /sys/kernel/debug
+sudo ls /sys/kernel/debug/dri
+sudo ls /sys/kernel/debug/dri/0
+sudo ls /sys/kernel/debug/dri/0/pstate
+sudo cat cat /sys/kernel/debug/dri/0/pstate
+sudo cat /sys/kernel/debug/dri/0/pstate
+sudo cat /sys/kernel/debug/dri/0/pstate
+sudo cat /sys/kernel/debug/dri/0/pstate
+st
+pacman -Ss nouveau
+paru -Ss nouveau
+paru -S nouveau-reclocking
+modinfo nouveau
+cat /sys/class/drm/card0/device/current_link_
+cat /sys/class/drm/card0/device/current_link_speed 
+cat /sys/class/drm/card0/device/current_link_width
+cat /sys/class/drm/card0/device/max_link_speed
+cat /sys/class/drm/card0/device/max_link_width
+cat /sys/class/drm/card0/device/driver_override
+cat /sys/class/drm/card0/device/driver
+cat /sys/class/drm/card0/device/drm/card0/card0-DP-1/enabled
+cat /sys/class/drm/card0/device/resource
+cat /sys/class/drm/card0/device/resource0
+cat /sys/class/drm/card0/device/resource0_resize
+sudo lshw -C display
+sudo lshw -C display
+sudo lshw -C display
+cat /sys/class/drm/card0/device/pp_dpm_sclk\
+
+cat /sys/class/drm/card0/device/pp_dpm_sclk
+sudo nouveau-reclocking
+paru -Rsn nouveau-reclocking
+pacman -Ss hwinfo
+sudo pacman _S hwinfo
+sudo pacman -S hwinfo
+sudo lshw -C display
+sudo hwinfo --gfxcard
+sudo pacman -S lshw
+sudo lshw -C display
+sudo lshw -C display
+cd .config/foot
+ll
+vim foot.ini
+cd github-repos/dwl
+ll
+vim config.h
+cd github-repos/dwl
+vim config.h
+suvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+nvidia-smi -q
+cat /proc/driver/nvidia/gpus/domain:bus:device.function/information
+cat /proc/driver/rtc
+cat /proc/driver/nvram
+st
+Xwayland 
+Xwayland st
+suvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+suvim /etc/mkinitcpio.conf
+sudo mkinitcpio -P
+dwl
+dwl -s .config/X11/dwl
+reboot
+paru
+sudo pacman -S libvpx
+cd /usr/lib
+sudo rm libvpx.so.8
+librewolf
+paru
+paru -S aur/vulkan-nouveau-git
+cd /home/erik/.cache/paru/clone/lib32-vulkan-nouveau-git
+makepkg -si
+paru -Rsn $(paru -Qdtq)
+paru
+paru
+reboot
+paru
+paru
+poweroff
+paru
+paru -Ss mesa-git
+sudo pacman -S xf86-video-nouveau
+cd /var/cache/pacman/pkg
+tar -tf xf86-video-nouveau-1.0.17-2-x86_64.pkg.tar.zst
+man nouveau
+paru
+starship
+vim .config/zsh/.zshrc
+echo $PS1
+vim
+nxmvim
+pacman -Ss zathura
+paru -S zathura
+paru -Rsn mupdf
+sudo pacman -S zathura-mupdf
+sudo pacman -S zathura-pdf-mupdf
+sudo pacman -S zathura-pdf-mupdf
+Hyprland
+sx .config/X11/xinitrc
+sx .config/X11/xinitrc
+paru
+poweroff
+paru
+paru -Rsn $(paru -Qdtq)
+paru -S aur/vulkan-nouveau-git
+cd .cache/paru/clone/lib32-vulkan-nouveau-git
+makepkg -si
+cd
+suvim /etc/mkinitcpio.conf
+suvim /etc/default/grub
+sudo mkinitcpio -P
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+vim .config/zsh/.zshrc
+vim .zprofile
+vkcube
+vulkaninfo
+cd /etc/X11
+ll
+sudo mv xorg.conf xorg.conf.nv
+cd
+sx .config/X11/xinitrc
+steam
+suvim /etc/default/grub
+suvim /etc/mkinitcpio.conf
+sudo mkinitcpio -P
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+cd /etc/X11
+sudo mv xorg.conf.nv xorg.conf
+paru
+paru
+paru -Rsn $(paru -Qdtq)
+sx .config/X11/xinitrc
+ll -a
+rm -rf nouveau-reclocking
+vim cl
+rm cl
+paru
+cd .cache/paru/clone/lib32-vulkan-nouveau-git
+makepkg -si
+free /dev/sda1
+free -h /dev/sda1
+suvim /etc/mkinitcpio.conf
+suvim /etc/default/grub
+sudo mkinitcpio -P
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+Hyprland
+winetricks -q
+vkcube
+cd Drives/NVMe/Games/Dark\ Souls\ Remastered
+cd Drives/NVMe
+l
+cd Games
+ll
+cd Baldurs\ Gate\ 3
+ll
+cd bin
+ll
+wine bg3_dx11.exe
+cd
+suvim /etc/default/grub
+suvim /etc/mkinitcpio.conf
+sudo mkinitcpio -P
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+vkcube
+paru
+paru
+paru -Rsn $(paru -Qdtq)
+sx .config/X11/xinitrc
+paru
+poweroff
+paru
+reboot
+paru
+cd .cache/paru/clone/lib32-vulkan-nouveau-git
+makepkg -si
+paru
+paru -Rsn $(paru -Qdtq)
+nxmvim
+paru
+paru
+cd Drives/NVMe/Games
+ll
+mkdir HoI4
+ll
+cd
+cd Drives/HDD/Repacks
+ll
+cd Hearts.of.Iron.IV-jc141
+ll
+cd files
+ll
+dwarfsextract -i groot.dwarfs -o /home/erik/Drives/NVMe/Games/HoI4
+cd
+cd Drives/NVMe/Games/HoI4
+ll
+cd .local/bin
+ll
+ln -sf ~/Drives/NVMe/Games/HoI4/hoi4
+ll
+cd Drives/NVMe/Games/HoI4
+ll
+./hoi4
+paru
+sx .config/X11/xinitrc
+nxmvim
+ll -a
+rm core
+ll -a
+paru
+paru
+paru
+paru -Rsn $(paru -Qdtq)
+reboot
+paru
+paru
+wine OzWizzarD.exe
+~/.steam/root/compatibilitytools.d/GE-Proton8-28/files/bin/wine OzWizzarD.exe
+~/.steam/root/compatibilitytools.d/GE-Proton8-28/files/bin/wine64 OzWizzarD.exe
+pacman -Ss linux next
+pacman -Ss kde
+paru -Ss dolphin
+paru -S aur/dolphin-git 
+paru -S plasma-meta-git
+paru -S plasma-meta
+paru
+poweroff
+paru
+paru -Rsn $(paru -Qdtq)
+vim
+paru
+nxmvim
+cd .cache/paru/clone/vulkan-nouveau-git
+ll
+vim vulkan-nouveau-git.install
+vim PKGBUILD
+sx .config/X11/xinitrc
+paru
+cd .cache/paru/clone/lib32-vulkan-nouveau-git
+makepkg -si
+paru
+paru -S aur/vulkan-nouveau-git
+paru -Ss nvidia beta
+sudo pacman -S chaotic-aur/nvidia-open-beta-dkms chaotic-aur/nvidia-utils-beta chaotic-aur/nvidia-settings-beta 
+paru -S chaotic-aur/nvidia-open-beta-dkms chaotic-aur/nvidia-utils-beta chaotic-aur/nvidia-settings-beta aur/lib32-nvidia-utils-beta
+paru -Rsn lib32-nvidia-utils
+paru -S chaotic-aur/nvidia-open-beta-dkms chaotic-aur/nvidia-utils-beta chaotic-aur/nvidia-settings-beta aur/lib32-nvidia-utils-beta
+reboot
+paru
+MO2select
+paru
+paru
+ll -a
+setxkbmap -layout de
+xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1
+nemo
+cd github-repos/dwl
+ll
+vim config.def.h.rej
+vim dwl.c.rej
+cd github-repos/dwl
+ll
+mv config.h ..
+cd ..
+rm -rf dwl
+git clone --recursive https://codeberg.org/dwl/dwl
+cd dwl
+ll
+make
+cd ..
+ll
+mv config.h dwl
+cd dwl
+ll
+rm config.h
+ll
+rm LICENSE*
+ll
+make
+ll
+vim Makefile
+ll
+rm config.def.h
+ll
+vim .gitignore
+ll
+ll -a
+vim config.h
+pacman -Ss nemo
+sudo pacman -S nemo
+nemo
+paru -Rsn nemo
+ll
+setxkbmap -layout de
+xrandr --current
+xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1
+ll
+wget https://github.com/djpohly/dwl/compare/main...PalanixYT:monfig.patch
+ll
+mkdir patches
+mv main...PalanixYT:monfig.patch patches
+cd patches
+ll
+vim main...PalanixYT:monfig.patch
+mv main...PalanixYT:monfig.patch monitorconfig.patch
+ll
+wget https://codeberg.org/dwl/dwl-patches/src/branch/main/vanitygaps/vanitygaps.patch
+ll
+vim vanitygaps.patch
+rm vanitygaps.patch
+ll
+vim vanitygaps.patch
+cd ..
+ll
+patch -p1 < patches/vanitygaps.patch
+patch -p1 < patches/monitorconfig.patch
+ll
+rm *.orig *.rej
+ll
+patch -p1 < patches/monitorconfig.patch
+vim Makefile
+vim config.mk
+patch -p1 < patches/numlock-capslock.patch
+patch -p1 < patches/numlock-capslock.patch
+ll
+rm *.orig *.rej
+mak
+make
+cd ..
+cd dwl
+mv patches ..
+cd ..
+ll
+rm -rf dwl
+git clone --recursive https://codeberg.org/dwl/dwl
+mv patches dwl/
+cd dwl
+ll
+patch -p1 < patches/monitorconfig.patch
+ll
+vim config.def.h
+ll
+vim dwl.c
+mv patches ..
+cd ..
+rm -rf dwl
+git clone --recursive https://codeberg.org/dwl/dwl
+mv patches dwl/
+cd pat
+cd dwl
+patch -p1 < patches/vanitygaps.patch
+vim config.def.h
+ll
+vim dwl.c
+rm LICENSE*
+ll
+make
+vim config.h
+vim config.h
+make
+sudo make clean install
+vim .config/hypr/hyprland.conf
+cd github-repos/dwl
+ll
+vim config.def.h.rej
+vim dwl.c.rej
+qbittorrent
+pacman -Ss qt wayland
+sudo pacman -S qt6-wayland
+qbittorrent
+cd github-repos/dwl
+ll
+rm *.orig *.rej
+ll
+rm config.def.h
+vim .gitignore
+vim config.h
+make
+vim config.h
+make
+vim config.h
+make
+sudo make clean install
+vim config.mk
+sudo make clean install
+vim config.mk
+vim config.h
+sudo make clean install
+vim .config/hypr/hyprland.conf
+cd github-repos/dwm
+vim config.h
+somebar
+cd github-repos
+git clone https://git.sr.ht/~raphi/somebar
+ll
+rm -rf someblocks
+cd somebar
+ll
+cd src
+ll
+cp config.def.hpp config.hpp
+vim config.hpp
+cd ..
+meson setup build
+ninja -C build
+ll
+ll build
+./build/somebar
+sudo ninja -C build install
+cd
+vim .config/X11/dwl
+somebar
+vim .config/X11/dwl
+dwl -s somebar
+dwl -s 'foot --server <&-'
+Hyprland
+dwl -s .config/X11/dwl
+sx .config/X11/xinitrc
+dwl -s .config/X11/dwl
+dwl -s .config/X11/dwl
+dwl -s .config/X11/dwl
+dwl -s somebar
+dwl -s .config/X11/dwl
+dwl -s somebar -s foot
+dwl -s somebar
+dwl -s .config/X11/dwl
+pacman -Ss wlr-randr
+sudo pacman -S wlr-randr
+wlr-randr
+wlr-randr --help
+wlr-randr --output Microstep MSI G241 0x00000189 (DP-2) --mode 1920x1080 px, 143.854996 Hz
+wlr-randr --output DP-2 --custom-mode 1920x1080@144Hz
+cd github-repos/dwl
+vim dwl.c
+sudo make clean install
+wlr-randr
+wlr-randr --output DP-2 --custom-mode 1920x1080@144Hz
+sudo wlr-randr --output DP-2 --custom-mode 1920x1080@144Hz
+wlr-randr --output HDMI-A-2 --preferred --pos 0,0 --output DP-2 --preferred --pos 1920,0
+wlr-randr --output HDMI-A-1 --preferred --pos 0,0 --output DP-2 --preferred --pos 1920,0
+wlr-randr --output HDMI-A-1 --preferred --pos 0,0 --output DP-2 --preferred --pos 1920,0 --adaptive-sync enabled
+wlr-randr --output HDMI-A-1 --preferred --pos 0,0 --output DP-2 --preferred --pos 1920,0 --adaptive-sync enabled --mode 1920x1080
+wlr-randr --output HDMI-A-1 --preferred --pos 0,0 --output DP-2 --preferred --pos 1920,0 --adaptive-sync enabled --mode 1920x1080@144
+wlr-randr --output HDMI-A-1 --preferred --pos 0,0 --output DP-2 --preferred --pos 1920,0 --adaptive-sync enabled --mode 1920x1080@144Jz
+wlr-randr --output HDMI-A-1 --preferred --pos 0,0 --output DP-2 --preferred --pos 1920,0 --adaptive-sync enabled --mode 1920x1080@144Hz
+wlr-randr --output HDMI-A-1 --preferred --pos 0,0 --output DP-2 --preferred --pos 1920,0 --adaptive-sync enabled --custommode 1920x1080@144Hz
+wlr-randr --output HDMI-A-1 --preferred --pos 0,0 --output DP-2 --preferred --pos 1920,0 --adaptive-sync enabled --custom-mode 1920x1080@144Hz
+wlr-randr --output HDMI-A-1 --preferred --pos 0,0 --output DP-2 --preferred --pos 1920,0 --adaptive-sync enabled --custom-mode 1920x1080@120Hz
+wlr-randr --output HDMI-A-1 --preferred --pos 0,0 --output DP-2 --preferred --pos 1920,0 --adaptive-sync enabled --custom-mode 1920x1080@143.854996Hz
+wlr-randr --output HDMI-A-1 --preferred --pos 0,0 --output DP-2 --preferred --pos 1920,0 --adaptive-sync enabled --mode 1920x1080@143.854996Hz
+vim .config/X11/dwl
+wlr-randr
+wlr-randr --help
+wlr-randr --output DP-2 --mode
+wlr-randr --output DP-2 --mode 1920x1080@143.854996Hz
+vim .config/zsh/zsh_history
+link
+dwl -s .config/X11/dwl
+dwl -s .config/X11/dwl
+dwl -s .config/X11/dwl
+poweroff
+paru
+paru
+paru -Rsn $(paru -Qdtq)
+reboot
+paru
+paru -S lxappearance
+lxappearance
+lxappearance
+pacman -Ss breeze-gtk
+paru breeze-gtk
+paru -S breeze-gtk
+lxappearance
+qbittorrent
+qbittorrent
+man lxappearance
+powerof f
+poweroff
+nxmvim
+paru
+paru -Rsn $(paru -Qdtq)
+reboot
+paru
+cd .cache/paru/clone/lib32-vulkan-nouveau-git
+ll
+cd pkg
+ll
+cd ..
+ll
+ll
+tar -tf lib32-vulkan-nouveau-git-24.0.branchpoint.r884.g501f78f-1-x86_64.pkg.tar.zst
+cd /usr/share/vulkan/icd.d
+ll
+vim intel_icd.x86_64.json
+paru -Rsn breeze-gtk lxappearance
+paru -Rsn breeze-gtk lxappearance
+paru
+cd .cache/paru/clone/lib32-vulkan-nouveau-git
+makepkg -si
+nxmvim
+cd
+vim .config/X11/dwl
+paruz
+paru
+vim
+cd github-repos/dwl
+ll
+vim config.mk
+pkg-config
+pkg-config wayland
+pkg-config wayland-client
+vim dwl.c
+make
+sudo make clean install
+vim config.h
+vim config.h
+vim dwl.c
+make
+sudo make clean install
+sudo gpasswd -a $USER plugdev
+polychromatic-helper
+polychromatic-helper
+polychromatic-controller
+winecfg
+cd github-repos/dwl
+vim config.h
+vim dwl.c
+sudo make clean install
+MO2select
+ll
+MO2select
+clear
+paru
+ll Games
+ll Games/Heroic
+rm -rf Games/Heroic
+ls /usr/lib/firmware/nvidia
+ls /usr/lib/firmware/nvidia/tu104
+ls /usr/lib/firmware/nvidia/tu104
+ll /usr/lib/firmware/nvidia/tu104
+ll /usr/lib/firmware/nvidia/tu104/gsp
+mkdir nouveau-gsp
+cd nouveau-gsp
+ll
+vim PKGBUILD
+vim PKGBUILD
+makepkg
+vim PKGBUILD
+makepkg
+ll
+tar -tf nouveau-fw-gsp-550.40.07-2-any.pkg.tar.zst
+makepkg -si
+nvidia-smi -q
+cat /proc/driver/nvidia/gpus/domain:bus:device.function/information
+dwl
+dwl -s somebar
+dwl -s somebar
+Hyprland
+sx .config/X11/xinitrc
+paru
+paru
+paru -Rsn $(paru -Qdtq)
+vim
+paru
+paru -S aur/vulkan-nouveau-git
+paru -S aur/vulkan-nouveau-git
+cd .cache/paru/clone
+ll
+rm -rf *
+paru -S aur/vulkan-nouveau-git
+paru -S aur/vulkan-nouveau-git
+cd vulkan-nouveau-git
+ll
+vim nvk-memory-budget.patch
+vim nvk-compressed-image.patch
+ll
+rm nvk-comrm nvk-compressed-image.patch
+ll
+vim PKGBUILD
+makepkg -si
+vim PKGBUILD
+makepkg -si
+cd ..
+ll
+paru -S aur/lib32-vulkan-nouveau-git
+cd lib32-vulkan-nouveau-git
+vim PKGBUILD
+makepkg -si
+vim PKGBUILD
+makepkg -si
+cd
+suvim /etc/mkinitcpio.conf
+suvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo mkinitcpio -P
+cd /etc/X11
+ll
+sudo mv xorg.conf xorg.conf.nv
+ll
+reboot
+pacman -Ss nouveau
+nvidia-smi -q
+nvidia-settings
+suvim /etc/default/grub
+suvim /etc/mkinitcpio.conf
+sudo mkinitcpio -P
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+vim /boot/initramfs-linux-zen.img
+nvidia-settings
+sudo pacman -S linux-firmware
+reboot
+cd /etc/grub.d
+ll
+suvim 10_linux
+nvidia-settings
+suvim /boot/grub/grub.cfg
+suvim /etc/mkinitcpio.conf
+sudo rmmod nvidia
+sudo rmmod nvidia_uvm nvidia_modeset
+sudo rmmod nvidia_uvm nvidia_modeset nvidia_drm
+sudo rmmod nvidia_modeset nvidia_drm
+sudo rmmod nvidia_modeset
+sudo rmmod nvidia
+sudo insmod nouveau
+sx .config/X11/xinitrc
+dwl -s somebar
+sudo modprobe nouveau
+sx .config/X11/xinitrc
+neofetch
+picom
+vkcube
+vulkaninfo
+vulkaninfo | less
+ll /usr/lib/firmware/nvidia/tu104/gsp
+suvim /etc/mkinitcpio.conf
+suvim /etc/default/grub
+sudo mkinitcpio -P
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+cd /etc/X11
+ll
+suvo mv xorg.conf.nv xorg.conf
+sudo mv xorg.conf.nv xorg.conf
+reboot
+paru
+MO2select
+nxmvim
+htop
+free -h
+free -h
+free -h
+free -h
+free -h
+free -h
+free -h
+free -h
+free -h
+free -h
+free -h
+free -h
+free -h
+free -h
+free -h
+free -h
+free -h
+htop
+htop --help
+htop -C
+htop --user
+htop -U
+htop -h
+htop -H
+foot
+pacman -Ss plasma
+paru -Ss plasma 6
+suvim /etc/pacman.conf
+paru
+suvim /etc/pacman.conf
+sudo pacman -Sy
+sudo rm -R /var/lib/pacman/sync
+paru
+suvim /etc/pacman.conf
+sudo rm -R /var/lib/pacman/sync
+paru
+paru -Rsn $(paru -Qdtq)
+vim steam-10088537535891374080.log
+vim steam-10088537535891374080.log
+poweroff
+cd /var/cache/pacman/pkg
+tar -tf wayland-protocols-1.33-1-any.pkg.tar.zst
+suvim /etc/mkinitcpio.conf
+suvim /etc/default/grub
+cd /etc/X11
+ll
+sudo mv xorg.conf xorg.conf.nv
+sudo mv xorg.conf.nvk xorg.conf
+suvim xorg.conf
+sudo mkinitcpio -P
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+paru
+paru
+cd .cache/paru/clone/vulkan-nouveau-git
+makepkg -si
+cd ../lib32-vulkan-nouveau-git
+makepkg -si
+nvidia-settings
+suvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+vkcube
+sudo modprobe nouveau
+Hyprland
+suvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+paru
+vim .config/X11/dwl
+wlr-randr --output HDMI-A-1 --preferred --pos 0,0 --output DP-1 --preferred --pos 1920,0 --adaptive-sync enabled --custom-mode 1920x1080@144Hz
+wlr-randr
+vim .config/zsh/zsh_history
+suvim /etc/default/grub
+sudo insmod nouveau
+suvim /etc/mkinitcpio.conf
+sudo mkinitcpio -P
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+cd /etc/X11
+ll
+sudo mv xorg.conf xorg.conf.nvk
+sudo mv xorg.conf.nv xorg.conf
+st
+ll /lib/modules/6.7.2-zen1-1-zen/kernel/drivers/gpu/drm/nouveau/nouveau.ko.zst
+sudo insmod /lib/modules/6.7.2-zen1-1-zen/kernel/drivers/gpu/drm/nouveau/nouveau.ko.zst
+sudo modprobe nouveau
+dwl -s somebar
+reboot
+wlr-randr --output DP-2 --mode 1920x1080@143.854996Hz
+wlr-randr
+wlr-randr --output DP-1 --mode 1920x1080@143.854996Hz
+wlr-randr --output DP-1 --mode 1920x1080@144Hz
+wlr-randr --output DP-1 --mode 1920x1080@120Hz
+wlr-randr --output DP-1 --mode 1920x1080@119.982002Hz
+wlr-randr --output DP-1 --custom-mode 1920x1080@119.982002Hz
+wlr-randr --output DP-1 --custom-mode 1920x1080@120Hz
+wlr-randr --output DP-1 --custom-mode 1920x1080@144Hz
+nvidia-settings
+paru -Ss nvidia beta
+cd Drives/NVMe/Games
+ll
+rm -rf Baldurs\ Gate\ 3
+nxmvim
+paru
+paru
+paru
+paru
+paru
+ll -a
+ll Desktop
+rmdir Desktop
+ll .icons
+ll .icons/default
+vim .icons/default/index.theme
+rm -rf .icons
+ll -a
+paru
+paru -Ss linux-firmware
+sudo pacman -S linux-firmware-git linux-firmware-whence-git
+cd /var/cache/pacman/pkg
+tar -tf linux-firmware-git-20240130.001ba06d-1-any.pkg.tar.zst
+cd Games
+ll
+ll Heroic
+ll Heroic/CitiesSkylines
+ll Heroic/CitiesSkylines
+ll Heroic/CitiesSkylines
+ll Heroic/CitiesSkylines
+ll Heroic/CitiesSkylines
+ll Heroic/CitiesSkylines
+ll Heroic/CitiesSkylines
+ll Heroic/CitiesSkylines
+ll Heroic/CitiesSkylines
+ll Heroic/CitiesSkylines
+ll Heroic/CitiesSkylines
+ll Heroic/CitiesSkylines
+ll Heroic/CitiesSkylines
+ll Heroic/CitiesSkylines
+ll Heroic/CitiesSkylines
+ll Heroic/CitiesSkylines
+ll Heroic/CitiesSkylines
+ll Heroic/CitiesSkylines
+ll Heroic/CitiesSkylines
+ll Heroic/CitiesSkylines
+paru
+paru
+ll -a
+ll Games/Heroic/Df
+ls /usr/lib/firmware/nvidia/tu104
+ls /usr/lib/firmware/nvidia/tu104/gsp
+ls /usr/lib/firmware/nvidia/tu104/gsp
+paru -S absolutely-proprietary
+paru
+nxmvim
+glxgears
+vkcube
+vulkaninfo | less
+suvim /etc/default/grub
+git clone https://github.com/TyroneWatermelon420/mo2crashdmp.git
+ll
+mv ModOrganizer-2.5.1rc2-20240201T145733.dmp mo2crashdmp
+cd mo2crashdmp
+ll
+git add ModOrganizer-2.5.1rc2-20240201T145733.dmp
+git commit -a
+git push
+cd
+ll
+paru
+paru -S aur/yuzu-early-access-appimage
+MO2select
+absolutely-proprietary
+sudo -E nvidia-settings
+MO2select
+mkdir plugins
+fsck
+mkdir plugins
+ll
+ll
+paru
+cd
+ll
+vim steam-15835226652935192576.log
+ll
+rm ModOrganizer-2.5.1rc2-20240201T162255.dmp steam-15835226652935192576.log
+paru
+vim .local/bin/MO2select
+ll
+ll
+PROTON_LOG=1 MO2select
+ll
+ll
+rm ModOrganizer-2.5.1rc2-20240201T1948*
+ll
+ll
+vim steam-13252226423403315200.log
+vim steam-13252226423403315200.log
+vim steam-13252226423403315200.log
+ll
+vim steam-13252226423403315200.log
+mkdir plugins
+sx .config/X11/xinitrc
+poweroff
+cd /var/cache/pacman/pkg
+tar -tf amd-ucode-20240115.9b6d0b08-2-any.pkg.tar.zst
+tar -tf amd-ucode-20240115.9b6d0b08-1-any.pkg.tar.zst
+ll /usr/lib/firmware/amd-ucode
+vim /usr/lib/firmware/amd-ucode/README.zst
+ll /usr/lib/firmware/nvidia/tu104/gsp
+tar -tf linux-firmware-git-20240201.36777504-1-any.pkg.tar.zst
+paru
+paru -Rsn amd-ucode
+paru
+paru
+paru -Rsn $(paru -Qdtq)
+reboot
+paru
+cd .cache/paru/clone/vulkan-nouveau-git
+makepkg -si
+cd ../lib32-vulkan-nouveau-git
+makepkg -si
+paru
+paru
+nxmvim
+cd Drives/NVMe/Games/MO2\ Instances/Starfield
+ll
+wine ModOrganizer.exe
+MO2select
+clear
+MO2select
+ll
+rm ModOrganizer-2.5.1rc2-20240202T08*
+paru
+cd Drives/HDD/Stuff/bac/games/TOTK-Mods-collection-main
+ll
+ll -a
+cd ..
+rm -rf TOTK-Mods-collection-main
+git clone --recursive https://github.com/hoverbike1/TOTK-Mods-collection
+paru
+ll -a
+vim
+pacman -Ss hjsplit
+7z x Phantom\ Liberty\ v\ 2.11.001
+paru -Ss wine-tkg
+cd github-repos/scripts/dmenu
+ll
+vim MO2select
+cp MO2select ~/.local/bin/MO2select
+nxmvim
+cd
+paru
+paru
+killall dwm
+paru
+cd github-repos/dwl
+ll
+vim dwl.c
+make
+sudo make clean install
+cd
+paru -Rsn $(paru -Qdtq)
+ll -a
+paru
+cd github-repos/dwl
+vim config.h
+ll -a
+vim
+vim .local/bin/MO2select
+vim github-repos/scripts/dmenu/MO2select
+vim github-repos/scripts/dmenu/MO2select
+cp github-repos/scripts/dmenu/MO2select ~/.local/bin/MO2select
+/bin/ls /home/$USER/.steam/root/compatibilitytools.d/ | awk 'END{print}'
+ll .steam/root/compatibilitytools.d
+/bin/ls /home/$USER/.steam/root/compatibilitytools.d/GE-* | awk 'END{print}'
+/bin/ls /home/$USER/.steam/root/compatibilitytools.d/GE-*
+cat /home/$USER/.steam/root/compatibilitytools.d/GE-*
+eza .steam/root/compatibilitytools.d
+eza .steam/root/compatibilitytools.d/GE
+dir
+dir .steam/root/compatibilitytools.d
+dir .steam/root/compatibilitytools.d/GE
+dir .steam/root/compatibilitytools.d/GE-*
+ls .steam/root/compatibilitytools.d/G
+ls -d .steam/root/compatibilitytools.d/G
+/bin/ls -d .steam/root/compatibilitytools.d/G
+/bin/ls -d .steam/root/compatibilitytools.d/G*
+MO2select
+vim github-repos/scripts/dmenu/MO2select
+cp github-repos/scripts/dmenu/MO2select ~/.local/bin/MO2select
+MO2select
+nxmvim
+sx .config/X11/xinitrc
+clear
+sx .config/X11/xinitrc
+clear
+dwl -s somebar
+sx .config/X11/xinitrc
+sx .config/X11/xinitrc
+librewolf
+killall librewolf
+librewolf
+killall librewolf
+poweroff
+paru
+paru
+cd .cache/paru/clone/lib32-vulkan-nouveau-git
+makepkg
+makepkg -si
+paru
+paru -Rsn $(paru -Qdtq)
+reboot
+pacman -Ss mesa
+pau
+paru
+vim github-repos/scripts/dmenu/MO2select
+cp github-repos/scripts/dmenu/MO2select ~/.local/bin/MO2select
+ll .steam/root/compatibilitytools.d
+nxmvim
+paru
+ll -a
+vim .steampid
+vim .steampath
+cd .steampath
+paru
+paru
+ll -a
+paru
+setxkbmap -layout de
+xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1
+pacman -Ss virtual box
+paru -S virtualbox
+paru
+reboot
+nxmvim
+htop
+cd Drives/NVMe/Games/MO2\ Instances/Starfield
+ll
+~/.steam/root/compatibilitytools.d/GE-Proton8-30/files/bin/wine ModOrganizer.exe
+~/.steam/root/compatibilitytools.d/proton_tkg_experimental.bleeding.edge.8.0.77435.20240202/files/bin/wine ModOrganizer.exe
+wine ModOrganizer.exe
+paru
+clear
+ll
+cd
+ll
+cd Drives/NVMe/Games/MO2\ Instances/Starfield
+ll
+rm ModOrganizer-2.5.1rc2-20240203T120*
+ll
+rm Mod.Organizer-2.5.1rc2.7z
+ll
+vim dump_running_process.bat
+wine dump_running_process.bat
+wine ModOrganizer.exe
+~/.steam/root/compatibilitytools.d/proton_tkg_experimental.bleeding.edge.8.0.77435.20240202/files/bin/wine ModOrganizer.exe
+wine dump_running_process.bat
+ll
+rm ModOrganizer-2.5.1rc2-20240203T121158.dmp
+clear
+cd
+ll
+ll -a
+paru
+rm -rf VirtualBox\ VMs
+paru -Rsn virtualbox
+paru
+setxkbmap -layout de
+xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1
+cd github-repos
+git clone --recursive https://github.com/ModOrganizer2/modorganizer.git
+rm -rf modorganizer
+git clone git clone https://github.com/ModOrganizer2/mob
+git clone https://github.com/ModOrganizer2/mob
+cd mob
+bootstrap
+ll
+vim bootstrap.ps1
+wine bootstrap.bat
+wine bootstrap.ps1
+pacman -Ss powershell
+sudo pacman -S powershell
+cp /var/cache/pacman/pkg/wine-9.1-2-x86_64.pkg.tar.zst Downloads
+ll
+vim proton
+vim version
+cd
+vim github-repos/scripts/dmenu/MO2select
+cp github-repos/scripts/dmenu/MO2select ~/.local/bin/MO2select
+cd github-repos/mob
+pwsh
+paru -Rsn powershell
+ll
+vim bootstrap.ps1
+cmake -B build
+ll build
+cmake --build build 
+pacman -Ss shlobj
+paru -Ss shlobj
+cd ..
+git clone https://github.com/ModOrganizer2/modorganizer
+cd modorganizer/src
+ll
+ll ..
+cd ..
+ll -a
+mkdir build
+cmake -B build
+vim src/CMakeLists.txt
+cd ../mob
+ll
+wine bootstrap.ps1
+sudo pacman -S powershell
+pwsh
+wineconsole
+pacman -Ss vswhere
+paru -Ss vswhere
+vim bootstrap.ps1
+vim bootstrap.bat
+wine bootstrap.bat
+ll
+cd
+MO2select
+MO2select
+clear
+paru
+paru
+sx .config/X11/xinitrc
+reboot
+wine notepad
+wine nxmhandler.exe "nxm://starfield/mods/4157/files/25181?key=7S_cucQ4TFg4mzpzRrL__Q&expires=1707155130&user_id=171723098"
+ll
+wine nxmhandler.exe "nxm://starfield/mods/270/files/6906?key=ZJooN9WRXMDecz2XrqsZpw&expires=1707155220&user_id=171723098"
+wine nxmhandler.exe "nxm://starfield/mods/3256/files/30831?key=4xPZI7ONegiLDLBeMUev8A&expires=1707155249&user_id=171723098"
+wine nxmhandler.exe "nxm://starfield/mods/350/files/25671?key=tB7Mn7SHKODTJTHOZGmKbA&expires=1707155439&user_id=171723098"
+wine nxmhandler.exe "nxm://starfield/mods/3554/files/16777?key=iKAx6msxRlvSNqvCtxbRYA&expires=1707155423&user_id=171723098"
+clear
+exit
+ll
+ll
+./setup_vkd3d_proton.sh
+./setup_vkd3d_proton.sh install
+vim github-repos/scripts/dmenu/MO2select
+cp github-repos/scripts/dmenu/MO2select ~/.local/bin/MO2select
+MO2select
+clear
+clear
+MO2select
+wine Games/SFSE.lnk
+clear
+winetricks -q
+rm -rf .wine
+winecfg
+winetricks -q
+nxmvim
+paru
+paru
+paru
+xinput --set-prop 11 'libinput Accel Profile Enabled' 0, 1
+winecfg
+cd Drives/NVMe/Games/MO2\ Instances/Starfield
+wine ModOrganizer.exe
+cd ../../Starfield
+wine Starfield.exe
+DXVK_ENABLE_NVAPI=1 wine Starfield.exe
+paru
+ll
+sx .config/X11/xinitrc
+reboot
+sudo pacman -Syu
+cd .cache/paru/clone/lib32-vulkan-nouveau-git
+makepkg -si
+paru
+cd
+suvim /etc/default/grub
+suvim /etc/mkinitcpio.conf
+sudo mkinitcpio -P
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+xrandr --current
+nvidia-settings
+wlr-randr
+vim github-repos/dwl/config.h
+wlr-randr --output HDMI-A-1 --preferred --pos 0,0 --output DP-1 --preferred --pos 1920,0 --adaptive-sync enabled --mode 1920x1080@143.854996Hz
+wlr-randr --output HDMI-A-1 --preferred --pos 0,0 --output DP-1 --preferred --pos 1920,0 --adaptive-sync enabled --custom-mode 1920x1080@144Hz
+wlr-randr --output HDMI-A-1 --preferred --pos 0,0 --output DP-1 --preferred --pos 1920,0 --custom-mode 1920x1080@144Hz
+cd Drives/HDD/Repacks
+ll
+ll
+ll
+ll
+ll
+ll
+vkcube
+mangohud vkcube
+glxgears
+gamemoderun vkcube
+gamemoderun glxgears
+cd
+vim .zprofile
+sudo modprobe nouveau
+sx .config/X11/xinitrc
+dwl -s somebar
+wlr-randr --output HDMI-A-1 --preferred --pos 0,0 --output DP-1 --preferred --pos 1920,0 --custom-mode 1920x1080@144Hz
+cd /etc/X11
+ll
+sudo mv xorg.conf xorg.conf.nv
+sudo mv xorg.conf.nvk xorg.conf
+poweroff
+sudo modprobe nouveau
+dwl -s somebar
+wlr-randr --output HDMI-A-1 --preferred --pos 0,0 --output DP-1 --preferred --pos 1920,0 --custom-mode 1920x1080@144Hz
+modinfo nouveau
+suvim /etc/modules-load.d/gnutls.conf
+reboot
+cd github-repos/dwl
+vim config.h
+make
+sudo make clean install
+vim github-repos/dwm/config.h
+paru
+wlr-randr --output HDMI-A-1 --preferred --pos 0,0 --output DP-1 --preferred --pos 1920,0 --custom-mode 1920x1080@144Hz
+wine regedit
+cd Drives/HDD/Repacks
+ll
+cd SnowRunner\ \[FitGirl\ Repack\]
+ll
+wine Verify\ BIN\ files\ before\ installation.bat
+cd ../Dark\ Souls\ Remastered\ \[FitGirl\ Repack\]
+ll
+wine setup.exe
+conky -o .config/conky/dwm/nord.conkyrc 
+vim way.txt
+mv way.txt way.reg
+pacman -Ss conky
+cd .config/conky
+ll
+vim dwm/nord.conkyrc
+steam
+wlr-randr --output HDMI-A-1 --preferred --pos 0,0 --output DP-1 --preferred --pos 1920,0 --custom-mode 1920x1080@144Hz
+htop
+killall xwayland
+killall Xwayland
+sudo modprobe nouveau
+suvim /etc/modules-load.d/gnutls.conf
+suvim /etc/default/grub
+suvim /etc/mkinitcpio.conf
+dwl -s somebar
+dwl -s somebar
+killall steam
+suvim /etc/default/grub
+suvim /etc/mkinitcpio.conf
+sudo mkinitcpio -P
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+htop
+killall steam
+reboot
+wine notepad
+cd Drives/NVMe/Games/Dark\ Souls\ Remastered
+ll
+wine DarkSoulsRemastered.exe
+winetricks -q
+wine DarkSoulsRemastered.exe
+clear
+cd
+steam
+clear
+clear
+paru
+paru
+vim .zprofile
+cd /etc/X11
+ll
+sudo mv xorg.conf xorg.conf.nvk
+sudo mv xorg.conf.nv xorg.conf
+vim xorg.conf.backup
+sudo rm xorg.conf.backup
+paru
+sx .config/X11/xinitrc
+sx .config/X11/xinitrc
+htop
+killall steam
+reboot
+paru
+paru -Ss nouveau
+paru -S xf86-video-nouveau-blacklist-git
+cd .cache/paru/clone/xf86-video-nouveau-blacklist-git
+vim PKGBUILD
+suvim /etc/pacman.conf
+paru
+cd .cache/paru/clone/lib32-vulkan-nouveau-git
+makepkg -si
+poweroff
+paru
+paru
+paru -Rsn $(paru -Qdtq)
+cd Drives/NVMe/Games/MO2\ Instances/Starfield
+wine ModOrganizer.exe
+cd ../../Starfield
+wine Starfield.exe
+paru
+paru -Ss mesa-tkg-git
+ll .steam/root/compatibilitytools.d
+nxmvim
+paru -Ss wayland staging
+paru -Ss wayland staging
+paru
+paru -Ss wayland
+paru
+ll -a
+paru
+paru
+wine LariLauncher.exe
+ll -a
+paru -S aur/yuzu-early-access-appimage
+paru
+paru -S aur/yuzu-early-access-appimage
+paru
+cd Downloads
+ll
+rm BG3SE-Updater-20231028.zip
+rmdir bg3
+wget https://github.com/theboy181/switch-ptchtxt-mods/blob/main/Pok%C3%A9mon%20Scarlet.Violet%20%5B0100A3D008C5C000%5D/1.0.1/60fps.rar
+ll
+unrar l 60fps.rar
+vim 60fps.rar
+rm 60fps.rar
+unrar l 60fps.rar
+sx .config/X11/xinitrc
+sx .config/X11/xinitrc
+poweroff
+cd github-repos
+paru
+pacman -Ss qt6
+paru -Ss qt6 | grep 6.5.0
+cd
+cd Downloads
+ll
+sudo pacman -U qt6-base-6.5.0-3-x86_64.pkg.tar.zst
+cd
+vim github-repos/scripts/dmenu/MO2select
+cp github-repos/scripts/dmenu/MO2select ~/.local/bin/MO2select
+MO2select
+clear
+MO2select
+ll
+vim github-repos/scripts/dmenu/MO2select
+vim github-repos/scripts/dmenu/MO2select
+cp github-repos/scripts/dmenu/MO2select ~/.local/bin/MO2select
+MO2select
+MO2select
+paru
+sudo pacman -S qt6-base
+paru
+paru
+reboot
+paru
+cd .cache/paru/clone/lib32-vulkan-nouveau-git
+makepkg -si
+paru
+sx .config/X11/xinitrc
+poweroff
+nxmvim
+paru
+paru -Sy chaotic-aur/lib32-mesa-tkg-git world/libpciaccess world/libxkbfile system/libxml2 chaotic-aur/mesa-tkg-git chaotic-aur/vulkan-nouveau-git
+paru -Sy chaotic-aur/lib32-mesa-tkg-git world/libpciaccess system/libxml2 chaotic-aur/mesa-tkg-git chaotic-aur/vulkan-nouveau-git
+paru
+sudo pacman-key --init
+sudo pacman-key --populate
+paru
+paru
+cd .cache/paru/clone/lib32-vulkan-nouveau-git
+makepkg -si
+paru -Rsn §
+paru -Rsn $(paru -Qdtq)
+neofetch
+ll -a
+paru
+paru
+poweroff
+paru
+paru
+cd .cache/paru/clone/lib32-vulkan-nouveau-git
+makepkg -si
+clear
+paru
+cd
+paru -Rsn $(paru -Qdtq)
+pacman -Ss rpi-imager
+cd  Downloads
+ll
+unxz 2023-12-05-raspios-bookworm-arm64.img.xz
+ll
+rm qt6-base-6.5.0-3-x86_64.pkg.tar.zst All\ In\ One\ \(For\ all\)-290-1v3-1706648807.rar 60fps.rar
+ll
+pacman -Ss etcher
+sudo pacman -S balena-etcher
+balena-etcher

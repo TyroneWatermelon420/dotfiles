@@ -16,6 +16,7 @@ local plugins = {
   "nvim-tree/nvim-web-devicons",
   "startup-nvim/startup.nvim",
   "lukas-reineke/indent-blankline.nvim",
+  "https://github.com/NvChad/nvim-colorizer.lua",
 
   -- Git --
   "tpope/vim-fugitive",
@@ -48,6 +49,8 @@ require("lazy").setup(plugins)
 -- Plugin Configuration --
 require"startup".setup()
 require("ibl").setup()
+
+require 'colorizer'.setup()
 
 local lsp_zero = require('lsp-zero')
 
