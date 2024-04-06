@@ -16,3 +16,4 @@ application/x-pak=xarchiver.desktop;
 application/x-wonderswan-rom=nvim.desktop;
 application/pdf=mupdf.desktop;
 text/plain=nvim.desktop;
+application/zstd=nvim.desktop;
