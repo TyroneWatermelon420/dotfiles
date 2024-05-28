@@ -1,10 +1,12 @@
 .config/nvim/lazy-lock.json
-Downloads
 .wget-hsts
 .steam*
 Games
+Downloads
 Drives
 github-repos
+Desktop
+.git-credentials
 .wine
 .pki
 .dbus

@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=DOOM Eternal
-Exec=env WINEPREFIX="/home/erik/.wine" wine C:\\\\users\\\\Public\\\\Desktop\\\\DOOM\\ Eternal.lnk
-Type=Application
-StartupNotify=true
-Path=/home/erik/Drives/NVMe/Games/DOOM Eternal/
-StartupWMClass=doometernalx64vk.exe

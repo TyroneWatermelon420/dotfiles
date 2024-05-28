@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Resident Evil 3
-Exec=env WINEPREFIX="/home/erik/.wine" wine C:\\\\users\\\\Public\\\\Desktop\\\\Resident\\ Evil\\ 3.lnk
-Type=Application
-StartupNotify=true
-Path=/home/erik/Drives/NVMe2/Games/Resident Evil 3/
-Icon=2ECB_re3.0
-StartupWMClass=re3.exe
