@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=MX vs ATV Legends
+Exec=env WINEPREFIX="/home/erik/.wine" wine C:\\\\users\\\\Public\\\\Desktop\\\\MX\\ vs\\ ATV\\ Legends.lnk
+Type=Application
+StartupNotify=true
+Path=/home/erik/Drives/NVMe2/Games/MX vs ATV Legends/
+Icon=186F_MxGame2021.0
+StartupWMClass=mxgame2021.exe

@@ -9,6 +9,7 @@ application/x-ms-dos-executable=wine.desktop
 application/zip=xarchiver.desktop
 application/pdf=mupdf.desktop
 text/plain=nvim.desktop
+application/x-bat=wine.desktop
 
 [Added Associations]
 application/zip=xarchiver.desktop;
@@ -17,3 +18,4 @@ application/x-wonderswan-rom=nvim.desktop;
 application/pdf=mupdf.desktop;
 text/plain=nvim.desktop;
 application/zstd=nvim.desktop;
+application/x-bat=wine.desktop;

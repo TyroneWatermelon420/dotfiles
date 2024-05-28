@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Middle-Earth - Shadow of Mordor
+Exec=env WINEPREFIX="/home/erik/.wine" wine C:\\\\users\\\\Public\\\\Desktop\\\\Middle-Earth\\ -\\ Shadow\\ of\\ Mordor.lnk
+Type=Application
+StartupNotify=true
+Path=/home/erik/DrivesHDD/Games/Middle-Earth - Shadow of Mordor/x64/
+StartupWMClass=shadowofmordor.exe

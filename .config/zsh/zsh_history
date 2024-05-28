@@ -10694,3 +10694,994 @@ ll
 vim config.x86_64
 vim PKGBUILD
 suvim /etc/makepkg.conf
+cd
+source .config/zsh/.zshrc
+ll
+nano .config/zsh/.zshrc
+source .config/zsh/.zshrc
+clear
+/bin/ls
+cd github-repos
+/bin/ls
+cd gentoo
+/bin/ls
+cd ebuilds
+/bin/ls
+pwd
+cd
+nano mesa_revert 
+nano mesa_revert 
+source .config/zsh/.zshrc
+ll /var/db/repos/gentoo/media-libs/mesa
+nano mesa_revert
+chmod +x mesa_revert
+ll
+l -a
+ll -a
+rm .bash*
+rm -rf .git .gitignore .zcompdump
+ll
+ll -a
+doas emerge -avq neovim
+ll
+emerge -s nerd-font
+emerge -s nerdfont
+emerge -avq eselect-repository
+ll -a
+cd github-repos/dwl
+make clean
+make
+doas emerge -avq wayland-headers
+doas emerge -avq wayland-protocols
+make
+cd ../wmenu
+ll
+rm -rf build
+meson build
+doas emerge -avq mesa
+doas nano /etc/portage/make.conf
+doas emerge -avq mesa
+emerge -avq pipewire
+doas nano /etc/portage/package.use/user
+doas emerge -avq pipewire
+doas eselect news read
+cd
+source .config/zsh/.zshrc
+ll -a
+nvim
+nvim
+nvim
+emerge -s nerdfont
+doas emerge -avq nerdfont
+doas emerge -avq nerdfonts
+emerge -s wlroots
+emerge -avq mesa
+emerge -s vulkan
+emerge -avq media-libs/vulkan-loader 
+emerge -avq steam-launcher
+emerge -avq steam-launcher
+emerge -avq steam-launcher
+doas emerge -avq sys-apps/dbus
+emerge -avq steam-launcher
+doas emerge -avq steam-launcher
+doas emerge -avquDN @world
+doas emerge -avq steam-launcher
+doas emerge -avq gentoo-kernel
+doas nvim /etc/portage/package.use/kernel
+doas blkid
+doas nvim /etc/conf.d/hwclock
+doas emerge -avq grub
+doas eselect news read
+cd github-repos/dmenu
+make clean
+make
+doas emerge -avq libXinerama
+make
+cd ../dwl
+make
+doas emerge -avq wlroots 
+doas emerge -avq xkbcommon
+doas emerge -avq libxkbcommon
+doas emerge -avq libxkbcommon wlroots swaybg alacritty
+doas emerge -avq libxkbcommon wlroots swaybg alacritty
+doas emerge -avq libxkbcommon wlroots swaybg alacritty wlr-randr
+make
+doas emerge -avq fcft
+make
+vim config.h
+doas make clean install
+cd ../wmenu
+doas emerge -avq xrandr
+doas eselect news read
+meson build
+doas emerge -avqg librewolf
+doas emerge -avq pango
+doas emerge -avq x11-libs/pango
+meson build
+doas ninja -C build install
+alacritty
+cd
+vulkaninfo
+vim .zprofile
+doas emerge -avq mesa
+doas nvim /etc/conf.d/hwclock
+reboot
+vkcube
+./mesa_revert
+vim mesa_revert
+doas ./mesa_revert
+doas emerge -avq mesa
+doas emerge --sync
+doas emerge -avqg librewolf
+emerge -s chrony
+doas emerge -avq chrony
+doas rc-update add chronyd default
+reboot
+date
+date
+chronyc
+chronyd
+doas chronyd
+doas chronyd
+su
+doas hwclock --systohc
+doas emerge -avq steam-launcher
+doas eselect news read
+ll /
+doas rm /currtime /stage3-amd64-openrc-20240519T170355Z.tar.xz
+doas emerge -avq mesa
+vkcube
+ll
+vim mesa_revert
+vim /var/db/repos/gentoo/media-libs/mesa/mesa-9999.ebuild
+vim mesa_revert
+./mesa_revert
+vim mesa_revert
+vim /var/db/repos/gentoo/media-libs/mesa/mesa-9999.ebuild
+doas emerge -avq mesa
+vkcube
+NOUVEAU_USE_ZINK=1 glxgears
+MESA_LOADER_DRIVER_OVERRIDE=zink glxgears
+cd /etc/portage
+ll
+cd profile
+ll
+doas nvim use.mask
+doas nvim ../make.conf
+cd
+doas emerge -avq mesa
+./mesa_revert
+doas nvim /etc/portage/package.use/user
+doas nvim /etc/portage/package.use/32bit
+ll -a
+rm .zcompdump
+ll
+ll -a
+doas emerge -avq keepassxc
+doas nvim /etc/portage/package.use/user
+doas emerge -avq keepassxc
+doas emerge -avq vulkan-loader
+doas emerge --sync
+doas emerge -avquDN @world
+NOUVEAU_USE_ZINK=1 glxgears
+MESA_LOADER_DRIVER_OVERRIDE=zink glxgears
+mkdir -p .steam/root/compatibilitytools.d
+mkdir -p .local/bin
+cp -r github-repos/scripts/dmenu/* .local/bin
+MO2
+MO2select
+mkdir -p .steam/root/compatibilitytools.d
+doas emerge -avq htop neofetch
+htop
+neofe
+neofetch
+neofetch
+ll -a
+doas emerge -avq qbittorrent
+doas emerge -avq qbittorrent
+gamemoded -t
+htop
+doas emerge -avqg librewolf
+emerge -s mesa-utils
+emerge -s mesa-progs
+doas nvim /etc/portage/package.use/user
+doas emerge -avq wl-clipboard x11-apps/mesa-progs
+glxgears
+NOUVEAU_USE_ZINK=1 glxgears
+vkcube
+MESA_LOADER_DRIVER_OVERRIDE=zink glxgears
+doas emerge -avq gamemode mangohud
+doas emerge -avq gamemode mangohud
+doas emerge -avq gamemode mangohud
+doas nvim /etc/portage/package.use/32bit
+doas emerge -avq gamemode mangohud
+htop
+emerge -av mangohud
+doas emerge -av mangohud
+emerge -s imgui
+doas emerge -avq imgui
+emerge -s opengel
+emerge -s opengl
+doas emerge -avq virtual/opengl
+killall steam
+gamemoderun mangohud vkcube
+gamemoderun vkcube
+doas emerge -avq wine
+doas emerge -avq wine-vanilla
+doas emerge -avq wine-proton
+doas emerge -avq pango
+doas emerge -avq x11-libs/pango
+doas emerge -avq pixman
+doas emerge -avq x11-libs/gdk-pixbuf
+doas emerge -avq media-libs/libsdl
+doas emerge -avq media-libs/libglvnd
+doas emerge -avq media-libs/mesa
+doas emerge -avq wine-vanilla
+doas emerge -avq wine-vanilla
+doas emerge -avqc
+doas emerge -avq imgui
+doas emerge -av mangohud
+cd .steam/root/steamapps/compatdata
+cd .steam/root/compatibilitytools.d
+ll
+wget https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton9-5/GE-Proton9-5.tar.gz
+ll
+tar -xf GE-Proton9-5.tar.gz
+rm GE-Proton9-5.tar.gz
+ll
+cd
+doas emerge -avq wine-vanilla
+doas nvim /etc/portage/package.use/32bit
+doas emerge -avq wine-vanilla
+doas nvim /etc/portage/package.use/32bit
+doas emerge -avq wine-vanilla
+doas nvim /etc/portage/package.use/user
+doas nvim /etc/portage/package.use/user
+doas emerge -avquDN @world
+doas emerge -avq libsdl2
+doas nvim /etc/portage/package.use/user
+doas emerge -avq libsdl2
+doas nvim /etc/portage/package.use/32bit
+doas emerge -avq wine-vanilla
+doas emerge -avq wine-vanilla
+doas emerge -avq wine-vanilla
+doas emerge -avq wine-vanilla
+doas emerge -avquDN @world
+doas emerge -avquDN @world
+doas emerge -avquDN @world
+cd .steam/root/compatibilitytools.d/GE-Proton9-5/files/bin
+ll
+./wine64 ~/Drives/HDD/Games/
+./wine64 ~/Drives/HDD/Games/Hades\ II/Ship/Hades2.exe
+cd
+killall steam
+htop
+steam
+cd /etc/portage/package.use
+ll
+doas rm zz-autounmask
+doas nvim user
+doas nvim 32bit
+doas nvim user
+doas emerge --sync
+doas emerge -avquDN @world
+doas emerge -avq gamemoderun mangohud
+doas emerge -avq gamemode mangohud
+doas emerge -avq mangohud
+doas emerge -avq mangohud
+su
+doas nvim /etc/portage/package.use/32bit
+doas emerge -avq mangohud
+doas emerge -avq mangohud
+gamemoderun mangohud vkcube
+emerge -s pcmanfm
+doas emerge -avq x11-misc/pcmanfm-qt
+doas emerge -avq nemo
+emerge -s materia
+doas emerge -avq x11-themes/materia-theme
+doas emerge -avq xdg-desktop-portal-wlr xdg-desktop-portal-gtk
+doas emerge -avq xdg-desktop-portal-wlr xdg-desktop-portal-gtk xdg-desktop-portal
+doas eselect repository enable FireBurn
+doas emerge --sync
+doas emerge -avq mesa
+doas emerge -avq pcmanfm
+doas nvim /etc/portage/package.use/user
+doas emerge -avq pcmanfm
+doas emerge -av pcmanfm
+doas emerge -avq nemo
+doas emerge -avq nemo
+vim .zprofile
+cd github-repos/dwl
+vim config.h
+doas make clean install
+doas nvim /etc/portage/package.use/32bit
+doas nvim /etc/portage/package.use/user
+cd Downloads
+ll
+vim fix-only-with-wayland.patch.txt
+cd
+doas nvim /etc/portage/package.use/user
+dbus-run-session Hyprland
+dbus-run-session dwl
+vim github-repos/dwl/config.h
+cd github-repos/dmenu
+make
+doas make clean install
+cd ..
+git clone https://github.com/kennylevinsen/wldash
+cd wldash
+cargo build --release
+ls
+cd target/release
+ll
+./wldash
+cp github-repos/wldash/target/release/wldash .local/bin
+emerge -s wldash
+htop
+ping gnu.org
+doas nvim /etc/portage/package.mask
+doas nvim /etc/portage/package.mask/3rdrepo
+doas nvim /etc/portage/package.use/user
+wldash --print-config
+wldash print-config
+cd .config/
+mkdir wldash
+cd wldash
+touch config.yml
+nvim config.yml
+cd
+nxmvim
+nxmvim
+chmod +x .local/bin/nxmhandler
+doas nvim /etc/portage/make.conf
+doas emerge -avquDN @world
+doas emerge --snyc
+doas emerge --sync
+doas emerge -avquDN @world
+./mesa_revert
+doas emerge -avquDN @world
+cd /etc/portage
+ll
+cd profile
+ll
+vim use.mask
+doas nvim /etc/portage/make.conf
+cd
+doas emerge -avquDN @world
+doas emerge -avq media-libs/mesa::gentoo
+doas emerge -avquDN @world
+doas emerge -avq rtkit
+reboot
+vkcube
+doas emerge -avq mangohud
+emerge -s xdg
+doas emerge -avq x11-misc/xdg-utils x11-misc/xdg-user-dirs
+cd .local/bin
+vim MO2select
+htop
+gamemoderun mangohud vkcube
+htop
+killall steam
+doas emerge -avq wine-vanilla
+doas emerge -avq wine-vanilla
+winecfg
+vim .config/zsh/.zshrc
+vim .zprofile
+winecfg
+vim .zprofile
+. /etc/profile
+winecfg
+source .config/zsh/.zshrc
+cd Drives/HDD/Games/Dark\ Souls\ Remastered
+ll
+emerge -s heroic
+cd
+doas emerge -avq heroic-bin
+doas eselect news read
+poweroff
+steam
+ll -a
+cd .mozilla
+ll
+mv native-messaging-hosts ../.librewolf
+cd ..
+ll .librewolf
+rmdir .mozilla
+vim .local/bin/MO2select
+mkdir -p .config/alacritty
+cd .config/alacritty
+doas find / -iname "alacritty.*"
+fc-list
+vim alacritty.toml
+vim alacritty.toml
+vim .config/alacritty/alacritty.toml
+vim .zprofile
+doas emerge --sync
+doas emerge -avquDN @world
+doas emerge -avqc
+vim /etc/portage/make.conf
+mangohud vkcube
+doas emerge --sync
+doas emerge -avquDN @world
+vim github-repos/dwl/config.h
+nvim /home/erik/Drives/NVMe2/SteamLibrary/steamapps/common/The\ Witcher\ 3/launcher-configuration.json
+gsettings set org.cinnamon.desktop.default-applications.terminal exec alacritty
+nemo -q
+emerge -s nemo
+doas emerge -avq gnome-extra/nemo-fileroller
+doas emerge -avq p7zip unrar
+ll Downloads
+rm -rf Downloads/*
+doas emerge --sync
+doas emerge -avquDN @world
+killall steam
+htop
+doas emerge -avq wine-vanilla
+ll -a
+ll -a Desktop
+doas emerge -avq suyu
+doas nvim /etc/portage/package.use/user
+doas emerge -avq suyu
+doas nvim /etc/portage/package.use/user
+doas emerge -avq suyu
+doas nvim /etc/portage/package.use/user
+doas emerge -avq suyu
+doas emerge -avq suyu
+suyu
+emerge -s citra
+emerge -s cemu
+doas emerge -avq games-emulation/cemu
+doas nvim /etc/portage/package.use/user
+doas emerge -avq games-emulation/cemu
+suyu-cmd
+suyu-cmd --help
+cd .local/share/suyu
+ll
+cd keys
+ll
+ll /home/erik/Drives/HDD/Stuff/games/suyu/keys
+cp /home/erik/Drives/HDD/Stuff/games/suyu/keys/* .
+ll
+suyu-cmd
+ll
+cd ..
+ll
+cd
+cd Drives/HDD/Games/ROMs/Switch
+ll
+suyu-cmd The\ Legend\ of\ Zelda\ Tears\ of\ the\ Kingdom.nsp
+cd
+doas nvim /etc/portage/package.use/user
+doas emerge -avq suyu
+notepad
+nxmvim
+wldash
+doas emerge --sync
+htop
+ll -a
+doas emerge --sync
+doas emerge -avquDN @world
+doas emerge -avqc
+htop
+ll
+wine setup-multi10.exe
+doas emerge -avq wine-vanilla
+doas nvim /etc/portage/package.use/user
+doas emerge -avq wine-vanilla
+wine setup-multi10.exe
+poweroff
+steam
+cd Drives/HDD/Repacks/
+ll
+cd .wine/drive_c
+ll
+ll Program
+ll ProgramData
+ll ProgramData/Rockstar\ Games
+ll ProgramData/Rockstar\ Games/Launcher
+ll Program\ Files/Rockstar\ Games/Launcher
+ll Program\ Files/Rockstar\ Games/Launcher
+ll Program\ Files/Rockstar\ Games/Launcher
+ll Program\ Files/Rockstar\ Games/Launcher
+ll Program\ Files/Rockstar\ Games/Launcher
+ll Program\ Files/Rockstar\ Games/Launcher
+ll Program\ Files/Rockstar\ Games/Launcher
+ll Program\ Files/Rockstar\ Games/Launcher
+doas emerge --sync
+doas emerge -avquDN @world
+./mesa_revert
+cd Downloads
+ll
+wine Rockstar-Games-Launcher.exe
+htop
+killall steam
+killall steam
+cd Drives/NVMe2/Games
+ll
+cd LEGO\ City\ Undercover
+ll
+du -sh *
+du -sh .
+ll
+du -sh .
+htop
+ll
+cd ..
+du -sh LEGO\ City\ Undercover
+rm -rf LEGO\ City\ Undercover
+cd
+ll -a
+ll -a
+cd .steam
+cd
+cd .local/share
+ll
+ll flatpak
+ll flatpak/db
+ll applications
+cd
+ll .local/state
+ll -a
+ll .config
+cd .steam/root/steamapps/common/RetroArch
+ll
+cd saves
+ll
+cd DeSmuME
+ll
+htop
+cd
+su
+htop
+htop
+htop
+doas emerge --sync
+doas emerge -avquDN @world
+./mesa_revert
+doas emerge -avq mesa
+doas emerge -avqc
+ll -a
+doas emerge --sync
+doas emerge -avquDN @world
+doas emerge --sync
+doas emerge -avquDN @world
+ll /boot
+doas emerge -avqc
+ll /boot
+cd /boot
+doas rm *6.8.10*
+ll
+cd
+doas grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+doas reboot
+doas nvim /etc/portage/package.use/32bit
+doas nvim /etc/portage/package.use/user
+cd Downloads
+ll
+wine windowsdesktop-runtime-8.0.5-win-x64.exe
+wine PKHeX.exe
+winecfg
+wine PKHeX.exe
+ll /boot
+ll /usr/src
+cd Downloads
+ll
+rm dodiodidodidododdod.torrent Rockstar-Games-Launcher.exe
+ll
+unzip PKHeX\ \(24.05.05\).zip
+ll
+wine PKHeX.exe
+doas emerge -avq protontricks
+doas emerge -avq protontricks
+doas emerge -avq protontricks
+poweroff
+cd Drives/NVMe2/Games
+ll
+cd LEGO\ City\ Undercover
+ll
+vim __DISC__
+rm __DISC__
+date
+doas emerge -avq mpv
+doas emerge --sync
+doas emerge -avquDN @world
+doas emerge -avqc
+doas emerge --sync
+doas emerge -avquDN @world
+cd Drives/HDD
+ll
+cd 
+cd Drives
+ll
+doas umount /dev/sdb1
+lsblk
+reboot
+lsblk
+ll
+ll -a
+nxmvim
+htop
+htop
+cd Dark\ Souls\ Remastered
+ll
+vim Origins.ini
+cd Dark\ Souls\ Remastered
+vim steam_
+vim steam_emu.ini
+ll -a
+du -sh .
+ll -a
+rm core
+mkdir Ga
+mkdir Games
+rmdir Ga
+du -sh .steam
+du -sh .steam
+du -sh .steam/root
+du -sh .steam/root/*
+doas emerge --sync
+doas emerge -avquDN @world
+doas emerge --sync
+doas emerge -avquDN @world
+doas emerge --sync
+doas emerge -avquDN @world
+doas emerge -avqc
+cd /boot
+doas rm *6.8.11*
+cd
+doas grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+cd SKSE
+vim CommunityShaders.log
+vim SKSE/CommunityShaders.log
+vim SKSE/CommunityShaders.log
+neofetch
+neofetch
+vim .config/neofetch/config.conf
+neofetch
+htop
+doas emerge -avq suyu
+doas nvim /etc/portage/package.use/user
+doas emerge -avq suyu
+wine PKHeX.exe
+cd Drives/NVMe2
+ll
+cd ../NVMe
+ll
+touch joe
+vim joe
+vim joe
+rm joe
+cd
+ll -a
+wine PKHeX.exe
+doas emerge -avq hyprland
+vkcube
+cd .config/hypr
+ll
+vim hyprland.conf
+rm hyprland.conf.bac
+vim hyprland.conf
+emerge -s brave
+doas emerge -avq wine-vanilla
+doas nvim /etc/portage/package.use/32bit
+doas nvim /etc/portage/package.use/user
+doas emerge -avq wine-vanilla
+doas emerge -avq waybar
+doas emerge -avq waybar
+vim .config/hypr/hyprland.conf
+dbus-run-session Hyprland
+doas emerge -avqc hyprland
+doas emerge -avqc
+doas emerge -avqc waybar
+doas emerge -avqc
+ll Games
+emerge -s stallman
+emerge -s vrms
+doas emerge -avq app-misc/vrms-gentoo
+vrms-gentoo
+doas emerge --sync
+doas emerge -avquDN @world
+doas emerge -avquDN @world
+waybar -c .config/waybar/config
+cd .config/waybar
+öö
+ll
+vim config
+cd
+waybar -c .config/waybar/config
+doas emerge --sync
+doas emerge -avquDN @world
+emerge -s nvidia-drivers
+poweroff
+htop
+killall steam
+killall discord
+htop
+doas emerge --sync
+doas emerge --oneshot sys-apps/portage
+doas emerge -avq portage
+doas emerge -avquDN @world
+htop
+doas emerge -avq discord pavucontrol
+doas emerge -avq media-fonts/noto-emoji
+doas emerge --sync
+doas emerge -avquDN @world
+emerge -s zsh-autosuggestions
+doas emerge -avqc
+doas emerge -avq app-shells/zsh-autosuggestions
+reboot
+unix_chkpwd
+htop
+vim informatik.txt
+cd Downloads
+ll
+ll
+cd
+ll
+cd Downloads
+vim podcast
+ll
+mv podcast podcast.txt
+vim podcast.txt
+htop
+htop
+cd _Unlock\ Save
+ll
+vim readme.txt
+htop
+nxmvim
+doas emerge --sync
+doas emerge -avquDN @world
+doas emerge -avqc
+ll -a
+doas emerge -avq xclip
+doas emerge -avq x11-misc/xclip
+exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
+exec dbus-update-activation-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
+cd /usr/share/xdg-desktop-portal
+ll
+nvim portals.conf
+ll portals
+vim portals/wlr.portal
+reboot
+doas emerge --sync
+doas emerge -avquDN @world
+powerof
+poweroff
+ping gnu.org
+ll -a
+vim core
+file core
+Xwayland --help
+Xwayland -rootless
+st
+Xwayland -help
+poweroff
+ll Downloads
+doas emerge --sync
+doas emerge -avquDN @world
+cd github-repos
+ll
+rm -rf mesa
+git clone https://gitlab.freedesktop.org/e.rosebrock/mesa
+cd mesa
+ll
+vkgears
+vim src/nouveau/vulkan/nvk_wsi.c
+git commit -a
+git push
+emerge -s wlroots
+cdc
+cd
+cd Downloads
+ll
+vim 29405.patch
+cd
+vim mesa_revert
+cd github-repos/gentoo/ebuilds
+ll
+vim mesa-9999.ebuild
+cd
+./mesa_revert
+doas emerge -av mesa
+vkcube
+reboot
+vkcube
+vim launcher-configuration.json
+doas emerge --sync
+vim changelog.txt
+vim R
+vim README.txt
+./BorderlandsPreSequel
+emerge -s openal
+doas nvim /etc/portage/package.use/32bit
+doas emerge -avq media-libs/openal
+ll
+wine Windows_MediaFeaturePack_x64_1903_V1.msu
+doas nvim /etc/default/grub
+doas grub-mkconfig -o /boot/grub/grub.cfg
+doas emerge -avquDN @world
+doas emerge -avqc
+ping gnu.org
+ll -a
+rm core
+cd github-repos/gentoo/ebuilds
+vim mesa-9999.ebuild
+cd
+./mesa_revert
+doas emerge -av mesa
+vkcube
+NOUVEAU_USE_ZINK=1 dbus-run-session dwl
+NOUVEAU_USE_ZINK=1 dbus-run-session Hyprland
+dwm
+sx
+xinit
+doas emerge --sync
+doas emerge -avquDN @world
+doas emerge -avqc
+cd github-repos/dwm
+doas make clean install
+vim config.h
+doas make clean install
+cd
+doas emerge -avq xinit
+vkcube
+cp .config/X11/xinitrc .xinitrc
+startx
+doas emerge -avq xserver
+doas emerge -avq xorg-server
+doas nvim /etc/portage/package.use/user
+doas emerge -avq xorg-server
+startx
+cd github-repos/st
+doas make clean install
+cd
+startx
+cd github-repos/dwm
+vim config.h
+doas make clean install
+cd
+startx
+NOUVEAU_USE_ZINK=1 startx
+doas eselect news read
+doas nvim /etc/portage/package.use/user
+doas emerge -avqc xinit
+doas emerge --sync
+doas emerge -avquDN @world
+doas emerge -avqc
+cd Games
+ll
+chmod +x Unigine_Valley-1.0.run
+l
+ll
+mv Unigine_Valley-1.0.run ~/Downloads
+cd
+cd Downloads
+ll
+rm Borderlands_3.zip Windows_MediaFeaturePack_x64_1903_V1.msu
+rm DDDDDDDDDDDDDDDDDDDDDDDDDDDD.torrent
+ll
+mv *.patch ~/github-repos/gentoo/ebuilds
+ll
+mv podcast.txt ..
+mv ~/Games/Unigine_Superposition-1.1.run .
+ll
+chmod +x Unigine_Superposition-1.1.run
+ll
+./Unigine_Valley-1.0.run
+ll
+./Unigine_Superposition-1.1.run
+ll
+cd Unigine_Valley-1.0
+ll
+NOUVEAU_USE_ZINK=1 ./valley
+emerge -s cosmic
+cd /var/db/repos/gentoo/games-rpg/comi
+ll
+ll
+vim comi-1.ebuild
+cd ../
+ll
+cd
+doas emerge -avq baldurs-gate-ee
+doas emerge -avq comi
+git clone https://aur.archlinux.org/gog-baldurs-gate-enhanced-edition.git
+cd gog-baldurs-gate-enhanced-edition
+ll
+vim gog-baldurs-gate-enhanced-edition
+vim PKGBUILD
+cd
+doas emerge -avq baldurs-gate-ee
+cd Drives/HDD/Repacks/Baldur\'s\ Gate\ -\ Enhanced\ Edition
+ll
+vim baldur_s_gate_enhanced_edition_2_6_6_0_47291.sh
+vim baldur_s_gate_enhanced_edition_2_6_6_0_47291.sh
+doas cp baldur_s_gate_enhanced_edition_2_6_6_0_47291.sh /var/cache/distfiles
+cd
+doas emerge -avq baldurs-gate-ee
+cd Downloads/Unigine_Superposition-1.1
+ll
+NOUVEAU_USE_ZINK=1 ./Superposition
+doas emerge -avqc xf86-video-nouveau
+doas emerge -avqc xf86-video-nouveau xorg-drivers
+doas emerge -avqc xf86-video-nouveau xorg-drivers xorg-server
+doas emerge -avquDN @world
+doas nvim /etc/portage/package.use/user
+doas emerge -avquDN @world
+doas emerge -avqc xinit
+doas emerge -avq --oneshot x11-base/xorg-server
+doas nvim /etc/portage/package.use/user
+doas emerge -avq --oneshot x11-base/xorg-server
+emerge -j
+emerge --help
+doas emerge -avq --oneshot x11-base/xorg-server
+doas emerge -avq --oneshot x11-drivers/xf86-video-nouveau
+doas emerge --deselect xorg-server
+doas emerge --deselect xinit
+doas emerge --deselect xf86-video-nouveau
+doas emerge --deselect xf86-input-libinput
+doas emerge -avquDN @world
+doas emerge -avqc
+doas emerge -avquDN @world
+7z b
+cd Games
+ll
+wget https://assets.unigine.com/d/"Unigine_Valley"-"1.0".run
+wget https://assets.unigine.com/d/"Unigine_Superposition"-"1.1".run
+ll
+cd
+cd Downloads
+ll
+rm *.run
+ll
+cd
+ll
+ll -a
+rm .xinitrc .Xauthority
+rm -rf .Valley .Superposition
+rm -rf Downloads/Unigine_Superposition-1.1
+rm -rf Downloads/Unigine_Valley-1.0
+baldurs-gate-ee
+gamemoderun mangohud baldurs-gate-ee
+whereis baldurs-gate-ee
+vim /usr/bin/baldurs-gate-ee
+cd /opt/baldurs-gate-ee
+ll
+vim BaldursGate
+cd
+NOUVEAU_USE_ZINK=1 gamemoderun mangohud baldurs-gate-ee
+htop
+nxmvim
+doas emerge --sync
+doas emerge -avquDN @world
+doas emerge -avqc
+nxmvim
+doas emerge --sync
+doas emerge -avquDN @world
+cd .config
+ll
+vim starship.toml
+mv starship.toml starship.toml.bac
+vim starship.toml
+clear
+paru
+vim .config/zsh/.zshrc
+clear
+doas emerge --sync
+cd github-repos/dotfiles
+ll
+ll -a
+cp -r .git ~
+cd
+ll -a
+cd github-repos/dotfiles
+cp -r .git* ~
+clear
+cd
+ll -a
+mv gog-baldurs-gate-enhanced-edition Drives/HDD/Repacks
+ll
+git commit -a
+git add *

@@ -15,8 +15,8 @@ compinit
 _comp_options+=(globdots)		# Include hidden files.
 
 # Load zsh-syntax-highlighting; should be last.
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/site-functions/zsh-syntax-highlighting.zsh 2>/dev/null
+source /usr/share/zsh/site-functions/zsh-autosuggestions.zsh
 
 # aliases
 alias ls="eza --color=always --group-directories-first --icons=auto"
@@ -37,6 +37,11 @@ alias reboot="loginctl reboot"
 
 # variables
 export PATH="$HOME/.local/bin:$PATH"
+
+# syntax color change
+ZSH_HIGHLIGHT_STYLES[suffix-alias]=fg=blue,underline
+ZSH_HIGHLIGHT_STYLES[precommand]=fg=blue,underline
+ZSH_HIGHLIGHT_STYLES[arg0]=fg=blue
 
 # colored man page
 export LESS_TERMCAP_mb=$'\e[1;32m'

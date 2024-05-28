@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Dark Souls 2 - Scholar of the First Sin
+Exec=env WINEPREFIX="/home/erik/.wine" wine C:\\\\users\\\\Public\\\\Desktop\\\\Dark\\ Souls\\ 2\\ -\\ Scholar\\ of\\ the\\ First\\ Sin.lnk
+Type=Application
+StartupNotify=true
+Path=/home/erik/Drives/HDD/Games/Dark Souls 2 - Scholar of the First Sin
+StartupWMClass=language.changer.exe

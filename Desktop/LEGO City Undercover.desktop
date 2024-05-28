@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=LEGO City Undercover
+Exec=env WINEPREFIX="/home/erik/.wine" wine C:\\\\users\\\\Public\\\\Desktop\\\\LEGO\\ City\\ Undercover.lnk
+Type=Application
+StartupNotify=true
+Path=/home/erik/Drives/NVMe2/Games/LEGO City Undercover
+StartupWMClass=legolcu_dx11.exe

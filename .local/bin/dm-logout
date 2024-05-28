@@ -1,0 +1,12 @@
+#!/bin/bash
+
+instances="Reload Config\nLogout\nPoweroff\nReboot"
+
+chosen=$(echo -e "$instances" | dmenu -c -l 5)
+
+case "$chosen" in
+    "Reload Config") $steam/489830/ /home/erik/.steam/root/compatibilitytools.d/$proton/proton run $nvmeGames/MO2SSE/ModOrganizer.exe ;;
+    "Logout") $steam/22380/ /home/erik/.steam/root/compatibilitytools.d/$proton/proton run $nvmeGames/ModOrganizer.exe ;;
+    "Poweroff") loginctl poweroff ;;
+    "Reboot") loginctl reboot ;;
+esac

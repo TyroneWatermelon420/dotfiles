@@ -1,0 +1,29 @@
+#!/bin/bash
+
+steam="gamemoderun mangohud PROTON_ENABLE_NVAPI=1 WINEDLLOVERRIDES="winmm=n,b" STEAM_COMPAT_CLIENT_INSTALL_PATH=/usr/bin/steam STEAM_COMPAT_DATA_PATH=/home/erik/Drives/NVMe/SteamLibrary/steamapps/compatdata"
+nvmeGames="/home/erik/Drives/NVMe/Games/"
+proton=`/bin/ls -d /home/$USER/.steam/root/compatibilitytools.d/GE-* | awk 'END{print}'`
+instances="Skyrim Special Edition\nFallout New Vegas\nFallout 3\nFallout 4\nOblivion\nStarfield\nCyberpunk 2077"
+chosen=$(echo -e "$instances" | dmenu -l 6 -p "Choose your instance:" -z 450)
+
+case "$chosen" in
+    "Skyrim Special Edition") $steam/489830/ $proton/proton run $nvmeGames/MO2\ Instances/Skyrim/ModOrganizer.exe
+        exit 0
+        ;;
+    "Fallout New Vegas") $steam/22380/ $proton/proton run $nvmeGames/MO2\ Instances/New\ Vegas/ModOrganizer.exe
+        exit 0
+        ;;
+    "Fallout 3") $steam/22370/ $proton/proton run $nvmeGames/MO2\ Instances/Fallout\ 3/ModOrganizer.exe
+        exit 0
+        ;;
+    "Fallout 4") $steam/377160/ $proton/proton run $nvmeGames/MO2\ Instances/Fallout\ 4/ModOrganizer.exe
+        exit 0
+        ;;
+    "Oblivion") $steam/22330/ $proton/proton run $nvmeGames/MO2\ Instances/Oblivion/ModOrganizer.exe
+        exit 0
+        ;;
+    "Starfield") gamemoderun mangohud PROTON_ENABLE_NVAPI=1 VKD3D_CONFIG=dxr STEAM_COMPAT_CLIENT_INSTALL_PATH=/usr/bin/steam STEAM_COMPAT_DATA_PATH=/home/erik/.local/share/Steam/steamapps/compatdata/3243536113/ /home/erik/.steam/root/steamapps/common/"Proton 9.0 (Beta)"/proton run $nvmeGames/MO2\ Instances/Starfield/ModOrganizer.exe
+        exit 0
+        ;;
+    "Cyberpunk 2077") $steam/1091500/ $proton/proton run $nvmeGames/MO2\ Instances/Cyberpunk/ModOrganizer.exe
+esac

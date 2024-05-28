@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Resident Evil 2
+Exec=env WINEPREFIX="/home/erik/.wine" wine C:\\\\users\\\\Public\\\\Desktop\\\\Resident\\ Evil\\ 2.lnk
+Type=Application
+StartupNotify=true
+Path=/home/erik/Drives/NVMe2/Games/Resident Evil 2/
+Icon=17CB_re2.0
+StartupWMClass=re2.exe

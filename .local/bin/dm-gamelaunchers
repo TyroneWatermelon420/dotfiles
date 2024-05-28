@@ -1,0 +1,12 @@
+#!/bin/bash
+
+instances="Steam\nHeroic Games Launcher\nCemu\nYuzu"
+
+chosen=$(echo -e "$instances" | dmenu -l 4 -p "Chose your game launcher" -z 450)
+
+case "$chosen" in
+    "Steam") steam ;;
+    "Heroic Games Launcher") heroic ;;
+    "Cemu") /home/erik/Games/Cemu/bin/Cemu_relwithdebinfo ;;
+    "Yuzu") yuzu ;;
+esac
