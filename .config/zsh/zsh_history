@@ -11685,3 +11685,138 @@ mv gog-baldurs-gate-enhanced-edition Drives/HDD/Repacks
 ll
 git commit -a
 git add *
+ll
+vim .gitignore
+git config advice.addIgnoredFile false
+emerge -s citra
+emerge -s desmume
+git commit -a
+ll -a
+mv mesa_revert github-repos/scripts
+ll
+ll -a
+ll DrivesHDD
+ll DrivesHDD/Games
+ll DrivesHDD/Games/Middle-Earth\ -\ Shadow\ of\ Mordor
+ll DrivesHDD/Games/Middle-Earth\ -\ Shadow\ of\ Mordor/temp-fitgirl
+ll DrivesHDD/Games/Middle-Earth\ -\ Shadow\ of\ Mordor/temp-fitgirl/freearc80207405.tmp
+ll -a
+ll -a
+htop
+rm -rf DrivesHDD
+vim .git
+vim .gitignore
+ll -a
+vim .wget-hsts
+vim .gitignore
+vim .gitignore
+git add *
+git commit -a
+cd .config
+ll
+rm starship.toml.bac
+vim zsh/.zshrc
+ll zsh
+ll -a zsh
+rm zsh/starship.toml
+rm zsh/.zsh_history
+ll -
+ll -a
+rm -rf conky foot picom UNIGINE waybar wldash yambar
+ll
+rmdir *
+ll
+vim .gitignore
+vim .gitignore
+vim .gitignore
+ll menus
+ll menus/applications-merged
+vim .gitignore
+vim .gitignore
+vim .gitignore
+ll dconf
+vim dconf/user
+cd ..
+ll -a
+git commit -a
+cd .config
+git add *
+cd
+ll -a
+git commit -a
+vim .gitignore
+ll .ca
+ll .cache
+ll -a
+cd .local
+ll
+ll bin
+git add *
+git add bin/*
+ll
+vim ../.gitignore
+git add *
+cd share
+ll -a
+vim .gitignore
+vim .gitignore
+vim .gitignore
+vim .gitignore
+cd
+vim .gitignore
+cd .local/share
+ll -a
+rm .gitignore
+cd
+cd .local
+git add *
+cd
+git commit -a
+git add .config/.gitignore
+git commit -a
+git push
+vim .gitignore
+git commit -a
+vim .gitignore
+git commit -a
+rm -rf Desktop
+git commit -a
+git push
+vim .gitignore
+git commit -a
+git push
+vim .gitignore
+mv *.txt Drives/HDD/Stuff
+git commit -a
+git push
+git pull
+git pull --rebase
+git push
+git push
+ll -a
+vim .gitconfig
+clear
+ll -a
+doas emerge --sync
+doas emerge -avquDN @world
+emerge -s nordic
+poweroff
+clear
+emerge -s terminus
+doas emerge -avq media-fonts/terminus-font
+ll /usr/share/fonts
+ll /usr/share/fonts/terminus
+doas nvim /etc/conf.d/consolefont
+ll /usr/share/
+cd kbd
+doas rc-update add consolefont boot
+cd /usr/share/consolefonts
+ll
+vim README.terminus
+vim README.terminus
+vim README.terminus
+reboot
+nmtui
+git commit -a
+vim .gitignore
+git commit -a
