@@ -34,6 +34,7 @@ alias ..="cd .."
 alias ....="cd ../.."
 alias poweroff="loginctl poweroff"
 alias reboot="loginctl reboot"
+alias nouveau="doas rmmod nvidia_drm nvidia_modeset nvidia_uvm nvidia && doas modprobe nouveau"
 
 # variables
 export PATH="$HOME/.local/bin:$PATH"
