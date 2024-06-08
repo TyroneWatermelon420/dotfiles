@@ -1,0 +1,3 @@
+#!/bin/bash
+cp /home/erik/github-repos/gentoo/ebuilds/mesa-9999.ebuild /var/db/repos/gentoo/media-libs/mesa/mesa-9999.ebuild
+cp /home/erik/github-repos/gentoo/ebuilds/librewolf-126.0.1_p1.ebuild /var/db/repos/librewolf/www-client/librewolf/librewolf-126.0.1_p1.ebuild

@@ -16,9 +16,10 @@ export XKB_DEFAULT_LAYOUT=de
 xdg-mime default pcmanfm.desktop inode/directory application
 
 if [[ $(tty) = /dev/tty1 ]]; then
+    doas rmmod nvidia_drm nvidia_modeset nvidia && doas modprobe nouveau
     dbus-run-session dwl
 fi
 
 if [[ $(tty) = /dev/tty2 ]]; then
-    dbus-run-session Hyprland
+    dbus-run-session dwl
 fi
